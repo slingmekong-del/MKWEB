@@ -3,6 +3,8 @@ import { Archivo, IBM_Plex_Mono, Inter } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
+import { organizationSchema, websiteSchema } from "@/lib/jsonld";
+import JsonLd from "@/components/seo/JsonLd";
 import "./globals.css";
 
 const archivo = Archivo({
@@ -75,6 +77,8 @@ export default function RootLayout({
       className={`${archivo.variable} ${ibmPlexMono.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <JsonLd data={organizationSchema()} />
+        <JsonLd data={websiteSchema()} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

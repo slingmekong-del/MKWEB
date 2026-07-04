@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { PRODUCTS } from "@/lib/products";
+import { productSchema, breadcrumbSchema } from "@/lib/jsonld";
+import JsonLd from "@/components/seo/JsonLd";
 import RFQButton from "@/components/products/RFQButton";
 import ProductGallery from "@/components/products/ProductGallery";
 
@@ -59,8 +61,17 @@ export default async function ProductDetailPage({
   const p = product;
   const live = p.status === "live";
 
+  const breadcrumb = breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Products", path: "/products" },
+    { name: p.categoryLabel, path: `/products#${p.categoryId}` },
+    { name: p.name, path: `/products/${p.id}` },
+  ]);
+
   return (
     <div className="pt-16 min-h-screen bg-slate-light">
+      <JsonLd data={productSchema(p)} />
+      <JsonLd data={breadcrumb} />
       {/* Breadcrumb */}
       <div className="bg-navy border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
