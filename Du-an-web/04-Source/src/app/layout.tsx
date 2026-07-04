@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Archivo, IBM_Plex_Mono, Inter } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { SITE_URL, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 
 const archivo = Archivo({
@@ -21,13 +22,18 @@ const inter = Inter({
   subsets: ["latin", "vietnamese"],
 });
 
+const SITE_TITLE = "Mekong Sling — Rigging & Lifting Equipment Vietnam";
+const SITE_DESCRIPTION =
+  "Genuine hardware & certified slings. Wire rope, shackles, chains and rigging assemblies for offshore, port, and heavy industry. Based in Vung Tau, Vietnam.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "Mekong Sling — Rigging & Lifting Equipment Vietnam",
+    default: SITE_TITLE,
     template: "%s | Mekong Sling",
   },
-  description:
-    "Genuine hardware & certified slings. Wire rope, shackles, chains and rigging assemblies for offshore, port, and heavy industry. Based in Vung Tau, Vietnam.",
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
   keywords: [
     "wire rope",
     "shackle",
@@ -40,6 +46,22 @@ export const metadata: Metadata = {
     "wire rope sling",
     "rigging hardware",
   ],
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

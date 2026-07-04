@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import HeroSection from "@/components/home/HeroSection";
 import StatsStrip from "@/components/home/StatsStrip";
 import AboutTeaser from "@/components/home/AboutTeaser";
 import ProductsTeaser from "@/components/home/ProductsTeaser";
 import ServicesTeaser from "@/components/home/ServicesTeaser";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+  openGraph: { url: "/" },
+};
 
 export default function HomePage() {
   return (

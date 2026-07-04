@@ -18,10 +18,21 @@ export async function generateMetadata({
   const { slug } = await params;
   const product = PRODUCTS.find((p) => p.id === slug);
   if (!product) return {};
+  const title = `${product.name}${product.partNo ? ` (${product.partNo})` : ""}`;
+  const url = `/products/${product.id}`;
+  const images = product.image ? [product.image] : undefined;
   return {
-    title: `${product.name}${product.partNo ? ` (${product.partNo})` : ""}`,
+    title,
     description: product.desc,
     keywords: [product.name, product.partNo, product.brand, product.category, product.subcategory, ...product.standards].filter(Boolean),
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      title: `${title} | Mekong Sling`,
+      description: product.desc,
+      url,
+      images,
+    },
   };
 }
 
