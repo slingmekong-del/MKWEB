@@ -6,6 +6,11 @@ Luu-Tru-tham-khao/
 # Kho ảnh gốc (139MB) — giữ local, không lên Git. Bản dùng thật đã nằm ở 04-Source/public/
 Du-an-web/03-Assets/images/
 
+# Thông tin tài khoản / mật khẩu / API key — TUYỆT ĐỐI không lên Git
+thong tin tai khoan du an mekongsling.xlsx
+*.env
+.env.local
+
 # Editor
 .vscode/
 .idea/
