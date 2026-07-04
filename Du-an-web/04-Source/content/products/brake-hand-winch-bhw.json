@@ -1,0 +1,77 @@
+{
+  "id": "brake-hand-winch-bhw",
+  "no": 42,
+  "partNo": "BHW",
+  "name": "Brake Hand Winch",
+  "brand": "ABLE",
+  "category": "Hoist and Trolley",
+  "categoryId": "hoist-trolley",
+  "categoryLabel": "Hoist & Trolley",
+  "subcategory": "Manual Hand Winch",
+  "rank": 9,
+  "wText": "WLL 180 - 600 kg",
+  "wmin": 0.18,
+  "wmax": 0.6,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/brake-hand-winch-bhw.png",
+  "images": [
+    "/products/brake-hand-winch-bhw.png"
+  ],
+  "catalogImages": [
+    "/catalogs/brake-hand-winch-bhw.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE BHW series manual wire-rope hand winch with spur-gear drive and an automatic load-pressure brake for safe holding and lowering of the load. Lifting capacity 180, 270, 410 and 600 kg (pulling capacity up to 1,200 kg); the winch housing and rope drum are pressed from robust steel plate, with the drum running on bearings. Supplied in a high-visibility green powder-coated finish as standard, or in A304 stainless steel (Model BHW-S). Conforms to and tested per EN 13157:2004+A1:2009, with AS 1418.2 compliance when fitted with approved wire rope and fittings. Note: model HW-800 is supplied without an automatic brake.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Manual wire-rope hand winch · spur-gear drive"
+    },
+    {
+      "label": "Models",
+      "value": "BHW-1200 / 1800 / 2600 (BHW-S stainless)"
+    },
+    {
+      "label": "Lifting capacity",
+      "value": "180 / 270 / 410 / 600 kg"
+    },
+    {
+      "label": "Pulling capacity",
+      "value": "370 / 545 / 820 / 1,200 kg"
+    },
+    {
+      "label": "Brake",
+      "value": "Automatic load-pressure brake (not on HW-800)"
+    },
+    {
+      "label": "Gear ratio",
+      "value": "3.7:1 – 10:1"
+    },
+    {
+      "label": "Drum",
+      "value": "On bearings · robust steel plate"
+    },
+    {
+      "label": "Finish",
+      "value": "Green powder-coat (or A304 stainless — BHW-S)"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 13157:2004+A1:2009 · AS 1418.2"
+    }
+  ],
+  "standards": [
+    "EN 13157+A1:2009",
+    "AS 1418.2",
+    "Auto brake"
+  ],
+  "syn": [
+    "brake hand winch",
+    "manual hand winch",
+    "toi tay",
+    "toi quay tay",
+    "toi keo tay",
+    "toi"
+  ]
+}

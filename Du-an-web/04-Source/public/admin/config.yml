@@ -1,0 +1,141 @@
+# Decap CMS — Mekong Sling
+# LƯU Ý: mọi path tính từ GỐC REPO (git root = c:\Mekong), nên có tiền tố
+# "Du-an-web/04-Source/". Đổi base_url sang domain thật khi mekongsling.com live.
+
+backend:
+  name: github
+  repo: slingmekong-del/MKWEB
+  branch: main
+  base_url: https://mkweb-alpha.vercel.app
+  auth_endpoint: api/auth
+  commit_messages:
+    create: "CMS: thêm {{collection}} “{{slug}}”"
+    update: "CMS: sửa {{collection}} “{{slug}}”"
+    delete: "CMS: xóa {{collection}} “{{slug}}”"
+    uploadMedia: "CMS: tải ảnh {{path}}"
+    deleteMedia: "CMS: xóa ảnh {{path}}"
+
+# Cho phép test tại chỗ bằng `npx decap-server` (chạy từ GỐC REPO c:\Mekong).
+local_backend: true
+
+# Ảnh sản phẩm mặc định → public/products (URL /products/...).
+media_folder: "Du-an-web/04-Source/public/products"
+public_folder: "/products"
+
+collections:
+  # ─────────────────────────────  SẢN PHẨM  ─────────────────────────────
+  - name: products
+    label: "Sản phẩm"
+    label_singular: "Sản phẩm"
+    identifier_field: name
+    folder: "Du-an-web/04-Source/content/products"
+    create: true
+    delete: true
+    extension: json
+    format: json
+    slug: "{{fields.id}}"
+    summary: "#{{fields.no}} · {{fields.name}} · {{fields.status}}"
+    sortable_fields: [no, name, status, brand]
+    editor:
+      preview: false
+    view_filters:
+      - label: "Đang hiển thị trên web"
+        field: hidden
+        pattern: false
+      - label: "Đang ẩn"
+        field: hidden
+        pattern: true
+      - label: "Live"
+        field: status
+        pattern: live
+      - label: "Coming soon"
+        field: status
+        pattern: coming
+    fields:
+      - { name: id, label: "ID / slug URL (KHÔNG đổi sau khi tạo)", widget: string, hint: "vd: green-pin-bow-shackle-sc-g-4161 — chữ thường, gạch nối, không dấu" }
+      - { name: no, label: "Số thứ tự (catalogue)", widget: number, value_type: int, default: 99 }
+      - { name: rank, label: "Rank (ưu tiên trong danh mục)", widget: number, value_type: int, required: false, default: 1 }
+      - { name: name, label: "Tên sản phẩm", widget: string }
+      - { name: partNo, label: "Part No.", widget: string, required: false }
+      - { name: brand, label: "Thương hiệu", widget: string, required: false }
+      - name: categoryId
+        label: "Danh mục"
+        widget: relation
+        collection: settings
+        file: categories
+        search_fields: ["categories.*.label"]
+        value_field: "categories.*.id"
+        display_fields: ["categories.*.label"]
+        hint: "Chọn 1 danh mục — tên hiển thị tự lấy theo danh mục này."
+      # category & categoryLabel được suy tự động từ categoryId khi build; giữ
+      # ở đây (hidden) để Decap không xóa mất khi lưu.
+      - { name: category, label: "category (tự động)", widget: hidden }
+      - { name: categoryLabel, label: "categoryLabel (tự động)", widget: hidden }
+      - { name: subcategory, label: "Nhóm phụ (subcategory)", widget: string, required: false }
+      - name: status
+        label: "Trạng thái"
+        widget: select
+        options:
+          - { label: "Live — bán/hiển thị đầy đủ", value: live }
+          - { label: "Coming soon — đang cập nhật", value: coming }
+        default: coming
+      - { name: hidden, label: "Ẩn hoàn toàn khỏi website", widget: boolean, default: false, hint: "Bật = gỡ khỏi danh sách, tìm kiếm, sitemap và trang chi tiết (404)." }
+      - { name: wText, label: "WLL / dải tải (chữ hiển thị)", widget: string, required: false, hint: "vd: WLL 0.33 - 55 t" }
+      - { name: wmin, label: "WLL nhỏ nhất (tấn, để lọc)", widget: number, value_type: float, required: false, default: 0 }
+      - { name: wmax, label: "WLL lớn nhất (tấn, để lọc)", widget: number, value_type: float, required: false, default: 0 }
+      - { name: image, label: "Ảnh đại diện", widget: image, required: false, allow_multiple: false }
+      - name: images
+        label: "Thư viện ảnh (1–4 ảnh, ưu tiên hơn ảnh đại diện)"
+        widget: list
+        required: false
+        field: { name: img, label: "Ảnh", widget: image }
+      - name: catalogImages
+        label: "Ảnh trang catalogue (số liệu kỹ thuật)"
+        widget: list
+        required: false
+        media_folder: "/Du-an-web/04-Source/public/catalogs"
+        public_folder: "/catalogs"
+        field: { name: img, label: "Trang catalogue", widget: image }
+      - { name: pdf, label: "pdf (không dùng)", widget: hidden, default: null }
+      - { name: desc, label: "Mô tả (Description)", widget: text }
+      - name: specs
+        label: "Thông số kỹ thuật (Specifications)"
+        widget: list
+        required: false
+        label_singular: "Thông số"
+        summary: "{{fields.label}}: {{fields.value}}"
+        fields:
+          - { name: label, label: "Nhãn", widget: string }
+          - { name: value, label: "Giá trị", widget: string }
+      - name: standards
+        label: "Tiêu chuẩn / chứng nhận"
+        widget: list
+        required: false
+        field: { name: std, label: "Tiêu chuẩn", widget: string }
+      - name: syn
+        label: "Từ khóa tìm kiếm (tiếng Việt/Anh, không dấu)"
+        widget: list
+        required: false
+        hint: "Giúp khách tìm bằng tiếng Việt, vd: ma ni, khoa ma ni"
+        field: { name: term, label: "Từ khóa", widget: string }
+
+  # ─────────────────────────────  CÀI ĐẶT  ─────────────────────────────
+  - name: settings
+    label: "Cài đặt"
+    editor:
+      preview: false
+    files:
+      - name: categories
+        label: "Danh mục sản phẩm"
+        file: "Du-an-web/04-Source/content/categories.json"
+        fields:
+          - name: categories
+            label: "Danh mục"
+            label_singular: "Danh mục"
+            widget: list
+            summary: "{{fields.label}}  (rank {{fields.rank}})"
+            fields:
+              - { name: id, label: "ID (slug, KHÔNG đổi)", widget: string, hint: "phải khớp categoryId của sản phẩm, vd: shackle" }
+              - { name: label, label: "Tên hiển thị", widget: string }
+              - { name: rank, label: "Thứ tự", widget: number, value_type: int, default: 99 }
+              - { name: visible, label: "Hiển thị danh mục này", widget: boolean, default: true }

@@ -1,0 +1,27 @@
+{
+  "id": "manila-rope-rope",
+  "no": 25,
+  "partNo": "",
+  "name": "Manila Rope",
+  "brand": "",
+  "category": "Rope",
+  "categoryId": "rope",
+  "categoryLabel": "Rope",
+  "subcategory": "Manila rope",
+  "rank": 6,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Manila Rope — Manila rope. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "manila rope",
+    "day thung manila",
+    "day dua",
+    "day thung"
+  ]
+}

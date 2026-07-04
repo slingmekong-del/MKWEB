@@ -1,0 +1,88 @@
+{
+  "id": "aluminum-steel-wire-rope-puller-wrp-rwp",
+  "no": 16,
+  "partNo": "WRP / RWP",
+  "name": "Aluminum / Steel Wire Rope Puller",
+  "brand": "ABLE",
+  "category": "Lashing Equipments",
+  "categoryId": "lashing",
+  "categoryLabel": "Lashing Equipment",
+  "subcategory": "Wire rope Puller",
+  "rank": 4,
+  "wText": "WLL 0.8 - 5.4 t",
+  "wmin": 0.8,
+  "wmax": 5.4,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/aluminum-steel-wire-rope-puller-wrp-rwp.png",
+  "images": [
+    "/products/aluminum-steel-wire-rope-puller-wrp-rwp.png"
+  ],
+  "catalogImages": [
+    "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp.png",
+    "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp-2.png",
+    "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp-3.png"
+  ],
+  "pdf": null,
+  "desc": "Hand-operated wire rope puller (Tirfor-type) for pulling, lifting and tensioning — no drum required, so it stays compact and light. Moving the forward and backward levers feeds galvanised steel wire rope straight through two clamping jaws, giving unlimited travel and use at any working angle. A high-strength cast aluminium-alloy body keeps weight down, while a built-in shear pin protects against overload (shears at approx. 50% overload; spare pins are stored in the carrying handle). Supplied with a safety hook and reeled galvanised wire rope, proof-tested to 150% of rated capacity with an individual test certificate. Conforms to and tested per EN 13157+A1:2009.",
+  "specs": [
+    {
+      "label": "Model",
+      "value": "WRP series (aluminium-alloy body)"
+    },
+    {
+      "label": "Capacities",
+      "value": "WRP-08 · WRP-16 · WRP-32 · WRP-54"
+    },
+    {
+      "label": "Lifting capacity (WLL)",
+      "value": "0.8 / 1.6 / 3.2 / 5.4 t"
+    },
+    {
+      "label": "Pulling capacity",
+      "value": "1.3 / 2.8 / 6.0 / 10.1 t"
+    },
+    {
+      "label": "Test load",
+      "value": "1.5 / 3.0 / 6.0 / 10.1 t"
+    },
+    {
+      "label": "Wire rope",
+      "value": "IWRC Ø8.3 / 11 / 16 / 20 mm"
+    },
+    {
+      "label": "Rope safety factor",
+      "value": "5 × WLL"
+    },
+    {
+      "label": "Rope breaking strength",
+      "value": "5.43 / 9.68 / 17.20 / 27.00 t"
+    },
+    {
+      "label": "Body",
+      "value": "High-strength cast aluminium alloy"
+    },
+    {
+      "label": "Overload protection",
+      "value": "Built-in shear pin (~50% overload) + spare pins"
+    },
+    {
+      "label": "Safety device",
+      "value": "Safety pins · safety hook"
+    },
+    {
+      "label": "Net weight",
+      "value": "15.7 / 28.4 / 55.2 / 114.0 kg"
+    }
+  ],
+  "standards": [
+    "EN 13157+A1:2009"
+  ],
+  "syn": [
+    "aluminum / steel wire rope puller",
+    "wire rope puller",
+    "toi keo cap tay",
+    "keo cap tay",
+    "toi tay"
+  ]
+}

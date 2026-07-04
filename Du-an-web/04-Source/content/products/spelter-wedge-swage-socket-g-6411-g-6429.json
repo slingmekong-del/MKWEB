@@ -1,0 +1,68 @@
+{
+  "id": "spelter-wedge-swage-socket-g-6411-g-6429",
+  "no": 33,
+  "partNo": "G-6411 … G-6429",
+  "name": "Spelter / Wedge / Swage Socket",
+  "brand": "Green Pin",
+  "category": "Fittings",
+  "categoryId": "fittings",
+  "categoryLabel": "Fittings",
+  "subcategory": "Socket",
+  "rank": 8,
+  "wText": "by rope size",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/spelter-wedge-swage-socket-g-6411-g-6429.png",
+  "images": [
+    "/products/spelter-wedge-swage-socket-g-6411-g-6429.png"
+  ],
+  "catalogImages": [
+    "/catalogs/spelter-wedge-swage-socket-g-6411-g-6429.png"
+  ],
+  "pdf": null,
+  "desc": "Green Pin® closed spelter socket — an end socket for permanent, high-efficiency wire-rope terminations, reaching up to 100% of the rope's breaking strength when resin-socketed. Forged in high-tensile steel, quenched and tempered, hot-dipped galvanized, rated −20°C to +200°C. Minimum breaking load 8–1300 t for rope Ø 6–130 mm. Recommended for use with Green Pin® Socket Lock socketing resin.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Closed spelter socket (resin-socketed termination)"
+    },
+    {
+      "label": "Material",
+      "value": "High-tensile steel, quenched & tempered"
+    },
+    {
+      "label": "Finish",
+      "value": "Hot-dipped galvanized"
+    },
+    {
+      "label": "MBL range",
+      "value": "8 – 1300 t"
+    },
+    {
+      "label": "Rope diameter",
+      "value": "Ø 6 – 130 mm"
+    },
+    {
+      "label": "Temperature range",
+      "value": "−20°C to +200°C"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 / 3.1 · CE IIA"
+    }
+  ],
+  "standards": [
+    "Hot-dip galvanized",
+    "CE IIA"
+  ],
+  "syn": [
+    "spelter / wedge / swage socket",
+    "socket",
+    "dau cot cap",
+    "khoa nem cap",
+    "dau chup cap",
+    "ep dau cap"
+  ]
+}

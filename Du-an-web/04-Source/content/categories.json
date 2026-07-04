@@ -1,0 +1,17 @@
+{
+  "categories": [
+    { "id": "shackle",         "label": "Shackle",                  "rank": 1,  "visible": true },
+    { "id": "wire-rope-sling", "label": "Wire Rope Sling",          "rank": 1,  "visible": true },
+    { "id": "synthetic-sling", "label": "Synthetic Sling",          "rank": 2,  "visible": true },
+    { "id": "steel-wire-rope", "label": "Steel Wire Rope",          "rank": 3,  "visible": true },
+    { "id": "lashing",         "label": "Lashing Equipment",        "rank": 4,  "visible": true },
+    { "id": "lifting-chain",   "label": "Lifting Chain & Fittings", "rank": 5,  "visible": true },
+    { "id": "rope",            "label": "Rope",                     "rank": 6,  "visible": true },
+    { "id": "master-link",     "label": "Master Link",              "rank": 7,  "visible": true },
+    { "id": "fittings",        "label": "Fittings",                 "rank": 8,  "visible": true },
+    { "id": "hoist-trolley",   "label": "Hoist & Trolley",          "rank": 9,  "visible": true },
+    { "id": "clamps",          "label": "Clamps",                   "rank": 10, "visible": true },
+    { "id": "safety",          "label": "Safety Equipment",         "rank": 11, "visible": true },
+    { "id": "services",        "label": "Load Test & NDT Services",  "rank": 13, "visible": true }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "lifting-eye-eye-bolt-gr8-gp-eye-001-din-580",
+  "no": 36,
+  "partNo": "GP-EYE-001 / DIN 580",
+  "name": "Lifting Eye / Eye Bolt GR8",
+  "brand": "Green Pin",
+  "category": "Fittings",
+  "categoryId": "fittings",
+  "categoryLabel": "Fittings",
+  "subcategory": "Eyebolt",
+  "rank": 8,
+  "wText": "WLL 0.07 - 36 t",
+  "wmin": 0.07,
+  "wmax": 36,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/lifting-eye-eye-bolt-gr8-gp-eye-001-din-580.png",
+  "images": [
+    "/products/lifting-eye-eye-bolt-gr8-gp-eye-001-din-580.png"
+  ],
+  "catalogImages": [
+    "/catalogs/lifting-eye-eye-bolt-gr8-gp-eye-001-din-580.png"
+  ],
+  "pdf": null,
+  "desc": "Green Pin® lifting eye / eye bolt, grade 8 — a forged eyebolt anchor point for lifting, with metric thread from M6 to M64. Forged in grade 8 alloy steel, quenched and tempered, minimum breaking load 5× WLL. Painted red or white, rated −40°C to +200°C. Made to EN 1677-1 and ASME B30.26 (DIN 580 form). WLL 0.2–36 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Lifting eye / eye bolt (metric thread M6–M64)"
+    },
+    {
+      "label": "Material",
+      "value": "Alloy steel, grade 8, quenched & tempered"
+    },
+    {
+      "label": "Safety factor",
+      "value": "MBL = 5 × WLL"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 1677-1 · ASME B30.26 · DIN 580"
+    },
+    {
+      "label": "Finish",
+      "value": "Painted red or white"
+    },
+    {
+      "label": "Temperature range",
+      "value": "−40°C to +200°C"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 / 3.1 MTC · MPI · CE IIA"
+    }
+  ],
+  "standards": [
+    "EN 1677-1",
+    "ASME B30.26",
+    "DIN 580",
+    "Grade 8",
+    "CE IIA"
+  ],
+  "syn": [
+    "lifting eye / eye bolt gr8",
+    "eyebolt",
+    "bu long mat",
+    "bu long vong",
+    "bat cau",
+    "tan vong",
+    "eye bolt"
+  ]
+}

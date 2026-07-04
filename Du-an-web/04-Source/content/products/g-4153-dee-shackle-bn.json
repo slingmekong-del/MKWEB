@@ -1,0 +1,75 @@
+{
+  "id": "g-4153-dee-shackle-bn",
+  "no": 3,
+  "partNo": "G-4153",
+  "name": "Green Pin Dee Shackle BN",
+  "brand": "Green Pin",
+  "category": "Shackle",
+  "categoryId": "shackle",
+  "categoryLabel": "Shackle",
+  "subcategory": "Type D safety shackle",
+  "rank": 1,
+  "wText": "WLL 9.5 – 85 t",
+  "wmin": 9.5,
+  "wmax": 85,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/g-4153-dee-shackle-bn.png",
+  "images": [
+    "/products/g-4153-dee-shackle-bn.png"
+  ],
+  "catalogImages": [
+    "/catalogs/g-4153-dee-shackle-bn.png"
+  ],
+  "pdf": "/catalogs/g-4153-dee-shackle-bn.pdf",
+  "desc": "Green Pin® dee (D) shackle with safety bolt, nut and split cotter pin — for permanent or long-term installations where the pin must not rotate. Bow and pin forged in high-tensile steel, grade 6, quenched and tempered, with a minimum breaking load of 6× the working load limit. Hot-dipped galvanized, rated −40°C to +200°C. Made to ISO 2415, EN 13889 and ASME B30.26, meeting US Fed. Spec. RR-C-271 Type IVB Class 3; DNV 2.7-1 offshore certification available from 2 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Dee (D) shackle · safety bolt, nut & cotter pin"
+    },
+    {
+      "label": "Material",
+      "value": "Bow & pin — high-tensile steel, grade 6, quenched & tempered"
+    },
+    {
+      "label": "Safety factor",
+      "value": "MBL = 6 × WLL"
+    },
+    {
+      "label": "Finish",
+      "value": "Hot-dipped galvanized"
+    },
+    {
+      "label": "Temperature range",
+      "value": "−40°C to +200°C"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 / 3.1 MTC · DNV 2.7-1 · DNV 0378 · ABS PDA / MA · CE IIA"
+    }
+  ],
+  "standards": [
+    "ISO 2415",
+    "EN 13889",
+    "ASME B30.26",
+    "DNV 2.7-1",
+    "ABS",
+    "CE"
+  ],
+  "syn": [
+    "shackle",
+    "ma ni",
+    "mani",
+    "dee",
+    "chu d",
+    "safety bolt",
+    "bolt nut",
+    "green pin",
+    "g-4153",
+    "ma ni chu d",
+    "ma ni d",
+    "ma ni chot an toan",
+    "khoa ma ni"
+  ]
+}

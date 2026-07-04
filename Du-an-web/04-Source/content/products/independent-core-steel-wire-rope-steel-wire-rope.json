@@ -1,0 +1,99 @@
+{
+  "id": "independent-core-steel-wire-rope-steel-wire-rope",
+  "no": 10,
+  "partNo": "",
+  "name": "Independent Core Steel Wire Rope",
+  "brand": "",
+  "category": "Steel wire rope",
+  "categoryId": "steel-wire-rope",
+  "categoryLabel": "Steel Wire Rope",
+  "subcategory": "Independent core (6x36 / 6x37 / 6x19 + IWRC)",
+  "rank": 3,
+  "wText": "Ø 8 – 60 mm · MBF up to 256 t",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/independent-core-steel-wire-rope-steel-wire-rope.png",
+  "images": [
+    "/products/independent-core-steel-wire-rope-steel-wire-rope.png"
+  ],
+  "catalogImages": [
+    "/catalogs/independent-core-steel-wire-rope-steel-wire-rope.png",
+    "/catalogs/independent-core-steel-wire-rope-steel-wire-rope-2.png"
+  ],
+  "pdf": null,
+  "desc": "Hyflex 6×36 — a high-quality flexible 6×36 class crane rope built on an Independent Wire Rope Core (IWRC) for high strength, crush resistance and consistent performance. The multi-strand 6×36 (14-7+7-7-1) / 6×41 (16-8+8-8-1) construction gives good flexibility for hoist, boom-hoist, trolley and lattice-boom reeving. Fully lubricated in manufacture, and every production batch is sample-tested to destruction to confirm catalogue breaking forces. Supplied in 1960 N/mm² high-tensile steel as standard (1770 N/mm² also available), bright or galvanized, in ordinary or Langs lay. Diameters Ø 8–60 mm with minimum breaking force up to 2510 kN (256 t). Discard criteria to ISO 4309:1990. (Langs lay must only be used where both rope ends cannot rotate.)",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Flexible multi-strand crane rope, independent core"
+    },
+    {
+      "label": "Construction",
+      "value": "6×36 (14-7+7-7-1) · 6×41 (16-8+8-8-1)"
+    },
+    {
+      "label": "Core",
+      "value": "Independent Wire Rope Core (IWRC)"
+    },
+    {
+      "label": "Compacted",
+      "value": "No"
+    },
+    {
+      "label": "Tensile grade",
+      "value": "1770 or 1960 N/mm²"
+    },
+    {
+      "label": "Finish",
+      "value": "Bright or galvanized"
+    },
+    {
+      "label": "Lay direction",
+      "value": "Right hand or left hand"
+    },
+    {
+      "label": "Lay type",
+      "value": "Ordinary or Langs"
+    },
+    {
+      "label": "Average fill factor",
+      "value": "60.9%"
+    },
+    {
+      "label": "Rope lay length",
+      "value": "6.5 × nominal rope Ø"
+    },
+    {
+      "label": "Rope diameter",
+      "value": "Ø 8 – 60 mm"
+    },
+    {
+      "label": "Approx. mass",
+      "value": "26.1 – 1471 kg/100 m"
+    },
+    {
+      "label": "Min. breaking force",
+      "value": "44.7 – 2510 kN (up to 256 t) at 1960 N/mm²"
+    },
+    {
+      "label": "Discard criteria",
+      "value": "ISO 4309:1990"
+    }
+  ],
+  "standards": [
+    "Hyflex 6×36",
+    "ISO 4309:1990",
+    "1770 / 1960 N/mm²"
+  ],
+  "syn": [
+    "independent core steel wire rope",
+    "independent core (6x36 / 6x37 / 6x19 + iwrc)",
+    "cap thep",
+    "day cap thep",
+    "cap",
+    "cap loi thep",
+    "cap cuon"
+  ]
+}

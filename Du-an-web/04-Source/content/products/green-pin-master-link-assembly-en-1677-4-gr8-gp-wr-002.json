@@ -1,0 +1,77 @@
+{
+  "id": "green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002",
+  "no": 28,
+  "partNo": "GP-WR-002",
+  "name": "Green Pin Master Link Assembly EN 1677-4 GR8",
+  "brand": "Green Pin",
+  "category": "Master link",
+  "categoryId": "master-link",
+  "categoryLabel": "Master Link",
+  "subcategory": "Master link Assembly",
+  "rank": 7,
+  "wText": "WLL 2.5 - 100 t",
+  "wmin": 2.5,
+  "wmax": 100,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002.png",
+  "images": [
+    "/products/green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002.png"
+  ],
+  "catalogImages": [
+    "/catalogs/green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002-3.png"
+  ],
+  "pdf": null,
+  "desc": "Green Pin® master link assembly, grade 8 — a welded master link with two sub-links for connecting 3- and 4-leg wire-rope or chain slings to the crane hook. DNV 2.7-1 certified for offshore lifting, with a minimum breaking load of 5× WLL. Forged in grade 8 alloy steel, painted silver, rated −40°C to +200°C (−20°C at 75 t and 100 t). Made to DNV 2.7-1, EN 12079-2 and EN 1677-4. WLL 2.5–100 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Master link assembly — 3- & 4-leg slings"
+    },
+    {
+      "label": "Material",
+      "value": "Alloy steel, grade 8"
+    },
+    {
+      "label": "Safety factor",
+      "value": "MBL = 5 × WLL"
+    },
+    {
+      "label": "Standard",
+      "value": "DNV 2.7-1 · EN 12079-2 · EN 1677-4"
+    },
+    {
+      "label": "Finish",
+      "value": "Painted silver"
+    },
+    {
+      "label": "Temperature range",
+      "value": "−40°C to +200°C (−20°C at 75–100 t)"
+    },
+    {
+      "label": "Offshore",
+      "value": "DNV 2.7-1 type-approved"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 / 3.1 MTC · MPI · DNV 2.7-1 · CE IIB"
+    }
+  ],
+  "standards": [
+    "DNV 2.7-1",
+    "EN 12079-2",
+    "EN 1677-4",
+    "Grade 8",
+    "CE IIB"
+  ],
+  "syn": [
+    "green pin master link assembly en 1677-4 gr8",
+    "master link assembly",
+    "khoen cau",
+    "vong treo",
+    "khoen master",
+    "khoen tam giac",
+    "mat treo",
+    "chum khoen"
+  ]
+}

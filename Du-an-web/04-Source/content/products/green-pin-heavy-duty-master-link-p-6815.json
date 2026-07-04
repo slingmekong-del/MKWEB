@@ -1,0 +1,74 @@
+{
+  "id": "green-pin-heavy-duty-master-link-p-6815",
+  "no": 29,
+  "partNo": "P-6815",
+  "name": "Green Pin Heavy Duty Master Link",
+  "brand": "Green Pin",
+  "category": "Master link",
+  "categoryId": "master-link",
+  "categoryLabel": "Master Link",
+  "subcategory": "Heavy Duty Masterlink",
+  "rank": 7,
+  "wText": "WLL 131 - 400 t",
+  "wmin": 131,
+  "wmax": 400,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/green-pin-heavy-duty-master-link-p-6815.png",
+  "images": [
+    "/products/green-pin-heavy-duty-master-link-p-6815.png"
+  ],
+  "catalogImages": [
+    "/catalogs/green-pin-heavy-duty-master-link-p-6815.png"
+  ],
+  "pdf": null,
+  "desc": "Green Pin® Heavy Duty Master Link — a weldless, single-piece forged grade 8 master link for heavy-duty and offshore lifting. A consistent Charpy V-notch value of at least 42 J at −20°C and 27 J at −40°C throughout the whole link meets offshore certification requirements. Minimum breaking load 5× WLL, painted silver and green, rated −40°C to +200°C. Made to ASME B30.26. WLL 131–400 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Heavy-duty master link — weldless, single-piece forged"
+    },
+    {
+      "label": "Material",
+      "value": "Alloy steel, grade 8"
+    },
+    {
+      "label": "Safety factor",
+      "value": "MBL = 5 × WLL"
+    },
+    {
+      "label": "Standard",
+      "value": "ASME B30.26"
+    },
+    {
+      "label": "Finish",
+      "value": "Painted silver & green"
+    },
+    {
+      "label": "Impact (Charpy V)",
+      "value": "≥ 42 J at −20°C · ≥ 27 J at −40°C"
+    },
+    {
+      "label": "Temperature range",
+      "value": "−40°C to +200°C"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 / 3.1 MTC · MPI · US · CE IIA"
+    }
+  ],
+  "standards": [
+    "ASME B30.26",
+    "Grade 8",
+    "Weldless",
+    "CE IIA"
+  ],
+  "syn": [
+    "green pin heavy duty master link",
+    "heavy duty masterlink",
+    "khoen cau",
+    "vong treo",
+    "khoen master",
+    "khoen tam giac"
+  ]
+}

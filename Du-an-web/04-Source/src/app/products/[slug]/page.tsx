@@ -2,14 +2,14 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import { PRODUCTS } from "@/lib/products";
+import { PRODUCTS, VISIBLE_PRODUCTS } from "@/lib/products";
 import { productSchema, breadcrumbSchema } from "@/lib/jsonld";
 import JsonLd from "@/components/seo/JsonLd";
 import RFQButton from "@/components/products/RFQButton";
 import ProductGallery from "@/components/products/ProductGallery";
 
 export function generateStaticParams() {
-  return PRODUCTS.map((p) => ({ slug: p.id }));
+  return VISIBLE_PRODUCTS.map((p) => ({ slug: p.id }));
 }
 
 export async function generateMetadata({
@@ -19,7 +19,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const product = PRODUCTS.find((p) => p.id === slug);
-  if (!product) return {};
+  if (!product || product.hidden) return {};
   const title = `${product.name}${product.partNo ? ` (${product.partNo})` : ""}`;
   const url = `/products/${product.id}`;
   const images = product.image ? [product.image] : undefined;
@@ -57,7 +57,7 @@ export default async function ProductDetailPage({
 }) {
   const { slug } = await params;
   const product = PRODUCTS.find((p) => p.id === slug);
-  if (!product) notFound();
+  if (!product || product.hidden) notFound();
   const p = product;
   const live = p.status === "live";
 

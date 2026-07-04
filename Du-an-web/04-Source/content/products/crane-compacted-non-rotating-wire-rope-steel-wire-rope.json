@@ -1,0 +1,80 @@
+{
+  "id": "crane-compacted-non-rotating-wire-rope-steel-wire-rope",
+  "no": 12,
+  "partNo": "",
+  "name": "Crane Compacted Non-Rotating Wire Rope",
+  "brand": "",
+  "category": "Steel wire rope",
+  "categoryId": "steel-wire-rope",
+  "categoryLabel": "Steel Wire Rope",
+  "subcategory": "Crane compacted non-rotating (35x7 / 19x7 / 4x39)",
+  "rank": 3,
+  "wText": "Ø 13 – 52 mm · MBF up to 230 t",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/crane-compacted-non-rotating-wire-rope-steel-wire-rope.png",
+  "images": [
+    "/products/crane-compacted-non-rotating-wire-rope-steel-wire-rope.png"
+  ],
+  "catalogImages": [
+    "/catalogs/crane-compacted-non-rotating-wire-rope-steel-wire-rope.png",
+    "/catalogs/crane-compacted-non-rotating-wire-rope-steel-wire-rope-2.png"
+  ],
+  "pdf": null,
+  "desc": "Powerform® 35 / 35P — a compacted (swaged), rotation-resistant crane hoist rope offering the highest strength of all low-rotation hoist ropes. The 35×K7 / 35×K19S compacted construction delivers maximum resistance to rotation, high fatigue life and excellent crushing and abrasion resistance, making it suited to single- and multi-part hoist reeving and multi-layer spooling. Available bright or galvanized in 1960 or 2160 N/mm² tensile grades; the 'P' variant adds full plastic impregnation of the steel core. Fully lubricated in manufacture, and every production batch is sample-tested to destruction to confirm catalogue breaking forces. Discard criteria to ISO 4309.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Compacted rotation-resistant crane hoist rope"
+    },
+    {
+      "label": "Construction",
+      "value": "35×K7 (10–40 mm) · 35×K19S (42–60 mm)"
+    },
+    {
+      "label": "Compacted",
+      "value": "Yes (swaged)"
+    },
+    {
+      "label": "Tensile grade",
+      "value": "1960 or 2160 N/mm²"
+    },
+    {
+      "label": "Finish",
+      "value": "Bright or galvanized"
+    },
+    {
+      "label": "Rotation resistance",
+      "value": "Maximum — low rotation"
+    },
+    {
+      "label": "Fill factor",
+      "value": "74.5% (average)"
+    },
+    {
+      "label": "Rope lay length",
+      "value": "6.0 × nominal rope Ø"
+    },
+    {
+      "label": "Plastic impregnation",
+      "value": "Optional — 35P, full steel-core impregnation"
+    },
+    {
+      "label": "Discard criteria",
+      "value": "ISO 4309:1990"
+    }
+  ],
+  "standards": [
+    "ISO 4309:1990",
+    "1960 / 2160 N/mm²"
+  ],
+  "syn": [
+    "crane compacted non-rotating wire rope",
+    "crane compacted non-rotating (35x7 / 19x7 / 4x39)",
+    "cap thep",
+    "cap chong xoan",
+    "cap khong xoan"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "fiber-core-steel-wire-rope-steel-wire-rope",
+  "no": 11,
+  "partNo": "",
+  "name": "Fiber Core Steel Wire Rope",
+  "brand": "",
+  "category": "Steel wire rope",
+  "categoryId": "steel-wire-rope",
+  "categoryLabel": "Steel Wire Rope",
+  "subcategory": "Fiber core (6x36 / 6x37 / 6x19 + FC)",
+  "rank": 3,
+  "wText": "Ø 8 – 64 mm · MBF up to 2711 kN",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/fiber-core-steel-wire-rope-steel-wire-rope.png",
+  "images": [
+    "/products/fiber-core-steel-wire-rope-steel-wire-rope.png"
+  ],
+  "catalogImages": [
+    "/catalogs/fiber-core-steel-wire-rope-steel-wire-rope.png",
+    "/catalogs/fiber-core-steel-wire-rope-steel-wire-rope-2.png"
+  ],
+  "pdf": null,
+  "desc": "Round-strand steel wire rope with a fibre core (FC) — the flexible, general-purpose lifting, rigging and haulage rope. The fibre core cushions the six strands and holds lubricant, giving good flexibility and shock absorption for slinging, winching and general pulling. Available across the 6×19F (12-6F+6-1), 6×21F (10-5F-5-1) and 6×29F (14-7F+7-1) classes; an equivalent steel-core (IWRC) version is offered where higher strength or crush resistance is required. Tensile grades 1570 / 1770 / 1960 N/mm², galvanized or bright. Diameters Ø 8–64 mm, minimum breaking force up to 2711 kN. All intermediate sizes available on request and prior confirmation.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Round-strand rope, fibre core (FC)"
+    },
+    {
+      "label": "Constructions",
+      "value": "6×19F (12-6F+6-1) · 6×21F (10-5F-5-1) · 6×29F (14-7F+7-1)"
+    },
+    {
+      "label": "Core",
+      "value": "Fibre core (FC) — steel core (IWRC) also available"
+    },
+    {
+      "label": "Tensile grade",
+      "value": "1570 / 1770 / 1960 N/mm²"
+    },
+    {
+      "label": "Finish",
+      "value": "Galvanized or bright"
+    },
+    {
+      "label": "Rope diameter",
+      "value": "Ø 8 – 64 mm"
+    },
+    {
+      "label": "Approx. mass",
+      "value": "24.3 – 1557 kg/100 m (6×19F)"
+    },
+    {
+      "label": "Min. breaking force",
+      "value": "34 – 2711 kN (6×19F, up to 1960 N/mm²)"
+    },
+    {
+      "label": "Note",
+      "value": "All intermediate sizes available on request"
+    }
+  ],
+  "standards": [
+    "6×19F / 6×21F / 6×29F",
+    "1570 / 1770 / 1960 N/mm²"
+  ],
+  "syn": [
+    "fiber core steel wire rope",
+    "fiber core (6x36 / 6x37 / 6x19 + fc)",
+    "cap thep",
+    "day cap thep",
+    "cap loi bo",
+    "cap loi day",
+    "cap"
+  ]
+}

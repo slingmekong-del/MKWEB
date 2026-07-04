@@ -1,0 +1,64 @@
+{
+  "id": "ee-je-swivel-bearing-swivel-g-7713-g-7733-av",
+  "no": 35,
+  "partNo": "G-7713 / G-7733 / AV",
+  "name": "EE / JE Swivel / Bearing Swivel",
+  "brand": "Green Pin / ABLE",
+  "category": "Fittings",
+  "categoryId": "fittings",
+  "categoryLabel": "Fittings",
+  "subcategory": "Swivel",
+  "rank": 8,
+  "wText": "WLL 0.4 - 35 t",
+  "wmin": 0.4,
+  "wmax": 35,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/ee-je-swivel-bearing-swivel-g-7713-g-7733-av.png",
+  "images": [
+    "/products/ee-je-swivel-bearing-swivel-g-7713-g-7733-av.png"
+  ],
+  "catalogImages": [
+    "/catalogs/ee-je-swivel-bearing-swivel-g-7713-g-7733-av.png"
+  ],
+  "pdf": null,
+  "desc": "Green Pin® swivels with eye-eye (EE) or jaw-eye (JE) end fittings, for connecting slings and lifting points while allowing rotation and preventing wire rope from unlaying. Forged in high-tensile steel, quenched and tempered, minimum breaking load 5× WLL, hot-dipped galvanized. Made to US Federal Spec. RR-C-271 Type VII (Class 2 for EE, Class 3 for JE); an AV bearing-swivel version permits rotation under load. WLL 0.4–35 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Swivel — eye-eye (EE), jaw-eye (JE), bearing (AV)"
+    },
+    {
+      "label": "Material",
+      "value": "High-tensile steel, quenched & tempered"
+    },
+    {
+      "label": "Safety factor",
+      "value": "MBL = 5 × WLL"
+    },
+    {
+      "label": "Standard",
+      "value": "US Fed. Spec. RR-C-271 Type VII"
+    },
+    {
+      "label": "Finish",
+      "value": "Hot-dipped galvanized"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 · CE IIA"
+    }
+  ],
+  "standards": [
+    "RR-C-271 Type VII",
+    "Hot-dip galvanized",
+    "CE IIA"
+  ],
+  "syn": [
+    "ee / je swivel / bearing swivel",
+    "swivel",
+    "khoa xoay",
+    "ma ni xoay",
+    "mat xoay"
+  ]
+}

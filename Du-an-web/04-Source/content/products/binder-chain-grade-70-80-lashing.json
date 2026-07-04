@@ -1,0 +1,84 @@
+{
+  "id": "binder-chain-grade-70-80-lashing",
+  "no": 18,
+  "partNo": "",
+  "name": "Binder Chain Grade 70 / 80",
+  "brand": "ABLE",
+  "category": "Lashing Equipments",
+  "categoryId": "lashing",
+  "categoryLabel": "Lashing Equipment",
+  "subcategory": "Binder chain Grade 70, 80",
+  "rank": 4,
+  "wText": "WLL 1.5 - 5.3 t",
+  "wmin": 1.5,
+  "wmax": 5.3,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/binder-chain-grade-70-80-lashing.png",
+  "images": [
+    "/products/binder-chain-grade-70-80-lashing.png",
+    "/products/binder-chain-grade-70-80-lashing-2.png"
+  ],
+  "catalogImages": [
+    "/catalogs/binder-chain-grade-70-80-lashing.png"
+  ],
+  "pdf": null,
+  "desc": "Load-restraint chain for securing cargo on trucks, trailers, flatbeds and rail. Available as Grade 70 Transport Binder Chain (Type BC70) complete with clevis grab hooks — WLL 3,150–6,600 lb (MBS 12,600–26,400 lb) in 1/4″–3/8″ sizes — and as Grade 80 Tie-Down Chain (Type TDC) in 7.1–13.0 mm, WLL 1.5–5.3 t at a 4:1 design factor with proof load to twice the working load. Heat-treated alloy links resist wear and shock loading. Manufactured and rated to ASTM/NACM (BC70) and EN Grade 80 (TDC). Note: chains fitted with grab hooks must be de-rated by at least 30%.",
+  "specs": [
+    {
+      "label": "Grade 70 model",
+      "value": "BC70 — Transport Binder Chain c/w grab hooks"
+    },
+    {
+      "label": "BC70 sizes",
+      "value": "1/4″ · 5/16″ · 3/8″"
+    },
+    {
+      "label": "BC70 WLL",
+      "value": "3,150 – 6,600 lb"
+    },
+    {
+      "label": "BC70 breaking strength (MBS)",
+      "value": "12,600 – 26,400 lb"
+    },
+    {
+      "label": "BC70 standards",
+      "value": "ASTM80 / NACM90 / NACM96"
+    },
+    {
+      "label": "Grade 80 model",
+      "value": "TDC — Tie-Down Chain"
+    },
+    {
+      "label": "TDC chain dia",
+      "value": "7.1 / 8.0 / 10.0 / 13.0 mm"
+    },
+    {
+      "label": "TDC WLL (4:1)",
+      "value": "1.5 / 2.0 / 3.2 / 5.3 t"
+    },
+    {
+      "label": "TDC proof load",
+      "value": "3.0 / 4.0 / 6.4 / 10.6 t"
+    },
+    {
+      "label": "TDC lengths",
+      "value": "9 ft / 18 ft"
+    },
+    {
+      "label": "End fitting",
+      "value": "Clevis grab hook (de-rate 30% when fitted)"
+    }
+  ],
+  "standards": [
+    "ASTM / NACM (Grade 70)",
+    "EN 818-2 Grade 80"
+  ],
+  "syn": [
+    "binder chain grade 70 / 80",
+    "binder chain grade 70, 80",
+    "xich chang hang",
+    "xich chang",
+    "xich ghi hang"
+  ]
+}

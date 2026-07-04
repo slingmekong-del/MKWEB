@@ -1,0 +1,69 @@
+{
+  "id": "hand-pulley-block-hpb",
+  "no": 39,
+  "partNo": "HPB",
+  "name": "Hand Pulley Block",
+  "brand": "ABLE",
+  "category": "Hoist and Trolley",
+  "categoryId": "hoist-trolley",
+  "categoryLabel": "Hoist & Trolley",
+  "subcategory": "Snatch Block",
+  "rank": 9,
+  "wText": "WLL 0.5 - 6.4 t",
+  "wmin": 0.5,
+  "wmax": 6.4,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/hand-pulley-block-hpb.png",
+  "images": [
+    "/products/hand-pulley-block-hpb.png"
+  ],
+  "catalogImages": [
+    "/catalogs/hand-pulley-block-hpb.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE HPB champion snatch block (hand pulley block) — a UK-design single-sheave block used to change the direction of a load line with a machined steel sheave. The drop-forged, heat-treated swivel hook and latch carry a stretch indicator and identity code; an opening feature lets the rope be inserted and positioned quickly, and the block locks securely by swinging the hook toward the direction of pull. Supplied with bronze bushings or roller bearings, for steel wire rope and/or fibre rope. Made to EN 13157:2003 and machinery directive 98/37/EC. WLL 0.5–6.4 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Single-sheave snatch block (hand pulley)"
+    },
+    {
+      "label": "Sheave",
+      "value": "Machined alloy steel, matched to rope Ø"
+    },
+    {
+      "label": "Bearing",
+      "value": "Bronze bushings or roller bearings"
+    },
+    {
+      "label": "Hook",
+      "value": "Drop-forged swivel hook + latch, stretch indicator"
+    },
+    {
+      "label": "Rope",
+      "value": "Steel wire rope and/or fibre rope"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 13157:2003 · 98/37/EC"
+    },
+    {
+      "label": "WLL range",
+      "value": "0.5 – 6.4 t"
+    }
+  ],
+  "standards": [
+    "EN 13157",
+    "98/37/EC",
+    "Drop-forged hook"
+  ],
+  "syn": [
+    "hand pulley block",
+    "snatch block",
+    "rong roc",
+    "puly",
+    "pu li cau",
+    "palang keo tay"
+  ]
+}

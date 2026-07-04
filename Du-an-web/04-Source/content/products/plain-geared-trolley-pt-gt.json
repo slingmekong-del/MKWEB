@@ -1,0 +1,64 @@
+{
+  "id": "plain-geared-trolley-pt-gt",
+  "no": 41,
+  "partNo": "PT / GT",
+  "name": "Plain / Geared Trolley",
+  "brand": "ABLE",
+  "category": "Hoist and Trolley",
+  "categoryId": "hoist-trolley",
+  "categoryLabel": "Hoist & Trolley",
+  "subcategory": "Trolley (Plain, Gear)",
+  "rank": 9,
+  "wText": "WLL 0.5 - 30 t",
+  "wmin": 0.5,
+  "wmax": 30,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/plain-geared-trolley-pt-gt.png",
+  "images": [
+    "/products/plain-geared-trolley-pt-gt.png"
+  ],
+  "catalogImages": [
+    "/catalogs/plain-geared-trolley-pt-gt.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE PT/GT trolley — a heavy-duty beam trolley to carry a chain hoist along an I-beam, available as a plain push trolley (PT) or a hand-geared trolley (GT). A close-headroom design couples closely to most hoists, adjusts to beam flange widths up to 310 mm, and is fitted with anti-drop plates for safety. Geared trolleys reach 30 t capacity; double-pin versions are also available. WLL 0.5–30 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Beam trolley — plain (PT) or geared (GT)"
+    },
+    {
+      "label": "Travel",
+      "value": "Push (PT) or hand-geared chain (GT)"
+    },
+    {
+      "label": "Beam flange width",
+      "value": "Up to 310 mm (adjustable)"
+    },
+    {
+      "label": "Safety",
+      "value": "Anti-drop plates"
+    },
+    {
+      "label": "Coupling",
+      "value": "Fits most chain hoists, close headroom"
+    },
+    {
+      "label": "WLL range",
+      "value": "0.5 – 30 t"
+    }
+  ],
+  "standards": [
+    "Anti-drop plates",
+    "Adjustable 35–310 mm"
+  ],
+  "syn": [
+    "plain / geared trolley",
+    "trolley (plain, gear)",
+    "con chay",
+    "xe con",
+    "rua pa lang",
+    "con rua"
+  ]
+}

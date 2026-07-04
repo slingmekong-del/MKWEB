@@ -2,6 +2,7 @@
 
 import {
   CATEGORIES,
+  VISIBLE_CATEGORIES,
   WLL_RANGES,
   STATUS_OPTIONS,
   EMPTY_FILTERS,
@@ -111,7 +112,7 @@ export default function FilterSidebar({ filters, onChange, totalCount }: Props) 
 
         {/* Category */}
         <Section title="Category">
-          {CATEGORIES.map(({ id, label }) => (
+          {VISIBLE_CATEGORIES.map(({ id, label }) => (
             <Option
               key={id}
               label={label}

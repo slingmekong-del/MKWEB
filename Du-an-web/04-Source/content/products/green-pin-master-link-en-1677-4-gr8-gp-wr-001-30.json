@@ -1,0 +1,76 @@
+{
+  "id": "green-pin-master-link-en-1677-4-gr8-gp-wr-001-30",
+  "no": 30,
+  "partNo": "GP-WR-001",
+  "name": "Green Pin Master Link (EN 1677-4 GR8)",
+  "brand": "Green Pin",
+  "category": "Master link",
+  "categoryId": "master-link",
+  "categoryLabel": "Master Link",
+  "subcategory": "Masterlink EN 1677-4 GR8",
+  "rank": 7,
+  "wText": "WLL 1.6 - 125 t",
+  "wmin": 1.6,
+  "wmax": 125,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/green-pin-master-link-en-1677-4-gr8-gp-wr-001-30.png",
+  "images": [
+    "/products/green-pin-master-link-en-1677-4-gr8-gp-wr-001-30.png"
+  ],
+  "catalogImages": [
+    "/catalogs/green-pin-master-link-en-1677-4-gr8-gp-wr-001-30.png"
+  ],
+  "pdf": null,
+  "desc": "Green Pin® welded master link to EN 1677-4, grade 8 — the connection between the crane hook and wire-rope or chain sling legs, with a large opening to accommodate larger lifting points and crane hooks. Forged in grade 8 alloy steel, quenched and tempered, with a flat part for assembly with an omega link or thimble (from 50 t without flat part). Minimum breaking load 4× WLL (use 5:1 in a wire-rope sling). Painted white, rated −40°C to +200°C. Made to EN 1677-4, ASTM A952/A952M and ASME B30.9. WLL 1.6–125 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Welded master link — 1 or 2 legs"
+    },
+    {
+      "label": "Material",
+      "value": "Alloy steel, grade 8, quenched & tempered"
+    },
+    {
+      "label": "Safety factor",
+      "value": "MBL = 4 × WLL (5:1 in wire-rope sling)"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 1677-4 · ASTM A952/A952M · ASME B30.9"
+    },
+    {
+      "label": "Finish",
+      "value": "Painted white"
+    },
+    {
+      "label": "Temperature range",
+      "value": "−40°C to +200°C"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 / 3.1 MTC · MPI · CE IIB"
+    },
+    {
+      "label": "Note",
+      "value": "From 50 t supplied without flat part"
+    }
+  ],
+  "standards": [
+    "EN 1677-4",
+    "ASTM A952/A952M",
+    "ASME B30.9",
+    "Grade 8",
+    "CE IIB"
+  ],
+  "syn": [
+    "green pin master link (en 1677-4 gr8)",
+    "masterlink en 1677-4 gr8",
+    "khoen cau",
+    "vong treo",
+    "khoen master",
+    "khoen tam giac",
+    "mat treo"
+  ]
+}

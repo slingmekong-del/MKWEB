@@ -1,0 +1,27 @@
+{
+  "id": "superflex-rope-rope",
+  "no": 26,
+  "partNo": "",
+  "name": "Superflex Rope",
+  "brand": "",
+  "category": "Rope",
+  "categoryId": "rope",
+  "categoryLabel": "Rope",
+  "subcategory": "Superflex",
+  "rank": 6,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Superflex Rope — Superflex. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "superflex rope",
+    "superflex",
+    "day superflex",
+    "day thung"
+  ]
+}

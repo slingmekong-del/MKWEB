@@ -1,0 +1,84 @@
+{
+  "id": "electric-chain-hoist-echk",
+  "no": 40,
+  "partNo": "ECHK",
+  "name": "Electric Chain Hoist",
+  "brand": "ABLE",
+  "category": "Hoist and Trolley",
+  "categoryId": "hoist-trolley",
+  "categoryLabel": "Hoist & Trolley",
+  "subcategory": "Electric Chain Hoist",
+  "rank": 9,
+  "wText": "WLL 0.5 - 20 t",
+  "wmin": 0.5,
+  "wmax": 20,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/electric-chain-hoist-echk.png",
+  "images": [
+    "/products/electric-chain-hoist-echk.png"
+  ],
+  "catalogImages": [
+    "/catalogs/electric-chain-hoist-echk.png",
+    "/catalogs/electric-chain-hoist-echk-2.png"
+  ],
+  "pdf": null,
+  "desc": "Three-phase electric chain hoist built for heavy-industry lifting, available in single or dual speed. The premium aluminium-alloy body dissipates heat and withstands repeated lifting cycles, while a friction-clutch overload limiter, upper and lower over-travel limit switches, induction-hardened oil-bath gearing and an instant magnetic brake keep operation safe and quiet. Ultra-hardened Grade 80 load chain (Japan-made) and a German-made control switch. Standard lifting height 3–12 m. An electric-trolley version (ECHKT) is available for travel along the beam. Conforms to and tested per EN 13157:2004+A1:2009 and AS 1418.2.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "3-phase electric chain hoist · single or dual speed"
+    },
+    {
+      "label": "Body shell",
+      "value": "Premium aluminium alloy — high heat dissipation"
+    },
+    {
+      "label": "Load chain",
+      "value": "Grade 80, ultra-hardened, Japan-made"
+    },
+    {
+      "label": "Brake",
+      "value": "Magnetic brake — instant stop on power loss"
+    },
+    {
+      "label": "Overload protection",
+      "value": "Friction clutch"
+    },
+    {
+      "label": "Limit switch",
+      "value": "Over-travel protection, upper & lower"
+    },
+    {
+      "label": "Power supply",
+      "value": "220–440 V · 3-phase · 50 Hz"
+    },
+    {
+      "label": "Lifting height",
+      "value": "3–12 m (standard)"
+    },
+    {
+      "label": "Control switch",
+      "value": "German-made"
+    },
+    {
+      "label": "Operating conditions",
+      "value": "−20°C to +40°C · humidity ≤ 85%"
+    },
+    {
+      "label": "Options",
+      "value": "Remote control · overload limiter · rain cover · thermo switch"
+    }
+  ],
+  "standards": [
+    "EN 13157:2004+A1:2009",
+    "AS 1418.2",
+    "Grade 80 chain"
+  ],
+  "syn": [
+    "electric chain hoist",
+    "pa lang dien",
+    "ba lang dien",
+    "palang dien"
+  ]
+}

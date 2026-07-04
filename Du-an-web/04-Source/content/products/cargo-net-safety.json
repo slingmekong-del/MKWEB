@@ -1,0 +1,26 @@
+{
+  "id": "cargo-net-safety",
+  "no": 48,
+  "partNo": "",
+  "name": "Cargo Net",
+  "brand": "",
+  "category": "Safety equipments",
+  "categoryId": "safety",
+  "categoryLabel": "Safety Equipment",
+  "subcategory": "Cargo net",
+  "rank": 11,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Cargo Net — Cargo net. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "cargo net",
+    "luoi cau hang",
+    "luoi hang"
+  ]
+}

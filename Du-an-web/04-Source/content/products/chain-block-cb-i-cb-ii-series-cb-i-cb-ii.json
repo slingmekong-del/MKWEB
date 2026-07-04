@@ -1,0 +1,75 @@
+{
+  "id": "chain-block-cb-i-cb-ii-series-cb-i-cb-ii",
+  "no": 37,
+  "partNo": "CB-I / CB-II",
+  "name": "Chain Block CB-I / CB-II Series",
+  "brand": "ABLE",
+  "category": "Hoist and Trolley",
+  "categoryId": "hoist-trolley",
+  "categoryLabel": "Hoist & Trolley",
+  "subcategory": "Chain hoist",
+  "rank": 9,
+  "wText": "WLL 0.5 - 30 t",
+  "wmin": 0.5,
+  "wmax": 30,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png",
+  "images": [
+    "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
+  ],
+  "catalogImages": [
+    "/catalogs/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE CB-I series chain block (manual chain hoist) for general and heavy lifting. The heat-treated ISO Grade T (900 N/mm²) load chain is approved to DIN 5684, and a fail-safe double-pawl brake keeps the load secure even if one pawl fails. Wider, easier-handling hooks yield rather than break under overload; the ribbed gear case gives accurate gear centering, and the load sheave runs on sealed roller bearings with wet friction discs for long life. Individually proof-load tested with a serial number. Conforms to EN 13157:2004+A1:2009, ANSI/ASME B30.21, AS 1418.2 and SANS 1636. WLL 0.5–20 t, standard lift 3 m.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Manual chain block / chain hoist"
+    },
+    {
+      "label": "Load chain",
+      "value": "ISO Grade T (900 N/mm²), DIN 5684"
+    },
+    {
+      "label": "Brake",
+      "value": "Fail-safe double pawl"
+    },
+    {
+      "label": "Bearings",
+      "value": "Load sheave on sealed roller bearings"
+    },
+    {
+      "label": "Standard lift",
+      "value": "3 m (extra on request)"
+    },
+    {
+      "label": "Testing",
+      "value": "Individually proof-load tested, serial number"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 13157 · ANSI/ASME B30.21 · AS 1418.2 · SANS 1636"
+    },
+    {
+      "label": "WLL range",
+      "value": "0.5 – 20 t"
+    }
+  ],
+  "standards": [
+    "EN 13157",
+    "ASME B30.21",
+    "AS 1418.2",
+    "SANS 1636"
+  ],
+  "syn": [
+    "chain block cb-i / cb-ii series",
+    "chain hoist",
+    "pa lang xich",
+    "palang xich",
+    "ba lang xich",
+    "palang keo tay",
+    "pa lang"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "single-legged-wire-rope-sling-wire-rope-sling",
+  "no": 5,
+  "partNo": "",
+  "name": "Single Legged Wire Rope Sling",
+  "brand": "",
+  "category": "Wire rope Sling",
+  "categoryId": "wire-rope-sling",
+  "categoryLabel": "Wire Rope Sling",
+  "subcategory": "Single legged sling",
+  "rank": 1,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Single Legged Wire Rope Sling — Single legged sling. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "single legged wire rope sling",
+    "single legged sling",
+    "cap cau",
+    "day cap cau",
+    "cap cau hang",
+    "cap bam",
+    "cap bam chi",
+    "day cau cap",
+    "cap cau 1 chan",
+    "cap 1 chan"
+  ]
+}

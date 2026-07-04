@@ -1,0 +1,76 @@
+{
+  "id": "asw07-webbing-sling",
+  "no": 8,
+  "partNo": "ASW07",
+  "name": "Eye to Eye Webbing Sling",
+  "brand": "ABLE",
+  "category": "Synthetic Sling",
+  "categoryId": "synthetic-sling",
+  "categoryLabel": "Synthetic Sling",
+  "subcategory": "Webbing Sling",
+  "rank": 2,
+  "wText": "WLL 1 – 10 t",
+  "wmin": 1,
+  "wmax": 10,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/asw07-webbing-sling.jpg",
+  "images": [
+    "/products/asw07-webbing-sling.jpg"
+  ],
+  "catalogImages": [
+    "/catalogs/asw07-webbing-sling.png"
+  ],
+  "pdf": "/catalogs/asw07-webbing-sling.pdf",
+  "desc": "Eye-to-eye flat webbing sling in 100% high-tenacity polyester, colour-coded by working load limit to EN 1492-1. Soft, load-protective contact surface with reinforced lifting eyes; safety factor 7:1.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Eye-to-eye flat webbing sling"
+    },
+    {
+      "label": "Material",
+      "value": "100% high-tenacity polyester"
+    },
+    {
+      "label": "Safety factor",
+      "value": "7:1"
+    },
+    {
+      "label": "Colour coding",
+      "value": "By WLL per EN 1492-1"
+    },
+    {
+      "label": "Width range",
+      "value": "30–300 mm (WLL 1–10 t)"
+    },
+    {
+      "label": "Elongation at WLL",
+      "value": "ca. 3% (ca. 12% at breaking force)"
+    },
+    {
+      "label": "Specific weight",
+      "value": "1.38"
+    }
+  ],
+  "standards": [
+    "EN 1492-1",
+    "Colour-coded",
+    "7:1",
+    "CE"
+  ],
+  "syn": [
+    "webbing",
+    "cap ban",
+    "day cau ban",
+    "day vai",
+    "flat sling",
+    "eye to eye",
+    "able",
+    "asw07",
+    "ban dep",
+    "bang cau",
+    "day cau ban dep",
+    "day cau vai"
+  ]
+}

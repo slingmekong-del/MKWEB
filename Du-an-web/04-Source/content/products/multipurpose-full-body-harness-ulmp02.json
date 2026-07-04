@@ -1,0 +1,86 @@
+{
+  "id": "multipurpose-full-body-harness-ulmp02",
+  "no": 47,
+  "partNo": "ULMP02",
+  "name": "Multipurpose Full-Body Harness",
+  "brand": "ABLE",
+  "category": "Safety equipments",
+  "categoryId": "safety",
+  "categoryLabel": "Safety Equipment",
+  "subcategory": "Safety harness",
+  "rank": 11,
+  "wText": "Max user 160 kg · EN 361",
+  "wmin": 0.16,
+  "wmax": 0.16,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/multipurpose-full-body-harness-ulmp02.png",
+  "images": [
+    "/products/multipurpose-full-body-harness-ulmp02.png"
+  ],
+  "catalogImages": [
+    "/catalogs/multipurpose-full-body-harness-ulmp02.png",
+    "/catalogs/multipurpose-full-body-harness-ulmp02-2.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE Model ULMP02 multipurpose full-body safety harness for fall arrest and work positioning. Medically designed to minimise wearer injury during and after a fall, with a medically-tested standing step that relieves suspension trauma, padded shoulder and leg straps, a large dorsal dee-ring, front belay loops, side pole-strap dees and a padded tool belt. High-tenacity 45 mm polyester pebble-weave webbing resists UV and common solvents; THETA-pattern stitching exceeds 28 kN; drop-forged, corrosion-resistant alloy-steel hardware with quick-release buckles. Harness WLL 600 kg (MBS 1500 kg); rated wearer capacity 160 kg (wearer + clothing + tools) when used with an ABLE shock-absorbing lanyard. Weight 2.45 kg. Certified and approved to ANSI Z359, EN 361 and AS/NZS 1891.1.",
+  "specs": [
+    {
+      "label": "Model",
+      "value": "ULMP02 — multipurpose full-body harness"
+    },
+    {
+      "label": "Attachment points",
+      "value": "Dorsal dee-ring · front belay loops · side pole-strap dees"
+    },
+    {
+      "label": "Webbing",
+      "value": "45 mm high-tenacity polyester — UV & solvent resistant"
+    },
+    {
+      "label": "Stitching",
+      "value": "THETA pattern, > 28 kN"
+    },
+    {
+      "label": "Hardware",
+      "value": "Drop-forged alloy steel · quick-release buckles"
+    },
+    {
+      "label": "Dee-ring strength",
+      "value": "40 kN (alloy) · 22 kN (alu / SS option)"
+    },
+    {
+      "label": "Harness WLL",
+      "value": "600 kg (MBS 1500 kg)"
+    },
+    {
+      "label": "Rated user capacity",
+      "value": "160 kg (with shock-absorbing lanyard)"
+    },
+    {
+      "label": "Weight",
+      "value": "2.45 kg"
+    },
+    {
+      "label": "Applications",
+      "value": "Fall arrest · construction · scaffolding · tower / confined space"
+    },
+    {
+      "label": "Standard",
+      "value": "ANSI Z359 · EN 361 · AS/NZS 1891.1"
+    }
+  ],
+  "standards": [
+    "EN 361",
+    "ANSI Z359",
+    "AS/NZS 1891.1"
+  ],
+  "syn": [
+    "multipurpose full-body harness",
+    "safety harness",
+    "day an toan",
+    "dai an toan",
+    "day an toan toan than",
+    "day dai"
+  ]
+}

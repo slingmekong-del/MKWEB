@@ -1,0 +1,85 @@
+{
+  "id": "sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook",
+  "no": 31,
+  "partNo": "ABLE HSE-HSA / GP Sling Hook",
+  "name": "Sling / Safety / Self-Locking Hook",
+  "brand": "Green Pin / ABLE",
+  "category": "Fittings",
+  "categoryId": "fittings",
+  "categoryLabel": "Fittings",
+  "subcategory": "Hook",
+  "rank": 8,
+  "wText": "WLL 1.12 - 32.8 t",
+  "wmin": 1.12,
+  "wmax": 32.8,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook.png",
+  "images": [
+    "/products/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook.png"
+  ],
+  "catalogImages": [
+    "/catalogs/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook.png",
+    "/catalogs/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook-2.png",
+    "/catalogs/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook-3.png",
+    "/catalogs/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook-4.png"
+  ],
+  "pdf": null,
+  "desc": "Forged alloy-steel lifting hooks in eye and clevis forms, spanning the ABLE and Green Pin ranges. ABLE self-locking safety hooks (Model HSE eye / HSC clevis) close automatically under load and cannot disengage until the release trigger is pressed; the HSA adds a swivel to take out sling-leg twist. ABLE sling hooks (HES eye / HCS clevis) give a large throat with a stainless safety-latch spring, and grab hooks (HGC/HGE) shorten and choke chain. Green Pin® Sling Hook E / CL to EN 1677-2 grade 8 (WLL 1.12–32.8 t) and grade-10 grab hooks complete the range. Grade 80/100 alloy steel, quenched and tempered; ultimate load 4× WLL, proof-tested to 2.5× WLL and fatigue-rated to 1.5× WLL at 20,000 cycles, individually batch-marked with size, CE and G80/T8.",
+  "specs": [
+    {
+      "label": "Types",
+      "value": "Self-locking (HSE/HSC) · swivel (HSA) · sling (HES/HCS) · grab (HGC/HGE) · GP sling & grab"
+    },
+    {
+      "label": "Material",
+      "value": "Alloy steel, grade 80 / 100, quenched & tempered"
+    },
+    {
+      "label": "Safety factor",
+      "value": "MBL = 4 × WLL"
+    },
+    {
+      "label": "Proof load",
+      "value": "2.5 × WLL"
+    },
+    {
+      "label": "Fatigue rating",
+      "value": "1.5 × WLL at 20,000 cycles"
+    },
+    {
+      "label": "Self-locking",
+      "value": "Automatic lock under load (HSE / HSC / HSA)"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 1677-2 · ASTM A952/A952M · G80/T8"
+    },
+    {
+      "label": "WLL range",
+      "value": "1.12 – 32.8 t (GP eye sling hook)"
+    },
+    {
+      "label": "Finish",
+      "value": "Painted (green / white / blue) · SS latch spring"
+    },
+    {
+      "label": "Certification",
+      "value": "Batch no., size, CE, G80/T8 embossed"
+    }
+  ],
+  "standards": [
+    "EN 1677-2",
+    "ASTM A952/A952M",
+    "Grade 80 / 100",
+    "CE IIB"
+  ],
+  "syn": [
+    "sling / safety / self-locking hook",
+    "hook",
+    "moc cau",
+    "moc cap",
+    "moc",
+    "moc an toan"
+  ]
+}

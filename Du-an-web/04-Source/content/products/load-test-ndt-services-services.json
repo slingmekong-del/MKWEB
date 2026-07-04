@@ -1,0 +1,29 @@
+{
+  "id": "load-test-ndt-services-services",
+  "no": 51,
+  "partNo": "",
+  "name": "Load Test & NDT Services",
+  "brand": "",
+  "category": "Load test & NDT services",
+  "categoryId": "services",
+  "categoryLabel": "Load Test & NDT Services",
+  "subcategory": "Load test & NDT services",
+  "rank": 13,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Load Test & NDT Services — Load test & NDT services. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "load test & ndt services",
+    "kiem dinh",
+    "thu tai",
+    "kiem dinh tai",
+    "kiem tra khong pha huy",
+    "ndt"
+  ]
+}

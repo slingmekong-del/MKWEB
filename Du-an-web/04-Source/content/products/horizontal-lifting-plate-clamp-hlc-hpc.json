@@ -1,0 +1,63 @@
+{
+  "id": "horizontal-lifting-plate-clamp-hlc-hpc",
+  "no": 45,
+  "partNo": "HLC / HPC",
+  "name": "Horizontal Lifting / Plate Clamp",
+  "brand": "ABLE",
+  "category": "Clamps",
+  "categoryId": "clamps",
+  "categoryLabel": "Clamps",
+  "subcategory": "Horizontal Plate Clamp",
+  "rank": 10,
+  "wText": "WLL 0.75 - 3 t",
+  "wmin": 0.75,
+  "wmax": 3,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/horizontal-lifting-plate-clamp-hlc-hpc.png",
+  "images": [
+    "/products/horizontal-lifting-plate-clamp-hlc-hpc.png"
+  ],
+  "catalogImages": [
+    "/catalogs/horizontal-lifting-plate-clamp-hlc-hpc.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE SV Plus horizontal lifting clamp (HLC) for horizontal lifting and transfer of steel plates. A thin ground plate and buffer cams ease insertion and removal under the plate; the clamps can also hang vertically under a spreader. Forged jaw and cam in 20CrMnTi, minimum breaking load 500% of capacity, suitable for surface hardness up to 37 RC (345 HB). Meets BS EN 13155. WLL is rated per pair (0.75–3 t single).",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Horizontal plate lifting clamp (used in pairs)"
+    },
+    {
+      "label": "Standard",
+      "value": "BS EN 13155"
+    },
+    {
+      "label": "Jaw / cam material",
+      "value": "20CrMnTi — forged"
+    },
+    {
+      "label": "Breaking load",
+      "value": "MBL ≥ 500% of capacity"
+    },
+    {
+      "label": "Surface hardness",
+      "value": "Up to 37 RC (345 HB)"
+    },
+    {
+      "label": "Rating",
+      "value": "WLL given per pair"
+    }
+  ],
+  "standards": [
+    "BS EN 13155",
+    "MBL 5× capacity"
+  ],
+  "syn": [
+    "horizontal lifting / plate clamp",
+    "horizontal plate clamp",
+    "kep cau ton ngang",
+    "kep thep tam ngang",
+    "kep cau"
+  ]
+}

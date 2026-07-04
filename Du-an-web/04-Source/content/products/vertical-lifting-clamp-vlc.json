@@ -1,0 +1,69 @@
+{
+  "id": "vertical-lifting-clamp-vlc",
+  "no": 44,
+  "partNo": "VLC",
+  "name": "Vertical Lifting Clamp",
+  "brand": "ABLE",
+  "category": "Clamps",
+  "categoryId": "clamps",
+  "categoryLabel": "Clamps",
+  "subcategory": "Vertical Plate Clamp",
+  "rank": 10,
+  "wText": "WLL 1 - 5 t",
+  "wmin": 1,
+  "wmax": 5,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/vertical-lifting-clamp-vlc.png",
+  "images": [
+    "/products/vertical-lifting-clamp-vlc.png"
+  ],
+  "catalogImages": [
+    "/catalogs/vertical-lifting-clamp-vlc.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE SV Plus vertical lifting clamp (VLC) for vertical lifting and 180° turning of steel plates. A safety latch keeps the cam locked even if the lifting rope goes slack, protecting against ground-touching shocks. All parts forged and heat-treated (jaw and cam in 20CrMnTi), with a 6× safety factor and an individual serial number for traceability. Meets BS EN 13155. WLL 1–5 t, jaw opening 0–50 mm.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Vertical plate lifting clamp"
+    },
+    {
+      "label": "Standard",
+      "value": "BS EN 13155"
+    },
+    {
+      "label": "Jaw / cam material",
+      "value": "20CrMnTi — forged & heat-treated"
+    },
+    {
+      "label": "Safety factor",
+      "value": "6 × WLL"
+    },
+    {
+      "label": "Jaw opening",
+      "value": "0 – 50 mm"
+    },
+    {
+      "label": "Locking",
+      "value": "Safety latch — stays locked if rope slackens"
+    },
+    {
+      "label": "WLL range",
+      "value": "1 – 5 t"
+    }
+  ],
+  "standards": [
+    "BS EN 13155",
+    "Safety factor 6:1",
+    "Serial-traceable"
+  ],
+  "syn": [
+    "vertical lifting clamp",
+    "vertical plate clamp",
+    "kep cau ton",
+    "ngam cau ton",
+    "kep ton dung",
+    "kep cau"
+  ]
+}

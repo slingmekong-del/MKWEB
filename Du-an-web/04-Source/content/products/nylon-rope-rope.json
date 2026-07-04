@@ -1,0 +1,27 @@
+{
+  "id": "nylon-rope-rope",
+  "no": 24,
+  "partNo": "",
+  "name": "Nylon Rope",
+  "brand": "",
+  "category": "Rope",
+  "categoryId": "rope",
+  "categoryLabel": "Rope",
+  "subcategory": "Nylon rope",
+  "rank": 6,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Nylon Rope — Nylon rope. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "nylon rope",
+    "day nylon",
+    "day ni long",
+    "day thung"
+  ]
+}

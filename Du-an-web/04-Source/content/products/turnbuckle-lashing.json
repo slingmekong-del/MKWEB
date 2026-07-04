@@ -1,0 +1,27 @@
+{
+  "id": "turnbuckle-lashing",
+  "no": 15,
+  "partNo": "",
+  "name": "Turnbuckle",
+  "brand": "Green Pin",
+  "category": "Lashing Equipments",
+  "categoryId": "lashing",
+  "categoryLabel": "Lashing Equipment",
+  "subcategory": "Turnbuckle",
+  "rank": 4,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Turnbuckle — Turnbuckle. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "turnbuckle",
+    "tang do",
+    "tang do cap",
+    "tan ren"
+  ]
+}

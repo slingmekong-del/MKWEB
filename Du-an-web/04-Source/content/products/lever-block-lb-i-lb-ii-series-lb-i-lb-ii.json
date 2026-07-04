@@ -1,0 +1,74 @@
+{
+  "id": "lever-block-lb-i-lb-ii-series-lb-i-lb-ii",
+  "no": 38,
+  "partNo": "LB-I / LB-II",
+  "name": "Lever Block LB-I / LB-II Series",
+  "brand": "ABLE",
+  "category": "Hoist and Trolley",
+  "categoryId": "hoist-trolley",
+  "categoryLabel": "Hoist & Trolley",
+  "subcategory": "Chain lever hoist",
+  "rank": 9,
+  "wText": "WLL 0.5 - 9 t",
+  "wmin": 0.5,
+  "wmax": 9,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/lever-block-lb-i-lb-ii-series-lb-i-lb-ii.png",
+  "images": [
+    "/products/lever-block-lb-i-lb-ii-series-lb-i-lb-ii.png"
+  ],
+  "catalogImages": [
+    "/catalogs/lever-block-lb-i-lb-ii-series-lb-i-lb-ii.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE LB-I series lever block (ratchet lever hoist) for pulling, tensioning and lifting. One-touch free-chaining lets the load chain be pulled through quickly by hand; the Grade 80 alloy load chain meets ISO and JIS standards, and the forged, heat-treated load hooks carry batch traceability and stretch indicators. Individually proof-load tested with a serial number. Conforms to EN 13157:2004+A1:2009, ANSI/ASME B30.21, AS 1418.2 and SANS 1636. WLL 0.5–9 t, standard lift 1.5 m.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Lever block / ratchet lever hoist"
+    },
+    {
+      "label": "Load chain",
+      "value": "Grade 80 alloy (ISO & JIS)"
+    },
+    {
+      "label": "Free-chaining",
+      "value": "One-touch idling for fast chain adjustment"
+    },
+    {
+      "label": "Hooks",
+      "value": "Forged, heat-treated, with stretch indicators"
+    },
+    {
+      "label": "Standard lift",
+      "value": "1.5 m"
+    },
+    {
+      "label": "Testing",
+      "value": "Individually proof-load tested, serial number"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 13157 · ANSI/ASME B30.21 · AS 1418.2 · SANS 1636"
+    },
+    {
+      "label": "WLL range",
+      "value": "0.5 – 9 t"
+    }
+  ],
+  "standards": [
+    "EN 13157",
+    "ASME B30.21",
+    "AS 1418.2",
+    "Grade 80 chain"
+  ],
+  "syn": [
+    "lever block lb-i / lb-ii series",
+    "chain lever hoist",
+    "pa lang lac",
+    "pa lang xich lac",
+    "con coc",
+    "pa lang"
+  ]
+}

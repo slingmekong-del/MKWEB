@@ -1,0 +1,69 @@
+{
+  "id": "connecting-link-gr8-gr10-gp-c8-004-gp-c10-006",
+  "no": 22,
+  "partNo": "GP-C8-004 / GP-C10-006",
+  "name": "Connecting Link GR8 / GR10",
+  "brand": "Green Pin / ABLE",
+  "category": "Lifting chain and Fittings",
+  "categoryId": "lifting-chain",
+  "categoryLabel": "Lifting Chain & Fittings",
+  "subcategory": "Connecting link",
+  "rank": 5,
+  "wText": "WLL 1.12 - 32.8 t",
+  "wmin": 1.12,
+  "wmax": 32.8,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/connecting-link-gr8-gr10-gp-c8-004-gp-c10-006.png",
+  "images": [
+    "/products/connecting-link-gr8-gr10-gp-c8-004-gp-c10-006.png"
+  ],
+  "catalogImages": [
+    "/catalogs/connecting-link-gr8-gr10-gp-c8-004-gp-c10-006.png"
+  ],
+  "pdf": null,
+  "desc": "Green Pin® connecting link to EN 1677-1, grade 8 — used to join chain, master links and fittings in lifting-sling assemblies. Forged in grade 8 alloy steel, quenched and tempered, with a minimum breaking load of 4× WLL. Painted white (yellow or red on request), rated −40°C to +200°C. Made to EN 1677-1 and ASTM A952/A952M. WLL 1.12–32.8 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Connecting link (hammerlock)"
+    },
+    {
+      "label": "Material",
+      "value": "Alloy steel, grade 8, quenched & tempered"
+    },
+    {
+      "label": "Safety factor",
+      "value": "MBL = 4 × WLL"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 1677-1 · ASTM A952/A952M"
+    },
+    {
+      "label": "Finish",
+      "value": "Painted white"
+    },
+    {
+      "label": "Temperature range",
+      "value": "−40°C to +200°C"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 / 3.1 MTC · MPI · DGUV · CE IIB"
+    }
+  ],
+  "standards": [
+    "EN 1677-1",
+    "ASTM A952/A952M",
+    "Grade 8",
+    "CE IIB"
+  ],
+  "syn": [
+    "connecting link gr8 / gr10",
+    "connecting link",
+    "khoen noi xich",
+    "mat noi xich",
+    "khoa noi"
+  ]
+}

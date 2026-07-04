@@ -1,0 +1,82 @@
+{
+  "id": "hoisting-sling-chain-grade-80-aw-80-cf-80",
+  "no": 19,
+  "partNo": "AW-80 / CF-80",
+  "name": "Hoisting / Sling Chain Grade 80",
+  "brand": "ABLE",
+  "category": "Lifting chain and Fittings",
+  "categoryId": "lifting-chain",
+  "categoryLabel": "Lifting Chain & Fittings",
+  "subcategory": "Alloy lifting chain Grade 80",
+  "rank": 5,
+  "wText": "WLL 0.65 - 32.2 t",
+  "wmin": 0.65,
+  "wmax": 32.2,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/hoisting-sling-chain-grade-80-aw-80-cf-80.png",
+  "images": [
+    "/products/hoisting-sling-chain-grade-80-aw-80-cf-80.png"
+  ],
+  "catalogImages": [
+    "/catalogs/hoisting-sling-chain-grade-80-aw-80-cf-80.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE grade-80 alloy lifting chain, heat-treated and proof-tested, produced on German WAFIOS automatic knitting, spot-welding, calibrating and heat-treatment lines. Two types: the AW-80 Hoisting Chain to EN 818-7 (for hoists and chain blocks) in Ø 5–11.2 mm, WLL 0.65–3.8 t; and the CF-80 Lifting Sling Chain to EN 818-2 (for chain slings) in Ø 6–32 mm, WLL 1.12–32.2 t at a 4:1 design factor with proof load 28.3–804 kN. Alloy steel with 12–20% elongation and a 4:1 safety factor (5:1 for Grade 100), finished black-matt, gold-galvanized or chrome-coated, and permanently embossed with maker, steel grade (T8) and batch number for traceability.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Grade 80 alloy lifting chain — hoisting (AW-80) & sling (CF-80)"
+    },
+    {
+      "label": "AW-80 hoisting chain",
+      "value": "EN 818-7 · Ø 5–11.2 mm · WLL 0.65–3.8 t"
+    },
+    {
+      "label": "CF-80 sling chain",
+      "value": "EN 818-2 · Ø 6–32 mm · WLL 1.12–32.2 t"
+    },
+    {
+      "label": "Design factor",
+      "value": "4:1 (GR80) · 5:1 (GR100)"
+    },
+    {
+      "label": "CF-80 proof load",
+      "value": "28.3 – 804 kN"
+    },
+    {
+      "label": "CF-80 breaking load",
+      "value": "4.5 – 128.8 t"
+    },
+    {
+      "label": "Elongation",
+      "value": "12 – 20%"
+    },
+    {
+      "label": "Finish",
+      "value": "Black-matt · gold-galvanized · chrome"
+    },
+    {
+      "label": "Marking",
+      "value": "Maker · T8 grade · batch no. embossed"
+    },
+    {
+      "label": "Manufacture",
+      "value": "German WAFIOS automatic lines"
+    }
+  ],
+  "standards": [
+    "EN 818-7 (AW-80)",
+    "EN 818-2 (CF-80)",
+    "Grade 80",
+    "4:1"
+  ],
+  "syn": [
+    "hoisting / sling chain grade 80",
+    "alloy lifting chain grade 80",
+    "xich cau",
+    "xich tai",
+    "xich nang",
+    "xich cau hang"
+  ]
+}

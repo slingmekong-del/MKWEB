@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
-import { PRODUCTS } from "@/lib/products";
+import { VISIBLE_PRODUCTS } from "@/lib/products";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -16,8 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/contact`,   lastModified: now, changeFrequency: "yearly",  priority: 0.5 },
   ];
 
-  // One entry per product detail page. Live products rank above coming-soon.
-  const productRoutes: MetadataRoute.Sitemap = PRODUCTS.map((p) => ({
+  // One entry per visible product detail page. Live products rank above coming-soon.
+  const productRoutes: MetadataRoute.Sitemap = VISIBLE_PRODUCTS.map((p) => ({
     url: `${SITE_URL}/products/${p.id}`,
     lastModified: now,
     changeFrequency: "monthly",

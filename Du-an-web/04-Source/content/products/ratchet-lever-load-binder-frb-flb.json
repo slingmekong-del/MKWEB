@@ -1,0 +1,86 @@
+{
+  "id": "ratchet-lever-load-binder-frb-flb",
+  "no": 14,
+  "partNo": "FRB / FLB",
+  "name": "Ratchet / Lever Load Binder",
+  "brand": "ABLE",
+  "category": "Lashing Equipments",
+  "categoryId": "lashing",
+  "categoryLabel": "Lashing Equipment",
+  "subcategory": "Load Binder",
+  "rank": 4,
+  "wText": "FRB 5,400–13,000 lb · FLB 3.8–9 t",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/ratchet-lever-load-binder-frb-flb.png",
+  "images": [
+    "/products/ratchet-lever-load-binder-frb-flb.png"
+  ],
+  "catalogImages": [
+    "/catalogs/ratchet-lever-load-binder-frb-flb.png"
+  ],
+  "pdf": null,
+  "desc": "Load binders (chain tensioners) for securing cargo on trucks, trailers and flatbeds, in ratchet and lever styles. The US-type Ratchet Load Binder (Model FRB) is upgraded for Grade 70 and Grade 40 chain, with a continuous take-up screw giving fine tie-down adjustment and matching the WLL of Grade 70 chain — WLL 5,400–13,000 lb (MBL 19,000–46,000 lb) for 8–16 mm chain, individually proof-tested to 200% of WLL with a mill certificate and warning tag (ultimate load 3.5× WLL), to American standard WSTDA T6. The Forged Lever Load Binder (Model FLB) is quenched-and-tempered alloy steel with extra-heavy construction at the leverage point for easy release, ball-and-socket swivel joints for a straight-line pull and free 360° swivel hooks — WLL 3,800–9,000 kg (MBL 8,600–18,000 kg) for 7.8–13 mm chain.",
+  "specs": [
+    {
+      "label": "Types",
+      "value": "Ratchet (FRB) · forged lever (FLB) load binder"
+    },
+    {
+      "label": "FRB chain",
+      "value": "Grade 70 / 40 · 8–16 mm (5/16–5/8\")"
+    },
+    {
+      "label": "FRB WLL",
+      "value": "5,400 – 13,000 lb"
+    },
+    {
+      "label": "FRB breaking load (MBL)",
+      "value": "19,000 – 46,000 lb (3.5× WLL)"
+    },
+    {
+      "label": "FRB standard",
+      "value": "American WSTDA T6 · proof 200% WLL"
+    },
+    {
+      "label": "FLB material",
+      "value": "Alloy steel, quenched & tempered"
+    },
+    {
+      "label": "FLB chain",
+      "value": "7.8 / 10 / 13 mm (5/16–5/8\")"
+    },
+    {
+      "label": "FLB WLL",
+      "value": "3,800 – 9,000 kg"
+    },
+    {
+      "label": "FLB breaking load (MBL)",
+      "value": "8,600 – 18,000 kg"
+    },
+    {
+      "label": "FLB feature",
+      "value": "Free 360° swivel hooks · ball-and-socket joints"
+    },
+    {
+      "label": "Certification",
+      "value": "Mill certificate · warning tag"
+    }
+  ],
+  "standards": [
+    "WSTDA T6",
+    "Grade 70 / 40",
+    "Proof 200% WLL"
+  ],
+  "syn": [
+    "ratchet / lever load binder",
+    "load binder",
+    "tang do xich",
+    "khoa xiet xich",
+    "tang chang",
+    "coc xiet",
+    "khoa xiet"
+  ]
+}

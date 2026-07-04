@@ -1,0 +1,67 @@
+{
+  "id": "plate-lifting-clamp-flexible-plc",
+  "no": 46,
+  "partNo": "PLC",
+  "name": "Plate Lifting Clamp (Flexible)",
+  "brand": "ABLE",
+  "category": "Clamps",
+  "categoryId": "clamps",
+  "categoryLabel": "Clamps",
+  "subcategory": "Plate Lifting Clamp",
+  "rank": 10,
+  "wText": "WLL 0.5 - 8 t",
+  "wmin": 0.5,
+  "wmax": 8,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/plate-lifting-clamp-flexible-plc.png",
+  "images": [
+    "/products/plate-lifting-clamp-flexible-plc.png"
+  ],
+  "catalogImages": [
+    "/catalogs/plate-lifting-clamp-flexible-plc.png"
+  ],
+  "pdf": null,
+  "desc": "ABLE PLC universal plate lifting clamp — a flexible-solution clamp that lifts and turns loads through 180° while positively retaining them. A hinged hoisting eye swivels in all directions so the load can be picked from any angle, and a wide jaw aperture handles plates of varying thickness. A double-locking safety latch secures the clamp in both open and closed positions and pre-loads the material. Fully forged, safety factor 6×, suitable for surface hardness up to 37 RC (345 HB). WLL 0.5–8 t.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Universal plate lifting clamp (lift & 180° turn)"
+    },
+    {
+      "label": "Hoisting eye",
+      "value": "Hinged — swivels in all directions"
+    },
+    {
+      "label": "Locking",
+      "value": "Double-locking safety latch (open & closed)"
+    },
+    {
+      "label": "Construction",
+      "value": "Fully forged"
+    },
+    {
+      "label": "Safety factor",
+      "value": "6 × WLL"
+    },
+    {
+      "label": "Surface hardness",
+      "value": "Up to 37 RC (345 HB)"
+    },
+    {
+      "label": "WLL range",
+      "value": "0.5 – 8 t"
+    }
+  ],
+  "standards": [
+    "BS EN 13155",
+    "Safety factor 6:1"
+  ],
+  "syn": [
+    "plate lifting clamp (flexible)",
+    "plate lifting clamp",
+    "kep cau thep tam",
+    "ngam cau tam",
+    "kep cau"
+  ]
+}

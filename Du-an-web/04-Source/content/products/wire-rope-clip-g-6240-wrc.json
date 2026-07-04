@@ -1,0 +1,65 @@
+{
+  "id": "wire-rope-clip-g-6240-wrc",
+  "no": 32,
+  "partNo": "G-6240 / WRC",
+  "name": "Wire Rope Clip",
+  "brand": "Green Pin / ABLE",
+  "category": "Fittings",
+  "categoryId": "fittings",
+  "categoryLabel": "Fittings",
+  "subcategory": "Wire rope clip",
+  "rank": 8,
+  "wText": "Ø4 - 65 mm",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "live",
+  "hidden": false,
+  "image": "/products/wire-rope-clip-g-6240-wrc.png",
+  "images": [
+    "/products/wire-rope-clip-g-6240-wrc.png"
+  ],
+  "catalogImages": [
+    "/catalogs/wire-rope-clip-g-6240-wrc.png",
+    "/catalogs/wire-rope-clip-g-6240-wrc-2.png"
+  ],
+  "pdf": null,
+  "desc": "Green Pin® wire rope clip (bulldog grip) to EN 13411-5 Type B (formerly US Federal Spec. FF-C-450D) for forming eyes and terminations in steel wire rope. Drop-forged high-tensile steel bridge (SAE 1045) with a SAE 1015 U-bolt, hot-dipped galvanized (U-bolt and nuts electro-galvanized for bow Ø 5, 6, 8 and 10). For wire-rope diameters Ø 3–78 mm.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Wire rope clip / bulldog grip"
+    },
+    {
+      "label": "Material",
+      "value": "Bridge — drop-forged SAE 1045 · U-bolt SAE 1015"
+    },
+    {
+      "label": "Standard",
+      "value": "EN 13411-5 Type B (formerly FF-C-450D)"
+    },
+    {
+      "label": "Finish",
+      "value": "Hot-dipped galvanized"
+    },
+    {
+      "label": "Rope diameter",
+      "value": "Ø 3 – 78 mm"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 · CE IIB"
+    }
+  ],
+  "standards": [
+    "EN 13411-5 Type B",
+    "Hot-dip galvanized",
+    "CE IIB"
+  ],
+  "syn": [
+    "wire rope clip",
+    "khoa cap",
+    "kep cap",
+    "khoa cap chu u",
+    "u bolt"
+  ]
+}

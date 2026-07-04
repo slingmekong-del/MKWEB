@@ -1,0 +1,26 @@
+{
+  "id": "personal-transfer-net-safety",
+  "no": 50,
+  "partNo": "",
+  "name": "Personal Transfer Net",
+  "brand": "",
+  "category": "Safety equipments",
+  "categoryId": "safety",
+  "categoryLabel": "Safety Equipment",
+  "subcategory": "Personal transfer net",
+  "rank": 11,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Personal Transfer Net — Personal transfer net. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "personal transfer net",
+    "luoi chuyen nguoi",
+    "long chuyen nguoi"
+  ]
+}

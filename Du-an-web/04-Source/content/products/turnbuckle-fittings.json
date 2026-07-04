@@ -1,0 +1,27 @@
+{
+  "id": "turnbuckle-fittings",
+  "no": 34,
+  "partNo": "",
+  "name": "Turnbuckle",
+  "brand": "Green Pin",
+  "category": "Fittings",
+  "categoryId": "fittings",
+  "categoryLabel": "Fittings",
+  "subcategory": "Turnbuckle",
+  "rank": 8,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Turnbuckle — Turnbuckle. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "turnbuckle",
+    "tang do",
+    "tang do cap",
+    "tan ren"
+  ]
+}

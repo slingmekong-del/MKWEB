@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PRODUCTS, CATEGORIES, countByStatus } from "@/lib/products";
+import { VISIBLE_PRODUCTS, CATEGORIES, countByStatus } from "@/lib/products";
 
 const HIGHLIGHTS = [
   { id: "shackle",         desc: "Green Pin bow & dee shackles, screw-pin and safety-bolt", color: "bg-navy" },
@@ -11,13 +11,14 @@ const HIGHLIGHTS = [
 const BRANDS = ["Green Pin", "ABLE", "DSR", "Usha-Martin", "Dragon", "Dongyang", "O.E.M"];
 
 export default function ProductsTeaser() {
-  const total = PRODUCTS.length;
+  const total = VISIBLE_PRODUCTS.length;
   const live = countByStatus("live");
 
-  const cards = HIGHLIGHTS.map((h) => {
-    const cat = CATEGORIES.find((c) => c.id === h.id)!;
-    const count = PRODUCTS.filter((p) => p.categoryId === h.id).length;
-    return { ...h, label: cat.label, count };
+  const cards = HIGHLIGHTS.flatMap((h) => {
+    const cat = CATEGORIES.find((c) => c.id === h.id);
+    if (!cat) return []; // category may have been removed/hidden in the CMS
+    const count = VISIBLE_PRODUCTS.filter((p) => p.categoryId === h.id).length;
+    return [{ ...h, label: cat.label, count }];
   });
 
   return (

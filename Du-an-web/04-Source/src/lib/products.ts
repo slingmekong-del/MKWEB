@@ -1,4 +1,5 @@
 import productsData from "@/data/products.json";
+import categoriesData from "../../content/categories.json";
 
 export type ProductStatus = "live" | "coming";
 
@@ -17,6 +18,7 @@ export type Product = {
   wmin: number;
   wmax: number;
   status: ProductStatus;
+  hidden?: boolean; // true = removed from the whole site (CMS toggle), distinct from status
   image: string | null;
   images?: string[];        // product photos, 1–4 (gallery); falls back to `image`
   catalogImages?: string[]; // catalog / spec-sheet page images
@@ -28,6 +30,11 @@ export type Product = {
 };
 
 export const PRODUCTS: Product[] = productsData as Product[];
+
+// Products shown on the site (CMS may hide individual SKUs via `hidden`). All
+// public-facing listing/search/grouping runs off this subset; `PRODUCTS` is kept
+// for lookups by id where hidden state is handled by the caller.
+export const VISIBLE_PRODUCTS: Product[] = PRODUCTS.filter((p) => !p.hidden);
 
 // Accent-insensitive normalization: lowercase, strip Vietnamese diacritics,
 // đ→d. Lets a customer type "ma ní" or "ma ni", "cáp bản" or "cap ban" alike.
@@ -66,22 +73,13 @@ const SEARCH_DOCS = new Map<string, SearchDoc>(
   ])
 );
 
-// Categories in display order (rank order from Mr Bac's master list)
-export const CATEGORIES = [
-  { id: "shackle",         label: "Shackle",                  rank: 1 },
-  { id: "wire-rope-sling", label: "Wire Rope Sling",          rank: 1 },
-  { id: "synthetic-sling", label: "Synthetic Sling",          rank: 2 },
-  { id: "steel-wire-rope", label: "Steel Wire Rope",          rank: 3 },
-  { id: "lashing",         label: "Lashing Equipment",        rank: 4 },
-  { id: "lifting-chain",   label: "Lifting Chain & Fittings", rank: 5 },
-  { id: "rope",            label: "Rope",                     rank: 6 },
-  { id: "master-link",     label: "Master Link",              rank: 7 },
-  { id: "fittings",        label: "Fittings",                 rank: 8 },
-  { id: "hoist-trolley",   label: "Hoist & Trolley",          rank: 9 },
-  { id: "clamps",          label: "Clamps",                   rank: 10 },
-  { id: "safety",          label: "Safety Equipment",         rank: 11 },
-  { id: "services",        label: "Load Test & NDT Services",  rank: 13 },
-];
+// Categories in display order (rank order from Mr Bac's master list), sourced
+// from content/categories.json so the CMS can rename / reorder / hide them.
+export type Category = { id: string; label: string; rank: number; visible?: boolean };
+export const CATEGORIES: Category[] = categoriesData.categories as Category[];
+
+// Categories shown in the listing / filter UI (hidden ones stay in data but off-site).
+export const VISIBLE_CATEGORIES: Category[] = CATEGORIES.filter((c) => c.visible !== false);
 
 export const WLL_RANGES = [
   { id: "lt2",     label: "< 2 t",      min: 0,   max: 2 },
@@ -99,20 +97,20 @@ export const STATUS_OPTIONS = [
 // All unique non-empty brands
 export function getAllBrands(): string[] {
   const set = new Set<string>();
-  PRODUCTS.forEach((p) => p.brand && set.add(p.brand));
+  VISIBLE_PRODUCTS.forEach((p) => p.brand && set.add(p.brand));
   return Array.from(set).sort();
 }
 
 // Brands available for a given category selection
 export function getBrandsForCat(cat: string | null): string[] {
-  const pool = cat ? PRODUCTS.filter((p) => p.categoryId === cat) : PRODUCTS;
+  const pool = cat ? VISIBLE_PRODUCTS.filter((p) => p.categoryId === cat) : VISIBLE_PRODUCTS;
   const set = new Set<string>();
   pool.forEach((p) => p.brand && set.add(p.brand));
   return Array.from(set).sort();
 }
 
 export function countByStatus(status: ProductStatus): number {
-  return PRODUCTS.filter((p) => p.status === status).length;
+  return VISIBLE_PRODUCTS.filter((p) => p.status === status).length;
 }
 
 export type Filters = {
@@ -193,7 +191,7 @@ function scoreQuery(p: Product, q: string): number {
 // Shared by SearchBar so the dropdown and the results grid rank identically.
 export function suggest(query: string, limit = 6): Product[] {
   if (query.trim().length < 2) return [];
-  const scored = PRODUCTS.map((p) => ({ p, score: scoreQuery(p, query) }))
+  const scored = VISIBLE_PRODUCTS.map((p) => ({ p, score: scoreQuery(p, query) }))
     .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score);
   if (scored.length === 0) return [];
@@ -207,7 +205,7 @@ export function suggest(query: string, limit = 6): Product[] {
 }
 
 export function applyFilters(query: string, filters: Filters): Product[] {
-  let results = PRODUCTS.filter((p) => {
+  let results = VISIBLE_PRODUCTS.filter((p) => {
     if (filters.cat && p.categoryId !== filters.cat) return false;
     if (filters.brand && p.brand !== filters.brand) return false;
     if (filters.wll && !matchesWll(p, filters.wll)) return false;
@@ -241,9 +239,9 @@ export type CategoryGroup = {
   items: Product[];
 };
 
-// Group a product list into ordered category sections (empty categories dropped)
+// Group a product list into ordered category sections (empty + hidden categories dropped)
 export function groupByCategory(list: Product[]): CategoryGroup[] {
-  return CATEGORIES.map((c) => ({
+  return VISIBLE_CATEGORIES.map((c) => ({
     id: c.id,
     label: c.label,
     rank: c.rank,
