@@ -1,0 +1,52 @@
+No,Product name,Category,Model code (find in catalog),Target filename (.png),Status
+1,Green Pin Bow Shackle SC,Shackle,G-4161,green-pin-bow-shackle-sc-g-4161,CAN CAT
+2,Green Pin Bow Shackle BN,Shackle,G-4163,green-pin-bow-shackle-bn-g-4163,CAN CAT
+3,Green Pin Dee Shackle BN,Shackle,G-4153,g-4153-dee-shackle-bn,DA CO
+4,Green Pin Dee Shackle SC,Shackle,G-4151,g-4151-dee-shackle-sc,DA CO
+5,Single Legged Wire Rope Sling,Wire Rope Sling,-,single-legged-wire-rope-sling-wire-rope-sling,CAN CAT
+6,4 & 5 Legged Wire Rope Sling,Wire Rope Sling,-,4-5-legged-wire-rope-sling-wire-rope-sling,CAN CAT
+7,"Heavy Lift, Cable-Laid Sling & Grommets",Wire Rope Sling,-,heavy-lift-cable-laid-sling-grommets-wire-rope-sling,CAN CAT
+8,Eye to Eye Webbing Sling,Synthetic Sling,ASW07,asw07-webbing-sling,DA CO
+9,Able Round Sling,Synthetic Sling,ASR07,asr07-round-sling,DA CO
+10,Independent Core Steel Wire Rope,Steel Wire Rope,-,independent-core-steel-wire-rope-steel-wire-rope,CAN CAT
+11,Fiber Core Steel Wire Rope,Steel Wire Rope,-,fiber-core-steel-wire-rope-steel-wire-rope,CAN CAT
+12,Crane Compacted Non-Rotating Wire Rope,Steel Wire Rope,-,crane-compacted-non-rotating-wire-rope-steel-wire-rope,CAN CAT
+13,Cargo Lashing Straps,Lashing Equipment,RST,cargo-lashing-straps-rst,CAN CAT
+14,Ratchet / Lever Load Binder,Lashing Equipment,FRB / FLB,ratchet-lever-load-binder-frb-flb,CAN CAT
+15,Turnbuckle (Lashing),Lashing Equipment,-,turnbuckle-lashing,CAN CAT
+16,Aluminum / Steel Wire Rope Puller,Lashing Equipment,WRP / RWP,aluminum-steel-wire-rope-puller-wrp-rwp,CAN CAT
+17,Lashing Chain (Long Link Chain),Lashing Equipment,-,lashing-chain-long-link-chain-lashing,CAN CAT
+18,Binder Chain Grade 70 / 80,Lashing Equipment,-,binder-chain-grade-70-80-lashing,CAN CAT
+19,Hoisting / Sling Chain Grade 80,Lifting Chain & Fittings,AW-80 / CF-80,hoisting-sling-chain-grade-80-aw-80-cf-80,CAN CAT
+20,Alloy Lifting Chain Grade 100,Lifting Chain & Fittings,-,alloy-lifting-chain-grade-100-lifting-chain,CAN CAT
+21,Vertical / Auto / Chain Drum Lifter,Lifting Chain & Fittings,DLVC / LTVC / VDL,vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl,CAN CAT
+22,Connecting Link GR8 / GR10,Lifting Chain & Fittings,GP-C8-004 / GP-C10-006,connecting-link-gr8-gr10-gp-c8-004-gp-c10-006,CAN CAT
+23,PP Rope,Rope,-,pp-rope-rope,CAN CAT
+24,Nylon Rope,Rope,-,nylon-rope-rope,CAN CAT
+25,Manila Rope,Rope,-,manila-rope-rope,CAN CAT
+26,Superflex Rope,Rope,-,superflex-rope-rope,CAN CAT
+27,Green Pin Master Link EN 1677-4 GR8,Master Link,GP-WR-001,green-pin-master-link-en-1677-4-gr8-gp-wr-001,CAN CAT
+28,Green Pin Master Link Assembly EN 1677-4 GR8,Master Link,GP-WR-002,green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002,CAN CAT
+29,Green Pin Heavy Duty Master Link,Master Link,P-6815,green-pin-heavy-duty-master-link-p-6815,CAN CAT
+30,Green Pin Master Link (EN 1677-4 GR8),Master Link,GP-WR-001,green-pin-master-link-en-1677-4-gr8-gp-wr-001-30,CAN CAT
+31,Sling / Safety / Self-Locking Hook,Fittings,ABLE HSE-HSA / GP Sling Hook,sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook,CAN CAT
+32,Wire Rope Clip,Fittings,G-6240 / WRC,wire-rope-clip-g-6240-wrc,CAN CAT
+33,Spelter / Wedge / Swage Socket,Fittings,G-6411 … G-6429,spelter-wedge-swage-socket-g-6411-g-6429,CAN CAT
+34,Turnbuckle (Fittings),Fittings,-,turnbuckle-fittings,CAN CAT
+35,EE / JE Swivel / Bearing Swivel,Fittings,G-7713 / G-7733 / AV,ee-je-swivel-bearing-swivel-g-7713-g-7733-av,CAN CAT
+36,Lifting Eye / Eye Bolt GR8,Fittings,GP-EYE-001 / DIN 580,lifting-eye-eye-bolt-gr8-gp-eye-001-din-580,CAN CAT
+37,Chain Block CB-I / CB-II Series,Hoist & Trolley,CB-I / CB-II,chain-block-cb-i-cb-ii-series-cb-i-cb-ii,CAN CAT
+38,Lever Block LB-I / LB-II Series,Hoist & Trolley,LB-I / LB-II,lever-block-lb-i-lb-ii-series-lb-i-lb-ii,CAN CAT
+39,Hand Pulley Block,Hoist & Trolley,HPB,hand-pulley-block-hpb,CAN CAT
+40,Electric Chain Hoist,Hoist & Trolley,ECHK / ECHKT,electric-chain-hoist-echk,CAN CAT
+41,Plain / Geared Trolley,Hoist & Trolley,PT / GT,plain-geared-trolley-pt-gt,CAN CAT
+42,Brake Hand Winch,Hoist & Trolley,BHW,brake-hand-winch-bhw,CAN CAT
+43,Aluminum / Steel Wire Rope Puller,Hoist & Trolley,WRP / RWP,aluminum-steel-wire-rope-puller-wrp-rwp-43,CAN CAT
+44,Vertical Lifting Clamp,Clamps,VLC,vertical-lifting-clamp-vlc,CAN CAT
+45,Horizontal Lifting / Plate Clamp,Clamps,HLC / HPC,horizontal-lifting-plate-clamp-hlc-hpc,CAN CAT
+46,Plate Lifting Clamp (Flexible),Clamps,PLC,plate-lifting-clamp-flexible-plc,CAN CAT
+47,Multipurpose Full-Body Harness,Safety Equipment,ULMP02,multipurpose-full-body-harness-ulmp02,CAN CAT
+48,Cargo Net,Safety Equipment,-,cargo-net-safety,CAN CAT
+49,Helideck Landing Net,Safety Equipment,-,helideck-landing-net-safety,CAN CAT
+50,Personal Transfer Net,Safety Equipment,-,personal-transfer-net-safety,CAN CAT
+51,Load Test & NDT Services,Services,-,load-test-ndt-services-services,KHONG CAN (dich vu)

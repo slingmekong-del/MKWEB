@@ -1,0 +1,15 @@
+# Tài liệu tham khảo nội bộ — quá nặng cho git (242MB, PDF 98MB)
+Hop-thu-den/
+Cataloge/
+Luu-Tru-tham-khao/
+
+# Kho ảnh gốc (139MB) — giữ local, không lên Git. Bản dùng thật đã nằm ở 04-Source/public/
+Du-an-web/03-Assets/images/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

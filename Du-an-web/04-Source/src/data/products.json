@@ -1,0 +1,2215 @@
+[
+  {
+    "id": "green-pin-bow-shackle-sc-g-4161",
+    "no": 1,
+    "partNo": "G-4161",
+    "name": "Green Pin Bow Shackle SC",
+    "brand": "Green Pin",
+    "category": "Shackle",
+    "categoryId": "shackle",
+    "categoryLabel": "Shackle",
+    "subcategory": "Bow Screw Pin shackle",
+    "rank": 1,
+    "wText": "WLL 0.33 - 55 t",
+    "wmin": 0.33,
+    "wmax": 55,
+    "status": "live",
+    "image": "/products/green-pin-bow-shackle-sc-g-4161.png",
+    "images": [
+      "/products/green-pin-bow-shackle-sc-g-4161.png"
+    ],
+    "catalogImages": [
+      "/catalogs/green-pin-bow-shackle-sc-g-4161.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® bow (anchor) shackle with screw collar pin. The bow and pin are forged from high-tensile steel, grade 6, quenched and tempered, giving a minimum breaking load of 6× the working load limit. Hot-dipped galvanized finish for corrosion resistance, rated for −40°C to +200°C. Manufactured to ISO 2415 and EN 13889 and meeting US Fed. Spec. RR-C-271 Type IVA Class 2; from 2 t upward it complies with ASME B30.26. Working load limits 0.33–55 t, available with full DNV, ABS and 3.1 certification.",
+    "specs": [
+      { "label": "Type", "value": "Bow shackle · screw collar pin" },
+      { "label": "Material", "value": "Bow & pin — high-tensile steel, grade 6, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 6 × WLL" },
+      { "label": "Finish", "value": "Hot-dipped galvanized" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · DNV 0378 · ABS PDA / MA · CE IIA" }
+    ],
+    "standards": [
+      "ISO 2415",
+      "EN 13889",
+      "ASME B30.26",
+      "DNV",
+      "ABS",
+      "CE"
+    ],
+    "syn": [
+      "green pin bow shackle sc",
+      "bow screw pin shackle",
+      "ma ni",
+      "mani",
+      "ma ni omega",
+      "ma ni chu u",
+      "ma ni cong",
+      "khoa ma ni",
+      "ma ni chot van"
+    ]
+  },
+  {
+    "id": "green-pin-bow-shackle-bn-g-4163",
+    "no": 2,
+    "partNo": "G-4163",
+    "name": "Green Pin Bow Shackle BN",
+    "brand": "Green Pin",
+    "category": "Shackle",
+    "categoryId": "shackle",
+    "categoryLabel": "Shackle",
+    "subcategory": "Safety Bow Anchor shackle",
+    "rank": 1,
+    "wText": "WLL 0.5 - 85 t",
+    "wmin": 0.5,
+    "wmax": 85,
+    "status": "live",
+    "image": "/products/green-pin-bow-shackle-bn-g-4163.png",
+    "images": [
+      "/products/green-pin-bow-shackle-bn-g-4163.png"
+    ],
+    "catalogImages": [
+      "/catalogs/green-pin-bow-shackle-bn-g-4163.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® bow (anchor) shackle with safety bolt, nut and split cotter pin — for permanent or long-term connections where the pin must not turn. Bow and pin forged in high-tensile steel, grade 6, quenched and tempered, minimum breaking load 6× WLL. Hot-dipped galvanized, rated −40°C to +200°C. Made to ISO 2415 and EN 13889, meeting US Fed. Spec. RR-C-271 Type IVA Class 3; from 2 t upward it complies with ASME B30.26. DNV 2.7-1 offshore certification available. WLL 0.5–85 t.",
+    "specs": [
+      { "label": "Type", "value": "Bow shackle · safety bolt, nut & cotter pin" },
+      { "label": "Material", "value": "Bow & pin — high-tensile steel, grade 6, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 6 × WLL" },
+      { "label": "Finish", "value": "Hot-dipped galvanized" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · DNV 2.7-1 · DNV 0378 · ABS PDA / MA · CE IIA" }
+    ],
+    "standards": [
+      "ISO 2415",
+      "EN 13889",
+      "ASME B30.26",
+      "DNV 2.7-1",
+      "ABS",
+      "CE"
+    ],
+    "syn": [
+      "green pin bow shackle bn",
+      "safety bow anchor shackle",
+      "ma ni",
+      "mani",
+      "ma ni omega",
+      "ma ni chu u",
+      "ma ni cong",
+      "ma ni chot an toan",
+      "ma ni bu long"
+    ]
+  },
+  {
+    "id": "g-4153-dee-shackle-bn",
+    "no": 3,
+    "partNo": "G-4153",
+    "name": "Green Pin Dee Shackle BN",
+    "brand": "Green Pin",
+    "category": "Shackle",
+    "categoryId": "shackle",
+    "categoryLabel": "Shackle",
+    "subcategory": "Type D safety shackle",
+    "rank": 1,
+    "wText": "WLL 9.5 – 85 t",
+    "wmin": 9.5,
+    "wmax": 85,
+    "status": "live",
+    "image": "/products/g-4153-dee-shackle-bn.png",
+    "images": [
+      "/products/g-4153-dee-shackle-bn.png"
+    ],
+    "catalogImages": [
+      "/catalogs/g-4153-dee-shackle-bn.png"
+    ],
+    "pdf": "/catalogs/g-4153-dee-shackle-bn.pdf",
+    "desc": "Green Pin® dee (D) shackle with safety bolt, nut and split cotter pin — for permanent or long-term installations where the pin must not rotate. Bow and pin forged in high-tensile steel, grade 6, quenched and tempered, with a minimum breaking load of 6× the working load limit. Hot-dipped galvanized, rated −40°C to +200°C. Made to ISO 2415, EN 13889 and ASME B30.26, meeting US Fed. Spec. RR-C-271 Type IVB Class 3; DNV 2.7-1 offshore certification available from 2 t.",
+    "specs": [
+      { "label": "Type", "value": "Dee (D) shackle · safety bolt, nut & cotter pin" },
+      { "label": "Material", "value": "Bow & pin — high-tensile steel, grade 6, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 6 × WLL" },
+      { "label": "Finish", "value": "Hot-dipped galvanized" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · DNV 2.7-1 · DNV 0378 · ABS PDA / MA · CE IIA" }
+    ],
+    "standards": [
+      "ISO 2415",
+      "EN 13889",
+      "ASME B30.26",
+      "DNV 2.7-1",
+      "ABS",
+      "CE"
+    ],
+    "syn": [
+      "shackle",
+      "ma ni",
+      "mani",
+      "dee",
+      "chu d",
+      "safety bolt",
+      "bolt nut",
+      "green pin",
+      "g-4153",
+      "ma ni chu d",
+      "ma ni d",
+      "ma ni chot an toan",
+      "khoa ma ni"
+    ]
+  },
+  {
+    "id": "g-4151-dee-shackle-sc",
+    "no": 4,
+    "partNo": "G-4151",
+    "name": "Green Pin Dee Shackle SC",
+    "brand": "Green Pin",
+    "category": "Shackle",
+    "categoryId": "shackle",
+    "categoryLabel": "Shackle",
+    "subcategory": "Type D screw pin shackle",
+    "rank": 1,
+    "wText": "WLL 0.33 – 55 t",
+    "wmin": 0.33,
+    "wmax": 55,
+    "status": "live",
+    "image": "/products/g-4151-dee-shackle-sc.png",
+    "images": [
+      "/products/g-4151-dee-shackle-sc.png"
+    ],
+    "catalogImages": [
+      "/catalogs/g-4151-dee-shackle-sc.png"
+    ],
+    "pdf": "/catalogs/g-4151-dee-shackle-sc.pdf",
+    "desc": "Green Pin® standard dee (D) shackle with screw collar pin. Bow and pin forged in high-tensile steel, grade 6, quenched and tempered; minimum breaking load equals 6× the working load limit. Hot-dipped galvanized for offshore corrosion resistance, rated −40°C to +200°C. Manufactured to ISO 2415 and EN 13889, meeting US Fed. Spec. RR-C-271 Type IVB Class 2; from 2 t upward it complies with ASME B30.26.",
+    "specs": [
+      { "label": "Type", "value": "Dee (D) shackle · screw collar pin" },
+      { "label": "Material", "value": "Bow & pin — high-tensile steel, grade 6, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 6 × WLL" },
+      { "label": "Finish", "value": "Hot-dipped galvanized" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · DNV 0378 · ABS PDA / MA · CE IIA" }
+    ],
+    "standards": [
+      "ISO 2415",
+      "EN 13889",
+      "ASME B30.26",
+      "DNV",
+      "ABS",
+      "CE"
+    ],
+    "syn": [
+      "shackle",
+      "ma ni",
+      "mani",
+      "dee",
+      "chu d",
+      "screw pin",
+      "green pin",
+      "g-4151",
+      "ma ni chu d",
+      "ma ni d",
+      "ma ni chot van",
+      "khoa ma ni"
+    ]
+  },
+  {
+    "id": "single-legged-wire-rope-sling-wire-rope-sling",
+    "no": 5,
+    "partNo": "",
+    "name": "Single Legged Wire Rope Sling",
+    "brand": "",
+    "category": "Wire rope Sling",
+    "categoryId": "wire-rope-sling",
+    "categoryLabel": "Wire Rope Sling",
+    "subcategory": "Single legged sling",
+    "rank": 1,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Single Legged Wire Rope Sling — Single legged sling. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "single legged wire rope sling",
+      "single legged sling",
+      "cap cau",
+      "day cap cau",
+      "cap cau hang",
+      "cap bam",
+      "cap bam chi",
+      "day cau cap",
+      "cap cau 1 chan",
+      "cap 1 chan"
+    ]
+  },
+  {
+    "id": "4-5-legged-wire-rope-sling-wire-rope-sling",
+    "no": 6,
+    "partNo": "",
+    "name": "4 & 5 Legged Wire Rope Sling",
+    "brand": "",
+    "category": "Wire rope Sling",
+    "categoryId": "wire-rope-sling",
+    "categoryLabel": "Wire Rope Sling",
+    "subcategory": "4 & 5 legged wire rope sling",
+    "rank": 1,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "4 & 5 Legged Wire Rope Sling — 4 & 5 legged wire rope sling. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "4 & 5 legged wire rope sling",
+      "cap cau",
+      "cap cau 4 chan",
+      "cap cau 5 chan",
+      "cap nhieu chan",
+      "day cap cau"
+    ]
+  },
+  {
+    "id": "heavy-lift-cable-laid-sling-grommets-wire-rope-sling",
+    "no": 7,
+    "partNo": "",
+    "name": "Heavy Lift, Cable-Laid Sling & Grommets",
+    "brand": "",
+    "category": "Wire rope Sling",
+    "categoryId": "wire-rope-sling",
+    "categoryLabel": "Wire Rope Sling",
+    "subcategory": "Heavy lift sling, Cable Laid & Grommets",
+    "rank": 1,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Heavy Lift, Cable-Laid Sling & Grommets — Heavy lift sling, Cable Laid & Grommets. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "heavy lift, cable-laid sling & grommets",
+      "heavy lift sling, cable laid & grommets",
+      "cap ben",
+      "cap grommet",
+      "cap cau hang nang",
+      "cap cau"
+    ]
+  },
+  {
+    "id": "asw07-webbing-sling",
+    "no": 8,
+    "partNo": "ASW07",
+    "name": "Eye to Eye Webbing Sling",
+    "brand": "ABLE",
+    "category": "Synthetic Sling",
+    "categoryId": "synthetic-sling",
+    "categoryLabel": "Synthetic Sling",
+    "subcategory": "Webbing Sling",
+    "rank": 2,
+    "wText": "WLL 1 – 10 t",
+    "wmin": 1,
+    "wmax": 10,
+    "status": "live",
+    "image": "/products/asw07-webbing-sling.jpg",
+    "images": [
+      "/products/asw07-webbing-sling.jpg"
+    ],
+    "catalogImages": [
+      "/catalogs/asw07-webbing-sling.png"
+    ],
+    "pdf": "/catalogs/asw07-webbing-sling.pdf",
+    "desc": "Eye-to-eye flat webbing sling in 100% high-tenacity polyester, colour-coded by working load limit to EN 1492-1. Soft, load-protective contact surface with reinforced lifting eyes; safety factor 7:1.",
+    "specs": [
+      { "label": "Type", "value": "Eye-to-eye flat webbing sling" },
+      { "label": "Material", "value": "100% high-tenacity polyester" },
+      { "label": "Safety factor", "value": "7:1" },
+      { "label": "Colour coding", "value": "By WLL per EN 1492-1" },
+      { "label": "Width range", "value": "30–300 mm (WLL 1–10 t)" },
+      { "label": "Elongation at WLL", "value": "ca. 3% (ca. 12% at breaking force)" },
+      { "label": "Specific weight", "value": "1.38" }
+    ],
+    "standards": [
+      "EN 1492-1",
+      "Colour-coded",
+      "7:1",
+      "CE"
+    ],
+    "syn": [
+      "webbing",
+      "cap ban",
+      "day cau ban",
+      "day vai",
+      "flat sling",
+      "eye to eye",
+      "able",
+      "asw07",
+      "ban dep",
+      "bang cau",
+      "day cau ban dep",
+      "day cau vai"
+    ]
+  },
+  {
+    "id": "asr07-round-sling",
+    "no": 9,
+    "partNo": "ASR07",
+    "name": "Able Round Sling",
+    "brand": "ABLE",
+    "category": "Synthetic Sling",
+    "categoryId": "synthetic-sling",
+    "categoryLabel": "Synthetic Sling",
+    "subcategory": "Round Sling",
+    "rank": 2,
+    "wText": "WLL 1 – 10 t",
+    "wmin": 1,
+    "wmax": 10,
+    "status": "live",
+    "image": "/products/asr07-round-sling.jpg",
+    "images": [
+      "/products/asr07-round-sling.jpg"
+    ],
+    "catalogImages": [
+      "/catalogs/asr07-round-sling.jpg"
+    ],
+    "pdf": "/catalogs/asr07-round-sling.pdf",
+    "desc": "Endless polyester round sling with a two-ply heavy-duty woven outer sleeve protecting a continuously wound high-tensile core. Colour-coded to EN 1492-2; each stripe equals 1 tonne. Low elongation, length 1–10 m, safety factors 5:1 / 6:1 / 7:1.",
+    "standards": [
+      "EN 1492-2",
+      "Colour-coded",
+      "7:1",
+      "ISO 9001"
+    ],
+    "syn": [
+      "round sling",
+      "cap tron",
+      "day cau tron",
+      "endless",
+      "polyester",
+      "able",
+      "asr07",
+      "cap cau tron",
+      "day tron"
+    ]
+  },
+  {
+    "id": "independent-core-steel-wire-rope-steel-wire-rope",
+    "no": 10,
+    "partNo": "",
+    "name": "Independent Core Steel Wire Rope",
+    "brand": "",
+    "category": "Steel wire rope",
+    "categoryId": "steel-wire-rope",
+    "categoryLabel": "Steel Wire Rope",
+    "subcategory": "Independent core (6x36 / 6x37 / 6x19 + IWRC)",
+    "rank": 3,
+    "wText": "Ø 8 – 60 mm · MBF up to 256 t",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "live",
+    "image": "/products/independent-core-steel-wire-rope-steel-wire-rope.png",
+    "images": [
+      "/products/independent-core-steel-wire-rope-steel-wire-rope.png"
+    ],
+    "catalogImages": [
+      "/catalogs/independent-core-steel-wire-rope-steel-wire-rope.png",
+      "/catalogs/independent-core-steel-wire-rope-steel-wire-rope-2.png"
+    ],
+    "pdf": null,
+    "desc": "Hyflex 6×36 — a high-quality flexible 6×36 class crane rope built on an Independent Wire Rope Core (IWRC) for high strength, crush resistance and consistent performance. The multi-strand 6×36 (14-7+7-7-1) / 6×41 (16-8+8-8-1) construction gives good flexibility for hoist, boom-hoist, trolley and lattice-boom reeving. Fully lubricated in manufacture, and every production batch is sample-tested to destruction to confirm catalogue breaking forces. Supplied in 1960 N/mm² high-tensile steel as standard (1770 N/mm² also available), bright or galvanized, in ordinary or Langs lay. Diameters Ø 8–60 mm with minimum breaking force up to 2510 kN (256 t). Discard criteria to ISO 4309:1990. (Langs lay must only be used where both rope ends cannot rotate.)",
+    "specs": [
+      { "label": "Type", "value": "Flexible multi-strand crane rope, independent core" },
+      { "label": "Construction", "value": "6×36 (14-7+7-7-1) · 6×41 (16-8+8-8-1)" },
+      { "label": "Core", "value": "Independent Wire Rope Core (IWRC)" },
+      { "label": "Compacted", "value": "No" },
+      { "label": "Tensile grade", "value": "1770 or 1960 N/mm²" },
+      { "label": "Finish", "value": "Bright or galvanized" },
+      { "label": "Lay direction", "value": "Right hand or left hand" },
+      { "label": "Lay type", "value": "Ordinary or Langs" },
+      { "label": "Average fill factor", "value": "60.9%" },
+      { "label": "Rope lay length", "value": "6.5 × nominal rope Ø" },
+      { "label": "Rope diameter", "value": "Ø 8 – 60 mm" },
+      { "label": "Approx. mass", "value": "26.1 – 1471 kg/100 m" },
+      { "label": "Min. breaking force", "value": "44.7 – 2510 kN (up to 256 t) at 1960 N/mm²" },
+      { "label": "Discard criteria", "value": "ISO 4309:1990" }
+    ],
+    "standards": [
+      "Hyflex 6×36",
+      "ISO 4309:1990",
+      "1770 / 1960 N/mm²"
+    ],
+    "syn": [
+      "independent core steel wire rope",
+      "independent core (6x36 / 6x37 / 6x19 + iwrc)",
+      "cap thep",
+      "day cap thep",
+      "cap",
+      "cap loi thep",
+      "cap cuon"
+    ]
+  },
+  {
+    "id": "fiber-core-steel-wire-rope-steel-wire-rope",
+    "no": 11,
+    "partNo": "",
+    "name": "Fiber Core Steel Wire Rope",
+    "brand": "",
+    "category": "Steel wire rope",
+    "categoryId": "steel-wire-rope",
+    "categoryLabel": "Steel Wire Rope",
+    "subcategory": "Fiber core (6x36 / 6x37 / 6x19 + FC)",
+    "rank": 3,
+    "wText": "Ø 8 – 64 mm · MBF up to 2711 kN",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "live",
+    "image": "/products/fiber-core-steel-wire-rope-steel-wire-rope.png",
+    "images": [
+      "/products/fiber-core-steel-wire-rope-steel-wire-rope.png"
+    ],
+    "catalogImages": [
+      "/catalogs/fiber-core-steel-wire-rope-steel-wire-rope.png",
+      "/catalogs/fiber-core-steel-wire-rope-steel-wire-rope-2.png"
+    ],
+    "pdf": null,
+    "desc": "Round-strand steel wire rope with a fibre core (FC) — the flexible, general-purpose lifting, rigging and haulage rope. The fibre core cushions the six strands and holds lubricant, giving good flexibility and shock absorption for slinging, winching and general pulling. Available across the 6×19F (12-6F+6-1), 6×21F (10-5F-5-1) and 6×29F (14-7F+7-1) classes; an equivalent steel-core (IWRC) version is offered where higher strength or crush resistance is required. Tensile grades 1570 / 1770 / 1960 N/mm², galvanized or bright. Diameters Ø 8–64 mm, minimum breaking force up to 2711 kN. All intermediate sizes available on request and prior confirmation.",
+    "specs": [
+      { "label": "Type", "value": "Round-strand rope, fibre core (FC)" },
+      { "label": "Constructions", "value": "6×19F (12-6F+6-1) · 6×21F (10-5F-5-1) · 6×29F (14-7F+7-1)" },
+      { "label": "Core", "value": "Fibre core (FC) — steel core (IWRC) also available" },
+      { "label": "Tensile grade", "value": "1570 / 1770 / 1960 N/mm²" },
+      { "label": "Finish", "value": "Galvanized or bright" },
+      { "label": "Rope diameter", "value": "Ø 8 – 64 mm" },
+      { "label": "Approx. mass", "value": "24.3 – 1557 kg/100 m (6×19F)" },
+      { "label": "Min. breaking force", "value": "34 – 2711 kN (6×19F, up to 1960 N/mm²)" },
+      { "label": "Note", "value": "All intermediate sizes available on request" }
+    ],
+    "standards": [
+      "6×19F / 6×21F / 6×29F",
+      "1570 / 1770 / 1960 N/mm²"
+    ],
+    "syn": [
+      "fiber core steel wire rope",
+      "fiber core (6x36 / 6x37 / 6x19 + fc)",
+      "cap thep",
+      "day cap thep",
+      "cap loi bo",
+      "cap loi day",
+      "cap"
+    ]
+  },
+  {
+    "id": "crane-compacted-non-rotating-wire-rope-steel-wire-rope",
+    "no": 12,
+    "partNo": "",
+    "name": "Crane Compacted Non-Rotating Wire Rope",
+    "brand": "",
+    "category": "Steel wire rope",
+    "categoryId": "steel-wire-rope",
+    "categoryLabel": "Steel Wire Rope",
+    "subcategory": "Crane compacted non-rotating (35x7 / 19x7 / 4x39)",
+    "rank": 3,
+    "wText": "Ø 13 – 52 mm · MBF up to 230 t",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "live",
+    "image": "/products/crane-compacted-non-rotating-wire-rope-steel-wire-rope.png",
+    "images": [
+      "/products/crane-compacted-non-rotating-wire-rope-steel-wire-rope.png"
+    ],
+    "catalogImages": [
+      "/catalogs/crane-compacted-non-rotating-wire-rope-steel-wire-rope.png",
+      "/catalogs/crane-compacted-non-rotating-wire-rope-steel-wire-rope-2.png"
+    ],
+    "pdf": null,
+    "desc": "Powerform® 35 / 35P — a compacted (swaged), rotation-resistant crane hoist rope offering the highest strength of all low-rotation hoist ropes. The 35×K7 / 35×K19S compacted construction delivers maximum resistance to rotation, high fatigue life and excellent crushing and abrasion resistance, making it suited to single- and multi-part hoist reeving and multi-layer spooling. Available bright or galvanized in 1960 or 2160 N/mm² tensile grades; the 'P' variant adds full plastic impregnation of the steel core. Fully lubricated in manufacture, and every production batch is sample-tested to destruction to confirm catalogue breaking forces. Discard criteria to ISO 4309.",
+    "specs": [
+      { "label": "Type", "value": "Compacted rotation-resistant crane hoist rope" },
+      { "label": "Construction", "value": "35×K7 (10–40 mm) · 35×K19S (42–60 mm)" },
+      { "label": "Compacted", "value": "Yes (swaged)" },
+      { "label": "Tensile grade", "value": "1960 or 2160 N/mm²" },
+      { "label": "Finish", "value": "Bright or galvanized" },
+      { "label": "Rotation resistance", "value": "Maximum — low rotation" },
+      { "label": "Fill factor", "value": "74.5% (average)" },
+      { "label": "Rope lay length", "value": "6.0 × nominal rope Ø" },
+      { "label": "Plastic impregnation", "value": "Optional — 35P, full steel-core impregnation" },
+      { "label": "Discard criteria", "value": "ISO 4309:1990" }
+    ],
+    "standards": [
+      "ISO 4309:1990",
+      "1960 / 2160 N/mm²"
+    ],
+    "syn": [
+      "crane compacted non-rotating wire rope",
+      "crane compacted non-rotating (35x7 / 19x7 / 4x39)",
+      "cap thep",
+      "cap chong xoan",
+      "cap khong xoan"
+    ]
+  },
+  {
+    "id": "cargo-lashing-straps-rst",
+    "no": 13,
+    "partNo": "RST",
+    "name": "Cargo Lashing Straps",
+    "brand": "ABLE",
+    "category": "Lashing Equipments",
+    "categoryId": "lashing",
+    "categoryLabel": "Lashing Equipment",
+    "subcategory": "Cargo Lashing belt",
+    "rank": 4,
+    "wText": "WLL 0.5 - 5 t",
+    "wmin": 0.5,
+    "wmax": 5,
+    "status": "live",
+    "image": "/products/cargo-lashing-straps-rst.png",
+    "images": [
+      "/products/cargo-lashing-straps-rst.png"
+    ],
+    "catalogImages": [
+      "/catalogs/cargo-lashing-straps-rst.png",
+      "/catalogs/cargo-lashing-straps-rst-2.png"
+    ],
+    "pdf": null,
+    "desc": "Ratchet cargo lashing straps for securing loads in road, rail, sea and air transport. Two-piece system with a pressure-ratchet tensioning element and double J-hook (JJ) end fittings, on colour-coded polyester webbing with a stitched capacity label. Lashing capacity (LC) from 500 to 5,000 daN, with breaking strength twice the working load. The range covers 25–100 mm web widths and 5–12 m lengths in eight standard sizes. Certified and approved to EN 12195-2 and AS/NZS 4380-2001.",
+    "specs": [
+      { "label": "Model", "value": "RST series" },
+      { "label": "Type", "value": "Two-piece ratchet lashing strap c/w double J-hook" },
+      { "label": "Lashing capacity (LC)", "value": "500 – 5,000 daN (0.5 – 5 t)" },
+      { "label": "Breaking strength (MBS)", "value": "1,000 – 10,000 kg" },
+      { "label": "Tensioning element", "value": "Pressure ratchet" },
+      { "label": "Web width", "value": "25 / 35 / 38 / 50 / 100 mm" },
+      { "label": "Web length", "value": "5 – 12 m (standard)" },
+      { "label": "Webbing", "value": "Polyester, colour-coded (blue / yellow / green / orange)" },
+      { "label": "End fitting", "value": "Double J-hook (JJ)" },
+      { "label": "Standard sizes", "value": "RST0105 · RST0206 · RST0306 · RST0409 · RST0508 · RST0510 · RST1010 · RST1012" }
+    ],
+    "standards": [
+      "EN 12195-2",
+      "AS/NZS 4380-2001"
+    ],
+    "syn": [
+      "cargo lashing straps",
+      "cargo lashing belt",
+      "day chang hang",
+      "day ghi hang",
+      "day tang vai",
+      "day chang",
+      "chang buoc"
+    ]
+  },
+  {
+    "id": "ratchet-lever-load-binder-frb-flb",
+    "no": 14,
+    "partNo": "FRB / FLB",
+    "name": "Ratchet / Lever Load Binder",
+    "brand": "ABLE",
+    "category": "Lashing Equipments",
+    "categoryId": "lashing",
+    "categoryLabel": "Lashing Equipment",
+    "subcategory": "Load Binder",
+    "rank": 4,
+    "wText": "FRB 5,400–13,000 lb · FLB 3.8–9 t",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "live",
+    "image": "/products/ratchet-lever-load-binder-frb-flb.png",
+    "images": [
+      "/products/ratchet-lever-load-binder-frb-flb.png"
+    ],
+    "catalogImages": [
+      "/catalogs/ratchet-lever-load-binder-frb-flb.png"
+    ],
+    "pdf": null,
+    "desc": "Load binders (chain tensioners) for securing cargo on trucks, trailers and flatbeds, in ratchet and lever styles. The US-type Ratchet Load Binder (Model FRB) is upgraded for Grade 70 and Grade 40 chain, with a continuous take-up screw giving fine tie-down adjustment and matching the WLL of Grade 70 chain — WLL 5,400–13,000 lb (MBL 19,000–46,000 lb) for 8–16 mm chain, individually proof-tested to 200% of WLL with a mill certificate and warning tag (ultimate load 3.5× WLL), to American standard WSTDA T6. The Forged Lever Load Binder (Model FLB) is quenched-and-tempered alloy steel with extra-heavy construction at the leverage point for easy release, ball-and-socket swivel joints for a straight-line pull and free 360° swivel hooks — WLL 3,800–9,000 kg (MBL 8,600–18,000 kg) for 7.8–13 mm chain.",
+    "specs": [
+      { "label": "Types", "value": "Ratchet (FRB) · forged lever (FLB) load binder" },
+      { "label": "FRB chain", "value": "Grade 70 / 40 · 8–16 mm (5/16–5/8\")" },
+      { "label": "FRB WLL", "value": "5,400 – 13,000 lb" },
+      { "label": "FRB breaking load (MBL)", "value": "19,000 – 46,000 lb (3.5× WLL)" },
+      { "label": "FRB standard", "value": "American WSTDA T6 · proof 200% WLL" },
+      { "label": "FLB material", "value": "Alloy steel, quenched & tempered" },
+      { "label": "FLB chain", "value": "7.8 / 10 / 13 mm (5/16–5/8\")" },
+      { "label": "FLB WLL", "value": "3,800 – 9,000 kg" },
+      { "label": "FLB breaking load (MBL)", "value": "8,600 – 18,000 kg" },
+      { "label": "FLB feature", "value": "Free 360° swivel hooks · ball-and-socket joints" },
+      { "label": "Certification", "value": "Mill certificate · warning tag" }
+    ],
+    "standards": [
+      "WSTDA T6",
+      "Grade 70 / 40",
+      "Proof 200% WLL"
+    ],
+    "syn": [
+      "ratchet / lever load binder",
+      "load binder",
+      "tang do xich",
+      "khoa xiet xich",
+      "tang chang",
+      "coc xiet",
+      "khoa xiet"
+    ]
+  },
+  {
+    "id": "turnbuckle-lashing",
+    "no": 15,
+    "partNo": "",
+    "name": "Turnbuckle",
+    "brand": "Green Pin",
+    "category": "Lashing Equipments",
+    "categoryId": "lashing",
+    "categoryLabel": "Lashing Equipment",
+    "subcategory": "Turnbuckle",
+    "rank": 4,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Turnbuckle — Turnbuckle. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "turnbuckle",
+      "tang do",
+      "tang do cap",
+      "tan ren"
+    ]
+  },
+  {
+    "id": "aluminum-steel-wire-rope-puller-wrp-rwp",
+    "no": 16,
+    "partNo": "WRP / RWP",
+    "name": "Aluminum / Steel Wire Rope Puller",
+    "brand": "ABLE",
+    "category": "Lashing Equipments",
+    "categoryId": "lashing",
+    "categoryLabel": "Lashing Equipment",
+    "subcategory": "Wire rope Puller",
+    "rank": 4,
+    "wText": "WLL 0.8 - 5.4 t",
+    "wmin": 0.8,
+    "wmax": 5.4,
+    "status": "live",
+    "image": "/products/aluminum-steel-wire-rope-puller-wrp-rwp.png",
+    "images": [
+      "/products/aluminum-steel-wire-rope-puller-wrp-rwp.png"
+    ],
+    "catalogImages": [
+      "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp.png",
+      "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp-2.png",
+      "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp-3.png"
+    ],
+    "pdf": null,
+    "desc": "Hand-operated wire rope puller (Tirfor-type) for pulling, lifting and tensioning — no drum required, so it stays compact and light. Moving the forward and backward levers feeds galvanised steel wire rope straight through two clamping jaws, giving unlimited travel and use at any working angle. A high-strength cast aluminium-alloy body keeps weight down, while a built-in shear pin protects against overload (shears at approx. 50% overload; spare pins are stored in the carrying handle). Supplied with a safety hook and reeled galvanised wire rope, proof-tested to 150% of rated capacity with an individual test certificate. Conforms to and tested per EN 13157+A1:2009.",
+    "specs": [
+      { "label": "Model", "value": "WRP series (aluminium-alloy body)" },
+      { "label": "Capacities", "value": "WRP-08 · WRP-16 · WRP-32 · WRP-54" },
+      { "label": "Lifting capacity (WLL)", "value": "0.8 / 1.6 / 3.2 / 5.4 t" },
+      { "label": "Pulling capacity", "value": "1.3 / 2.8 / 6.0 / 10.1 t" },
+      { "label": "Test load", "value": "1.5 / 3.0 / 6.0 / 10.1 t" },
+      { "label": "Wire rope", "value": "IWRC Ø8.3 / 11 / 16 / 20 mm" },
+      { "label": "Rope safety factor", "value": "5 × WLL" },
+      { "label": "Rope breaking strength", "value": "5.43 / 9.68 / 17.20 / 27.00 t" },
+      { "label": "Body", "value": "High-strength cast aluminium alloy" },
+      { "label": "Overload protection", "value": "Built-in shear pin (~50% overload) + spare pins" },
+      { "label": "Safety device", "value": "Safety pins · safety hook" },
+      { "label": "Net weight", "value": "15.7 / 28.4 / 55.2 / 114.0 kg" }
+    ],
+    "standards": [
+      "EN 13157+A1:2009"
+    ],
+    "syn": [
+      "aluminum / steel wire rope puller",
+      "wire rope puller",
+      "toi keo cap tay",
+      "keo cap tay",
+      "toi tay"
+    ]
+  },
+  {
+    "id": "lashing-chain-long-link-chain-lashing",
+    "no": 17,
+    "partNo": "",
+    "name": "Lashing Chain (Long Link Chain)",
+    "brand": "ABLE",
+    "category": "Lashing Equipments",
+    "categoryId": "lashing",
+    "categoryLabel": "Lashing Equipment",
+    "subcategory": "Lashing Chain (Long Link Chain)",
+    "rank": 4,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Lashing Chain (Long Link Chain) — Lashing Chain (Long Link Chain). Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "lashing chain (long link chain)",
+      "xich chang",
+      "xich ghi",
+      "xich chang hang"
+    ]
+  },
+  {
+    "id": "binder-chain-grade-70-80-lashing",
+    "no": 18,
+    "partNo": "",
+    "name": "Binder Chain Grade 70 / 80",
+    "brand": "ABLE",
+    "category": "Lashing Equipments",
+    "categoryId": "lashing",
+    "categoryLabel": "Lashing Equipment",
+    "subcategory": "Binder chain Grade 70, 80",
+    "rank": 4,
+    "wText": "WLL 1.5 - 5.3 t",
+    "wmin": 1.5,
+    "wmax": 5.3,
+    "status": "live",
+    "image": "/products/binder-chain-grade-70-80-lashing.png",
+    "images": [
+      "/products/binder-chain-grade-70-80-lashing.png",
+      "/products/binder-chain-grade-70-80-lashing-2.png"
+    ],
+    "catalogImages": [
+      "/catalogs/binder-chain-grade-70-80-lashing.png"
+    ],
+    "pdf": null,
+    "desc": "Load-restraint chain for securing cargo on trucks, trailers, flatbeds and rail. Available as Grade 70 Transport Binder Chain (Type BC70) complete with clevis grab hooks — WLL 3,150–6,600 lb (MBS 12,600–26,400 lb) in 1/4″–3/8″ sizes — and as Grade 80 Tie-Down Chain (Type TDC) in 7.1–13.0 mm, WLL 1.5–5.3 t at a 4:1 design factor with proof load to twice the working load. Heat-treated alloy links resist wear and shock loading. Manufactured and rated to ASTM/NACM (BC70) and EN Grade 80 (TDC). Note: chains fitted with grab hooks must be de-rated by at least 30%.",
+    "specs": [
+      { "label": "Grade 70 model", "value": "BC70 — Transport Binder Chain c/w grab hooks" },
+      { "label": "BC70 sizes", "value": "1/4″ · 5/16″ · 3/8″" },
+      { "label": "BC70 WLL", "value": "3,150 – 6,600 lb" },
+      { "label": "BC70 breaking strength (MBS)", "value": "12,600 – 26,400 lb" },
+      { "label": "BC70 standards", "value": "ASTM80 / NACM90 / NACM96" },
+      { "label": "Grade 80 model", "value": "TDC — Tie-Down Chain" },
+      { "label": "TDC chain dia", "value": "7.1 / 8.0 / 10.0 / 13.0 mm" },
+      { "label": "TDC WLL (4:1)", "value": "1.5 / 2.0 / 3.2 / 5.3 t" },
+      { "label": "TDC proof load", "value": "3.0 / 4.0 / 6.4 / 10.6 t" },
+      { "label": "TDC lengths", "value": "9 ft / 18 ft" },
+      { "label": "End fitting", "value": "Clevis grab hook (de-rate 30% when fitted)" }
+    ],
+    "standards": [
+      "ASTM / NACM (Grade 70)",
+      "EN 818-2 Grade 80"
+    ],
+    "syn": [
+      "binder chain grade 70 / 80",
+      "binder chain grade 70, 80",
+      "xich chang hang",
+      "xich chang",
+      "xich ghi hang"
+    ]
+  },
+  {
+    "id": "hoisting-sling-chain-grade-80-aw-80-cf-80",
+    "no": 19,
+    "partNo": "AW-80 / CF-80",
+    "name": "Hoisting / Sling Chain Grade 80",
+    "brand": "ABLE",
+    "category": "Lifting chain and Fittings",
+    "categoryId": "lifting-chain",
+    "categoryLabel": "Lifting Chain & Fittings",
+    "subcategory": "Alloy lifting chain Grade 80",
+    "rank": 5,
+    "wText": "WLL 0.65 - 32.2 t",
+    "wmin": 0.65,
+    "wmax": 32.2,
+    "status": "live",
+    "image": "/products/hoisting-sling-chain-grade-80-aw-80-cf-80.png",
+    "images": [
+      "/products/hoisting-sling-chain-grade-80-aw-80-cf-80.png"
+    ],
+    "catalogImages": [
+      "/catalogs/hoisting-sling-chain-grade-80-aw-80-cf-80.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE grade-80 alloy lifting chain, heat-treated and proof-tested, produced on German WAFIOS automatic knitting, spot-welding, calibrating and heat-treatment lines. Two types: the AW-80 Hoisting Chain to EN 818-7 (for hoists and chain blocks) in Ø 5–11.2 mm, WLL 0.65–3.8 t; and the CF-80 Lifting Sling Chain to EN 818-2 (for chain slings) in Ø 6–32 mm, WLL 1.12–32.2 t at a 4:1 design factor with proof load 28.3–804 kN. Alloy steel with 12–20% elongation and a 4:1 safety factor (5:1 for Grade 100), finished black-matt, gold-galvanized or chrome-coated, and permanently embossed with maker, steel grade (T8) and batch number for traceability.",
+    "specs": [
+      { "label": "Type", "value": "Grade 80 alloy lifting chain — hoisting (AW-80) & sling (CF-80)" },
+      { "label": "AW-80 hoisting chain", "value": "EN 818-7 · Ø 5–11.2 mm · WLL 0.65–3.8 t" },
+      { "label": "CF-80 sling chain", "value": "EN 818-2 · Ø 6–32 mm · WLL 1.12–32.2 t" },
+      { "label": "Design factor", "value": "4:1 (GR80) · 5:1 (GR100)" },
+      { "label": "CF-80 proof load", "value": "28.3 – 804 kN" },
+      { "label": "CF-80 breaking load", "value": "4.5 – 128.8 t" },
+      { "label": "Elongation", "value": "12 – 20%" },
+      { "label": "Finish", "value": "Black-matt · gold-galvanized · chrome" },
+      { "label": "Marking", "value": "Maker · T8 grade · batch no. embossed" },
+      { "label": "Manufacture", "value": "German WAFIOS automatic lines" }
+    ],
+    "standards": [
+      "EN 818-7 (AW-80)",
+      "EN 818-2 (CF-80)",
+      "Grade 80",
+      "4:1"
+    ],
+    "syn": [
+      "hoisting / sling chain grade 80",
+      "alloy lifting chain grade 80",
+      "xich cau",
+      "xich tai",
+      "xich nang",
+      "xich cau hang"
+    ]
+  },
+  {
+    "id": "alloy-lifting-chain-grade-100-lifting-chain",
+    "no": 20,
+    "partNo": "",
+    "name": "Alloy Lifting Chain Grade 100",
+    "brand": "",
+    "category": "Lifting chain and Fittings",
+    "categoryId": "lifting-chain",
+    "categoryLabel": "Lifting Chain & Fittings",
+    "subcategory": "Alloy lifting chain Grade 100",
+    "rank": 5,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Alloy Lifting Chain Grade 100 — Alloy lifting chain Grade 100. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "alloy lifting chain grade 100",
+      "xich cau",
+      "xich tai",
+      "xich nang",
+      "xich cau hang"
+    ]
+  },
+  {
+    "id": "vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl",
+    "no": 21,
+    "partNo": "DLVC / LTVC / VDL",
+    "name": "Vertical / Auto / Chain Drum Lifter",
+    "brand": "ABLE",
+    "category": "Lifting chain and Fittings",
+    "categoryId": "lifting-chain",
+    "categoryLabel": "Lifting Chain & Fittings",
+    "subcategory": "Drum Lifter",
+    "rank": 5,
+    "wText": "WLL 0.5 t",
+    "wmin": 0.5,
+    "wmax": 0.5,
+    "status": "live",
+    "image": "/products/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl.png",
+    "images": [
+      "/products/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl.png"
+    ],
+    "catalogImages": [
+      "/catalogs/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl.png",
+      "/catalogs/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl-2.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE drum lifting clamps for lifting, moving and transferring 50–55 gallon steel drums with steel tops. The range covers the DLVC vertical drum lifting clamp (WLL 0.5 t, jaw 0–30 mm, proof 1.0 t) for upright shackle-eye lifting; the LTVC automatic-locking clamp (WLL 0.5 t, jaw 0–17 mm, proof 0.75 t) that locks onto the drum automatically and can be used alone or in pairs; and the VDL universal chain drum lifter (500 kg single / 1000 kg double, 6 mm Grade-80 chain, 2000 kg proof) with positive rim-grip action for hands-free safety. Welded alloy-steel bodies with forged components, individually proof-tested to twice the WLL with certification and a stamped serial number; maximum breaking strength 500% of the WLL. Manufactured by an ISO 9001 facility.",
+    "specs": [
+      { "label": "Type", "value": "Drum lifting clamps — vertical (DLVC), auto-lock (LTVC), chain (VDL)" },
+      { "label": "DLVC", "value": "WLL 0.5 t · jaw 0–30 mm · proof 1.0 t · 5.20 kg" },
+      { "label": "LTVC (auto-lock)", "value": "WLL 0.5 t · jaw 0–17 mm · proof 0.75 t · 1.50 kg" },
+      { "label": "VDL (chain)", "value": "WLL 0.5 t single / 1.0 t double · 6 mm G80 chain · proof 2.0 t" },
+      { "label": "Breaking strength", "value": "500% of WLL (DLVC) · 400% (LTVC)" },
+      { "label": "Application", "value": "50–55 gallon steel drums with steel tops" },
+      { "label": "Body", "value": "Welded alloy steel with forged components" },
+      { "label": "Testing", "value": "Individually proof-tested, serialized · ISO 9001" }
+    ],
+    "standards": [
+      "ISO 9001",
+      "MBL 5× WLL",
+      "Serial-traceable"
+    ],
+    "syn": [
+      "vertical / auto / chain drum lifter",
+      "drum lifter",
+      "kep nang phuy",
+      "cau phuy",
+      "kep phuy"
+    ]
+  },
+  {
+    "id": "connecting-link-gr8-gr10-gp-c8-004-gp-c10-006",
+    "no": 22,
+    "partNo": "GP-C8-004 / GP-C10-006",
+    "name": "Connecting Link GR8 / GR10",
+    "brand": "Green Pin / ABLE",
+    "category": "Lifting chain and Fittings",
+    "categoryId": "lifting-chain",
+    "categoryLabel": "Lifting Chain & Fittings",
+    "subcategory": "Connecting link",
+    "rank": 5,
+    "wText": "WLL 1.12 - 32.8 t",
+    "wmin": 1.12,
+    "wmax": 32.8,
+    "status": "live",
+    "image": "/products/connecting-link-gr8-gr10-gp-c8-004-gp-c10-006.png",
+    "images": [
+      "/products/connecting-link-gr8-gr10-gp-c8-004-gp-c10-006.png"
+    ],
+    "catalogImages": [
+      "/catalogs/connecting-link-gr8-gr10-gp-c8-004-gp-c10-006.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® connecting link to EN 1677-1, grade 8 — used to join chain, master links and fittings in lifting-sling assemblies. Forged in grade 8 alloy steel, quenched and tempered, with a minimum breaking load of 4× WLL. Painted white (yellow or red on request), rated −40°C to +200°C. Made to EN 1677-1 and ASTM A952/A952M. WLL 1.12–32.8 t.",
+    "specs": [
+      { "label": "Type", "value": "Connecting link (hammerlock)" },
+      { "label": "Material", "value": "Alloy steel, grade 8, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 4 × WLL" },
+      { "label": "Standard", "value": "EN 1677-1 · ASTM A952/A952M" },
+      { "label": "Finish", "value": "Painted white" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · MPI · DGUV · CE IIB" }
+    ],
+    "standards": [
+      "EN 1677-1",
+      "ASTM A952/A952M",
+      "Grade 8",
+      "CE IIB"
+    ],
+    "syn": [
+      "connecting link gr8 / gr10",
+      "connecting link",
+      "khoen noi xich",
+      "mat noi xich",
+      "khoa noi"
+    ]
+  },
+  {
+    "id": "pp-rope-rope",
+    "no": 23,
+    "partNo": "",
+    "name": "PP Rope",
+    "brand": "",
+    "category": "Rope",
+    "categoryId": "rope",
+    "categoryLabel": "Rope",
+    "subcategory": "PP rope",
+    "rank": 6,
+    "wText": "Ø 24 – 120 mm · MBL up to 195 t",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "live",
+    "image": "/products/pp-rope-rope.png",
+    "images": [
+      "/products/pp-rope-rope.png"
+    ],
+    "catalogImages": [
+      "/catalogs/pp-rope-rope.png",
+      "/catalogs/pp-rope-rope-2.png"
+    ],
+    "pdf": null,
+    "desc": "Eight-strand plaited polypropylene (polyolefin) rope for marine, mooring and general use. Lightweight and buoyant — it floats — with good UV resistance and a smooth white finish carrying a coloured tracer. The torque-balanced 8-strand construction is easy to splice, coil and handle. Diameters Ø 24–120 mm with unspliced minimum breaking load from 8 t up to 195 t; weight tolerance ±5% to ISO 2307 and line design break force (LDBF) rated to OCIMF Mooring Equipment Guidelines 4 (MEG4). A 12-strand PP Multi variant is also offered for mooring, tugging and fishing.",
+    "specs": [
+      { "label": "Type", "value": "8-strand plaited PP rope (12-strand PP Multi also available)" },
+      { "label": "Fibre content", "value": "Polyolefin / PP Multi" },
+      { "label": "Specific gravity", "value": "< 1 — floating" },
+      { "label": "UV resistance", "value": "Good" },
+      { "label": "Basic colour", "value": "White (with tracer)" },
+      { "label": "Diameter", "value": "Ø 24 – 120 mm" },
+      { "label": "Circumference", "value": "3 – 15 in" },
+      { "label": "Weight", "value": "55 – 1,300 kg / 200 m" },
+      { "label": "MBL (unspliced)", "value": "8 – 195 t" },
+      { "label": "Applications", "value": "Mooring · tugging · fishing" }
+    ],
+    "standards": [
+      "ISO 2307",
+      "OCIMF MEG4",
+      "8-strand"
+    ],
+    "syn": [
+      "pp rope",
+      "day thung pp",
+      "day pp",
+      "day thung"
+    ]
+  },
+  {
+    "id": "nylon-rope-rope",
+    "no": 24,
+    "partNo": "",
+    "name": "Nylon Rope",
+    "brand": "",
+    "category": "Rope",
+    "categoryId": "rope",
+    "categoryLabel": "Rope",
+    "subcategory": "Nylon rope",
+    "rank": 6,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Nylon Rope — Nylon rope. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "nylon rope",
+      "day nylon",
+      "day ni long",
+      "day thung"
+    ]
+  },
+  {
+    "id": "manila-rope-rope",
+    "no": 25,
+    "partNo": "",
+    "name": "Manila Rope",
+    "brand": "",
+    "category": "Rope",
+    "categoryId": "rope",
+    "categoryLabel": "Rope",
+    "subcategory": "Manila rope",
+    "rank": 6,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Manila Rope — Manila rope. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "manila rope",
+      "day thung manila",
+      "day dua",
+      "day thung"
+    ]
+  },
+  {
+    "id": "superflex-rope-rope",
+    "no": 26,
+    "partNo": "",
+    "name": "Superflex Rope",
+    "brand": "",
+    "category": "Rope",
+    "categoryId": "rope",
+    "categoryLabel": "Rope",
+    "subcategory": "Superflex",
+    "rank": 6,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Superflex Rope — Superflex. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "superflex rope",
+      "superflex",
+      "day superflex",
+      "day thung"
+    ]
+  },
+  {
+    "id": "green-pin-master-link-en-1677-4-gr8-gp-wr-001",
+    "no": 27,
+    "partNo": "GP-WR-001",
+    "name": "Green Pin Master Link EN 1677-4 GR8",
+    "brand": "Green Pin",
+    "category": "Master link",
+    "categoryId": "master-link",
+    "categoryLabel": "Master Link",
+    "subcategory": "Master link",
+    "rank": 7,
+    "wText": "WLL 1.6 - 125 t",
+    "wmin": 1.6,
+    "wmax": 125,
+    "status": "live",
+    "image": "/products/green-pin-master-link-en-1677-4-gr8-gp-wr-001.png",
+    "images": [
+      "/products/green-pin-master-link-en-1677-4-gr8-gp-wr-001.png"
+    ],
+    "catalogImages": [
+      "/catalogs/green-pin-master-link-en-1677-4-gr8-gp-wr-001-3.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® welded master link to EN 1677-4, grade 8 — the connection between the crane hook and wire-rope or chain sling legs, with a large opening for big lifting points and hooks. Forged in grade 8 alloy steel, quenched and tempered, with a flat part for assembly with an omega link or thimble (from 50 t supplied without flat part). Minimum breaking load 4× WLL (use 5:1 in a wire-rope sling). Painted white, rated −40°C to +200°C. Made to EN 1677-4, ASTM A952/A952M and ASME B30.9. WLL 1.6–125 t for a single leg.",
+    "specs": [
+      { "label": "Type", "value": "Welded master link — 1 or 2 legs" },
+      { "label": "Material", "value": "Alloy steel, grade 8, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 4 × WLL (5:1 in wire-rope sling)" },
+      { "label": "Standard", "value": "EN 1677-4 · ASTM A952/A952M · ASME B30.9" },
+      { "label": "Finish", "value": "Painted white" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · MPI · CE IIB" },
+      { "label": "Note", "value": "From 50 t supplied without flat part" }
+    ],
+    "standards": [
+      "EN 1677-4",
+      "ASTM A952/A952M",
+      "ASME B30.9",
+      "Grade 8",
+      "CE IIB"
+    ],
+    "syn": [
+      "green pin master link en 1677-4 gr8",
+      "master link",
+      "khoen cau",
+      "vong treo",
+      "khoen master",
+      "khoen tam giac",
+      "khoen chu o",
+      "mat treo"
+    ]
+  },
+  {
+    "id": "green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002",
+    "no": 28,
+    "partNo": "GP-WR-002",
+    "name": "Green Pin Master Link Assembly EN 1677-4 GR8",
+    "brand": "Green Pin",
+    "category": "Master link",
+    "categoryId": "master-link",
+    "categoryLabel": "Master Link",
+    "subcategory": "Master link Assembly",
+    "rank": 7,
+    "wText": "WLL 2.5 - 100 t",
+    "wmin": 2.5,
+    "wmax": 100,
+    "status": "live",
+    "image": "/products/green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002.png",
+    "images": [
+      "/products/green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002.png"
+    ],
+    "catalogImages": [
+      "/catalogs/green-pin-master-link-assembly-en-1677-4-gr8-gp-wr-002-3.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® master link assembly, grade 8 — a welded master link with two sub-links for connecting 3- and 4-leg wire-rope or chain slings to the crane hook. DNV 2.7-1 certified for offshore lifting, with a minimum breaking load of 5× WLL. Forged in grade 8 alloy steel, painted silver, rated −40°C to +200°C (−20°C at 75 t and 100 t). Made to DNV 2.7-1, EN 12079-2 and EN 1677-4. WLL 2.5–100 t.",
+    "specs": [
+      { "label": "Type", "value": "Master link assembly — 3- & 4-leg slings" },
+      { "label": "Material", "value": "Alloy steel, grade 8" },
+      { "label": "Safety factor", "value": "MBL = 5 × WLL" },
+      { "label": "Standard", "value": "DNV 2.7-1 · EN 12079-2 · EN 1677-4" },
+      { "label": "Finish", "value": "Painted silver" },
+      { "label": "Temperature range", "value": "−40°C to +200°C (−20°C at 75–100 t)" },
+      { "label": "Offshore", "value": "DNV 2.7-1 type-approved" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · MPI · DNV 2.7-1 · CE IIB" }
+    ],
+    "standards": [
+      "DNV 2.7-1",
+      "EN 12079-2",
+      "EN 1677-4",
+      "Grade 8",
+      "CE IIB"
+    ],
+    "syn": [
+      "green pin master link assembly en 1677-4 gr8",
+      "master link assembly",
+      "khoen cau",
+      "vong treo",
+      "khoen master",
+      "khoen tam giac",
+      "mat treo",
+      "chum khoen"
+    ]
+  },
+  {
+    "id": "green-pin-heavy-duty-master-link-p-6815",
+    "no": 29,
+    "partNo": "P-6815",
+    "name": "Green Pin Heavy Duty Master Link",
+    "brand": "Green Pin",
+    "category": "Master link",
+    "categoryId": "master-link",
+    "categoryLabel": "Master Link",
+    "subcategory": "Heavy Duty Masterlink",
+    "rank": 7,
+    "wText": "WLL 131 - 400 t",
+    "wmin": 131,
+    "wmax": 400,
+    "status": "live",
+    "image": "/products/green-pin-heavy-duty-master-link-p-6815.png",
+    "images": [
+      "/products/green-pin-heavy-duty-master-link-p-6815.png"
+    ],
+    "catalogImages": [
+      "/catalogs/green-pin-heavy-duty-master-link-p-6815.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® Heavy Duty Master Link — a weldless, single-piece forged grade 8 master link for heavy-duty and offshore lifting. A consistent Charpy V-notch value of at least 42 J at −20°C and 27 J at −40°C throughout the whole link meets offshore certification requirements. Minimum breaking load 5× WLL, painted silver and green, rated −40°C to +200°C. Made to ASME B30.26. WLL 131–400 t.",
+    "specs": [
+      { "label": "Type", "value": "Heavy-duty master link — weldless, single-piece forged" },
+      { "label": "Material", "value": "Alloy steel, grade 8" },
+      { "label": "Safety factor", "value": "MBL = 5 × WLL" },
+      { "label": "Standard", "value": "ASME B30.26" },
+      { "label": "Finish", "value": "Painted silver & green" },
+      { "label": "Impact (Charpy V)", "value": "≥ 42 J at −20°C · ≥ 27 J at −40°C" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · MPI · US · CE IIA" }
+    ],
+    "standards": [
+      "ASME B30.26",
+      "Grade 8",
+      "Weldless",
+      "CE IIA"
+    ],
+    "syn": [
+      "green pin heavy duty master link",
+      "heavy duty masterlink",
+      "khoen cau",
+      "vong treo",
+      "khoen master",
+      "khoen tam giac"
+    ]
+  },
+  {
+    "id": "green-pin-master-link-en-1677-4-gr8-gp-wr-001-30",
+    "no": 30,
+    "partNo": "GP-WR-001",
+    "name": "Green Pin Master Link (EN 1677-4 GR8)",
+    "brand": "Green Pin",
+    "category": "Master link",
+    "categoryId": "master-link",
+    "categoryLabel": "Master Link",
+    "subcategory": "Masterlink EN 1677-4 GR8",
+    "rank": 7,
+    "wText": "WLL 1.6 - 125 t",
+    "wmin": 1.6,
+    "wmax": 125,
+    "status": "live",
+    "image": "/products/green-pin-master-link-en-1677-4-gr8-gp-wr-001-30.png",
+    "images": [
+      "/products/green-pin-master-link-en-1677-4-gr8-gp-wr-001-30.png"
+    ],
+    "catalogImages": [
+      "/catalogs/green-pin-master-link-en-1677-4-gr8-gp-wr-001-30.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® welded master link to EN 1677-4, grade 8 — the connection between the crane hook and wire-rope or chain sling legs, with a large opening to accommodate larger lifting points and crane hooks. Forged in grade 8 alloy steel, quenched and tempered, with a flat part for assembly with an omega link or thimble (from 50 t without flat part). Minimum breaking load 4× WLL (use 5:1 in a wire-rope sling). Painted white, rated −40°C to +200°C. Made to EN 1677-4, ASTM A952/A952M and ASME B30.9. WLL 1.6–125 t.",
+    "specs": [
+      { "label": "Type", "value": "Welded master link — 1 or 2 legs" },
+      { "label": "Material", "value": "Alloy steel, grade 8, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 4 × WLL (5:1 in wire-rope sling)" },
+      { "label": "Standard", "value": "EN 1677-4 · ASTM A952/A952M · ASME B30.9" },
+      { "label": "Finish", "value": "Painted white" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · MPI · CE IIB" },
+      { "label": "Note", "value": "From 50 t supplied without flat part" }
+    ],
+    "standards": [
+      "EN 1677-4",
+      "ASTM A952/A952M",
+      "ASME B30.9",
+      "Grade 8",
+      "CE IIB"
+    ],
+    "syn": [
+      "green pin master link (en 1677-4 gr8)",
+      "masterlink en 1677-4 gr8",
+      "khoen cau",
+      "vong treo",
+      "khoen master",
+      "khoen tam giac",
+      "mat treo"
+    ]
+  },
+  {
+    "id": "sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook",
+    "no": 31,
+    "partNo": "ABLE HSE-HSA / GP Sling Hook",
+    "name": "Sling / Safety / Self-Locking Hook",
+    "brand": "Green Pin / ABLE",
+    "category": "Fittings",
+    "categoryId": "fittings",
+    "categoryLabel": "Fittings",
+    "subcategory": "Hook",
+    "rank": 8,
+    "wText": "WLL 1.12 - 32.8 t",
+    "wmin": 1.12,
+    "wmax": 32.8,
+    "status": "live",
+    "image": "/products/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook.png",
+    "images": [
+      "/products/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook.png"
+    ],
+    "catalogImages": [
+      "/catalogs/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook.png",
+      "/catalogs/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook-2.png",
+      "/catalogs/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook-3.png",
+      "/catalogs/sling-safety-self-locking-hook-able-hse-hsa-gp-sling-hook-4.png"
+    ],
+    "pdf": null,
+    "desc": "Forged alloy-steel lifting hooks in eye and clevis forms, spanning the ABLE and Green Pin ranges. ABLE self-locking safety hooks (Model HSE eye / HSC clevis) close automatically under load and cannot disengage until the release trigger is pressed; the HSA adds a swivel to take out sling-leg twist. ABLE sling hooks (HES eye / HCS clevis) give a large throat with a stainless safety-latch spring, and grab hooks (HGC/HGE) shorten and choke chain. Green Pin® Sling Hook E / CL to EN 1677-2 grade 8 (WLL 1.12–32.8 t) and grade-10 grab hooks complete the range. Grade 80/100 alloy steel, quenched and tempered; ultimate load 4× WLL, proof-tested to 2.5× WLL and fatigue-rated to 1.5× WLL at 20,000 cycles, individually batch-marked with size, CE and G80/T8.",
+    "specs": [
+      { "label": "Types", "value": "Self-locking (HSE/HSC) · swivel (HSA) · sling (HES/HCS) · grab (HGC/HGE) · GP sling & grab" },
+      { "label": "Material", "value": "Alloy steel, grade 80 / 100, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 4 × WLL" },
+      { "label": "Proof load", "value": "2.5 × WLL" },
+      { "label": "Fatigue rating", "value": "1.5 × WLL at 20,000 cycles" },
+      { "label": "Self-locking", "value": "Automatic lock under load (HSE / HSC / HSA)" },
+      { "label": "Standard", "value": "EN 1677-2 · ASTM A952/A952M · G80/T8" },
+      { "label": "WLL range", "value": "1.12 – 32.8 t (GP eye sling hook)" },
+      { "label": "Finish", "value": "Painted (green / white / blue) · SS latch spring" },
+      { "label": "Certification", "value": "Batch no., size, CE, G80/T8 embossed" }
+    ],
+    "standards": [
+      "EN 1677-2",
+      "ASTM A952/A952M",
+      "Grade 80 / 100",
+      "CE IIB"
+    ],
+    "syn": [
+      "sling / safety / self-locking hook",
+      "hook",
+      "moc cau",
+      "moc cap",
+      "moc",
+      "moc an toan"
+    ]
+  },
+  {
+    "id": "wire-rope-clip-g-6240-wrc",
+    "no": 32,
+    "partNo": "G-6240 / WRC",
+    "name": "Wire Rope Clip",
+    "brand": "Green Pin / ABLE",
+    "category": "Fittings",
+    "categoryId": "fittings",
+    "categoryLabel": "Fittings",
+    "subcategory": "Wire rope clip",
+    "rank": 8,
+    "wText": "Ø4 - 65 mm",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "live",
+    "image": "/products/wire-rope-clip-g-6240-wrc.png",
+    "images": [
+      "/products/wire-rope-clip-g-6240-wrc.png"
+    ],
+    "catalogImages": [
+      "/catalogs/wire-rope-clip-g-6240-wrc.png",
+      "/catalogs/wire-rope-clip-g-6240-wrc-2.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® wire rope clip (bulldog grip) to EN 13411-5 Type B (formerly US Federal Spec. FF-C-450D) for forming eyes and terminations in steel wire rope. Drop-forged high-tensile steel bridge (SAE 1045) with a SAE 1015 U-bolt, hot-dipped galvanized (U-bolt and nuts electro-galvanized for bow Ø 5, 6, 8 and 10). For wire-rope diameters Ø 3–78 mm.",
+    "specs": [
+      { "label": "Type", "value": "Wire rope clip / bulldog grip" },
+      { "label": "Material", "value": "Bridge — drop-forged SAE 1045 · U-bolt SAE 1015" },
+      { "label": "Standard", "value": "EN 13411-5 Type B (formerly FF-C-450D)" },
+      { "label": "Finish", "value": "Hot-dipped galvanized" },
+      { "label": "Rope diameter", "value": "Ø 3 – 78 mm" },
+      { "label": "Certification", "value": "2.1 / 2.2 · CE IIB" }
+    ],
+    "standards": [
+      "EN 13411-5 Type B",
+      "Hot-dip galvanized",
+      "CE IIB"
+    ],
+    "syn": [
+      "wire rope clip",
+      "khoa cap",
+      "kep cap",
+      "khoa cap chu u",
+      "u bolt"
+    ]
+  },
+  {
+    "id": "spelter-wedge-swage-socket-g-6411-g-6429",
+    "no": 33,
+    "partNo": "G-6411 … G-6429",
+    "name": "Spelter / Wedge / Swage Socket",
+    "brand": "Green Pin",
+    "category": "Fittings",
+    "categoryId": "fittings",
+    "categoryLabel": "Fittings",
+    "subcategory": "Socket",
+    "rank": 8,
+    "wText": "by rope size",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "live",
+    "image": "/products/spelter-wedge-swage-socket-g-6411-g-6429.png",
+    "images": [
+      "/products/spelter-wedge-swage-socket-g-6411-g-6429.png"
+    ],
+    "catalogImages": [
+      "/catalogs/spelter-wedge-swage-socket-g-6411-g-6429.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® closed spelter socket — an end socket for permanent, high-efficiency wire-rope terminations, reaching up to 100% of the rope's breaking strength when resin-socketed. Forged in high-tensile steel, quenched and tempered, hot-dipped galvanized, rated −20°C to +200°C. Minimum breaking load 8–1300 t for rope Ø 6–130 mm. Recommended for use with Green Pin® Socket Lock socketing resin.",
+    "specs": [
+      { "label": "Type", "value": "Closed spelter socket (resin-socketed termination)" },
+      { "label": "Material", "value": "High-tensile steel, quenched & tempered" },
+      { "label": "Finish", "value": "Hot-dipped galvanized" },
+      { "label": "MBL range", "value": "8 – 1300 t" },
+      { "label": "Rope diameter", "value": "Ø 6 – 130 mm" },
+      { "label": "Temperature range", "value": "−20°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 · CE IIA" }
+    ],
+    "standards": [
+      "Hot-dip galvanized",
+      "CE IIA"
+    ],
+    "syn": [
+      "spelter / wedge / swage socket",
+      "socket",
+      "dau cot cap",
+      "khoa nem cap",
+      "dau chup cap",
+      "ep dau cap"
+    ]
+  },
+  {
+    "id": "turnbuckle-fittings",
+    "no": 34,
+    "partNo": "",
+    "name": "Turnbuckle",
+    "brand": "Green Pin",
+    "category": "Fittings",
+    "categoryId": "fittings",
+    "categoryLabel": "Fittings",
+    "subcategory": "Turnbuckle",
+    "rank": 8,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Turnbuckle — Turnbuckle. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "turnbuckle",
+      "tang do",
+      "tang do cap",
+      "tan ren"
+    ]
+  },
+  {
+    "id": "ee-je-swivel-bearing-swivel-g-7713-g-7733-av",
+    "no": 35,
+    "partNo": "G-7713 / G-7733 / AV",
+    "name": "EE / JE Swivel / Bearing Swivel",
+    "brand": "Green Pin / ABLE",
+    "category": "Fittings",
+    "categoryId": "fittings",
+    "categoryLabel": "Fittings",
+    "subcategory": "Swivel",
+    "rank": 8,
+    "wText": "WLL 0.4 - 35 t",
+    "wmin": 0.4,
+    "wmax": 35,
+    "status": "live",
+    "image": "/products/ee-je-swivel-bearing-swivel-g-7713-g-7733-av.png",
+    "images": [
+      "/products/ee-je-swivel-bearing-swivel-g-7713-g-7733-av.png"
+    ],
+    "catalogImages": [
+      "/catalogs/ee-je-swivel-bearing-swivel-g-7713-g-7733-av.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® swivels with eye-eye (EE) or jaw-eye (JE) end fittings, for connecting slings and lifting points while allowing rotation and preventing wire rope from unlaying. Forged in high-tensile steel, quenched and tempered, minimum breaking load 5× WLL, hot-dipped galvanized. Made to US Federal Spec. RR-C-271 Type VII (Class 2 for EE, Class 3 for JE); an AV bearing-swivel version permits rotation under load. WLL 0.4–35 t.",
+    "specs": [
+      { "label": "Type", "value": "Swivel — eye-eye (EE), jaw-eye (JE), bearing (AV)" },
+      { "label": "Material", "value": "High-tensile steel, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 5 × WLL" },
+      { "label": "Standard", "value": "US Fed. Spec. RR-C-271 Type VII" },
+      { "label": "Finish", "value": "Hot-dipped galvanized" },
+      { "label": "Certification", "value": "2.1 / 2.2 · CE IIA" }
+    ],
+    "standards": [
+      "RR-C-271 Type VII",
+      "Hot-dip galvanized",
+      "CE IIA"
+    ],
+    "syn": [
+      "ee / je swivel / bearing swivel",
+      "swivel",
+      "khoa xoay",
+      "ma ni xoay",
+      "mat xoay"
+    ]
+  },
+  {
+    "id": "lifting-eye-eye-bolt-gr8-gp-eye-001-din-580",
+    "no": 36,
+    "partNo": "GP-EYE-001 / DIN 580",
+    "name": "Lifting Eye / Eye Bolt GR8",
+    "brand": "Green Pin",
+    "category": "Fittings",
+    "categoryId": "fittings",
+    "categoryLabel": "Fittings",
+    "subcategory": "Eyebolt",
+    "rank": 8,
+    "wText": "WLL 0.07 - 36 t",
+    "wmin": 0.07,
+    "wmax": 36,
+    "status": "live",
+    "image": "/products/lifting-eye-eye-bolt-gr8-gp-eye-001-din-580.png",
+    "images": [
+      "/products/lifting-eye-eye-bolt-gr8-gp-eye-001-din-580.png"
+    ],
+    "catalogImages": [
+      "/catalogs/lifting-eye-eye-bolt-gr8-gp-eye-001-din-580.png"
+    ],
+    "pdf": null,
+    "desc": "Green Pin® lifting eye / eye bolt, grade 8 — a forged eyebolt anchor point for lifting, with metric thread from M6 to M64. Forged in grade 8 alloy steel, quenched and tempered, minimum breaking load 5× WLL. Painted red or white, rated −40°C to +200°C. Made to EN 1677-1 and ASME B30.26 (DIN 580 form). WLL 0.2–36 t.",
+    "specs": [
+      { "label": "Type", "value": "Lifting eye / eye bolt (metric thread M6–M64)" },
+      { "label": "Material", "value": "Alloy steel, grade 8, quenched & tempered" },
+      { "label": "Safety factor", "value": "MBL = 5 × WLL" },
+      { "label": "Standard", "value": "EN 1677-1 · ASME B30.26 · DIN 580" },
+      { "label": "Finish", "value": "Painted red or white" },
+      { "label": "Temperature range", "value": "−40°C to +200°C" },
+      { "label": "Certification", "value": "2.1 / 2.2 / 3.1 MTC · MPI · CE IIA" }
+    ],
+    "standards": [
+      "EN 1677-1",
+      "ASME B30.26",
+      "DIN 580",
+      "Grade 8",
+      "CE IIA"
+    ],
+    "syn": [
+      "lifting eye / eye bolt gr8",
+      "eyebolt",
+      "bu long mat",
+      "bu long vong",
+      "bat cau",
+      "tan vong",
+      "eye bolt"
+    ]
+  },
+  {
+    "id": "chain-block-cb-i-cb-ii-series-cb-i-cb-ii",
+    "no": 37,
+    "partNo": "CB-I / CB-II",
+    "name": "Chain Block CB-I / CB-II Series",
+    "brand": "ABLE",
+    "category": "Hoist and Trolley",
+    "categoryId": "hoist-trolley",
+    "categoryLabel": "Hoist & Trolley",
+    "subcategory": "Chain hoist",
+    "rank": 9,
+    "wText": "WLL 0.5 - 30 t",
+    "wmin": 0.5,
+    "wmax": 30,
+    "status": "live",
+    "image": "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png",
+    "images": [
+      "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
+    ],
+    "catalogImages": [
+      "/catalogs/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE CB-I series chain block (manual chain hoist) for general and heavy lifting. The heat-treated ISO Grade T (900 N/mm²) load chain is approved to DIN 5684, and a fail-safe double-pawl brake keeps the load secure even if one pawl fails. Wider, easier-handling hooks yield rather than break under overload; the ribbed gear case gives accurate gear centering, and the load sheave runs on sealed roller bearings with wet friction discs for long life. Individually proof-load tested with a serial number. Conforms to EN 13157:2004+A1:2009, ANSI/ASME B30.21, AS 1418.2 and SANS 1636. WLL 0.5–20 t, standard lift 3 m.",
+    "specs": [
+      { "label": "Type", "value": "Manual chain block / chain hoist" },
+      { "label": "Load chain", "value": "ISO Grade T (900 N/mm²), DIN 5684" },
+      { "label": "Brake", "value": "Fail-safe double pawl" },
+      { "label": "Bearings", "value": "Load sheave on sealed roller bearings" },
+      { "label": "Standard lift", "value": "3 m (extra on request)" },
+      { "label": "Testing", "value": "Individually proof-load tested, serial number" },
+      { "label": "Standard", "value": "EN 13157 · ANSI/ASME B30.21 · AS 1418.2 · SANS 1636" },
+      { "label": "WLL range", "value": "0.5 – 20 t" }
+    ],
+    "standards": [
+      "EN 13157",
+      "ASME B30.21",
+      "AS 1418.2",
+      "SANS 1636"
+    ],
+    "syn": [
+      "chain block cb-i / cb-ii series",
+      "chain hoist",
+      "pa lang xich",
+      "palang xich",
+      "ba lang xich",
+      "palang keo tay",
+      "pa lang"
+    ]
+  },
+  {
+    "id": "lever-block-lb-i-lb-ii-series-lb-i-lb-ii",
+    "no": 38,
+    "partNo": "LB-I / LB-II",
+    "name": "Lever Block LB-I / LB-II Series",
+    "brand": "ABLE",
+    "category": "Hoist and Trolley",
+    "categoryId": "hoist-trolley",
+    "categoryLabel": "Hoist & Trolley",
+    "subcategory": "Chain lever hoist",
+    "rank": 9,
+    "wText": "WLL 0.5 - 9 t",
+    "wmin": 0.5,
+    "wmax": 9,
+    "status": "live",
+    "image": "/products/lever-block-lb-i-lb-ii-series-lb-i-lb-ii.png",
+    "images": [
+      "/products/lever-block-lb-i-lb-ii-series-lb-i-lb-ii.png"
+    ],
+    "catalogImages": [
+      "/catalogs/lever-block-lb-i-lb-ii-series-lb-i-lb-ii.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE LB-I series lever block (ratchet lever hoist) for pulling, tensioning and lifting. One-touch free-chaining lets the load chain be pulled through quickly by hand; the Grade 80 alloy load chain meets ISO and JIS standards, and the forged, heat-treated load hooks carry batch traceability and stretch indicators. Individually proof-load tested with a serial number. Conforms to EN 13157:2004+A1:2009, ANSI/ASME B30.21, AS 1418.2 and SANS 1636. WLL 0.5–9 t, standard lift 1.5 m.",
+    "specs": [
+      { "label": "Type", "value": "Lever block / ratchet lever hoist" },
+      { "label": "Load chain", "value": "Grade 80 alloy (ISO & JIS)" },
+      { "label": "Free-chaining", "value": "One-touch idling for fast chain adjustment" },
+      { "label": "Hooks", "value": "Forged, heat-treated, with stretch indicators" },
+      { "label": "Standard lift", "value": "1.5 m" },
+      { "label": "Testing", "value": "Individually proof-load tested, serial number" },
+      { "label": "Standard", "value": "EN 13157 · ANSI/ASME B30.21 · AS 1418.2 · SANS 1636" },
+      { "label": "WLL range", "value": "0.5 – 9 t" }
+    ],
+    "standards": [
+      "EN 13157",
+      "ASME B30.21",
+      "AS 1418.2",
+      "Grade 80 chain"
+    ],
+    "syn": [
+      "lever block lb-i / lb-ii series",
+      "chain lever hoist",
+      "pa lang lac",
+      "pa lang xich lac",
+      "con coc",
+      "pa lang"
+    ]
+  },
+  {
+    "id": "hand-pulley-block-hpb",
+    "no": 39,
+    "partNo": "HPB",
+    "name": "Hand Pulley Block",
+    "brand": "ABLE",
+    "category": "Hoist and Trolley",
+    "categoryId": "hoist-trolley",
+    "categoryLabel": "Hoist & Trolley",
+    "subcategory": "Snatch Block",
+    "rank": 9,
+    "wText": "WLL 0.5 - 6.4 t",
+    "wmin": 0.5,
+    "wmax": 6.4,
+    "status": "live",
+    "image": "/products/hand-pulley-block-hpb.png",
+    "images": [
+      "/products/hand-pulley-block-hpb.png"
+    ],
+    "catalogImages": [
+      "/catalogs/hand-pulley-block-hpb.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE HPB champion snatch block (hand pulley block) — a UK-design single-sheave block used to change the direction of a load line with a machined steel sheave. The drop-forged, heat-treated swivel hook and latch carry a stretch indicator and identity code; an opening feature lets the rope be inserted and positioned quickly, and the block locks securely by swinging the hook toward the direction of pull. Supplied with bronze bushings or roller bearings, for steel wire rope and/or fibre rope. Made to EN 13157:2003 and machinery directive 98/37/EC. WLL 0.5–6.4 t.",
+    "specs": [
+      { "label": "Type", "value": "Single-sheave snatch block (hand pulley)" },
+      { "label": "Sheave", "value": "Machined alloy steel, matched to rope Ø" },
+      { "label": "Bearing", "value": "Bronze bushings or roller bearings" },
+      { "label": "Hook", "value": "Drop-forged swivel hook + latch, stretch indicator" },
+      { "label": "Rope", "value": "Steel wire rope and/or fibre rope" },
+      { "label": "Standard", "value": "EN 13157:2003 · 98/37/EC" },
+      { "label": "WLL range", "value": "0.5 – 6.4 t" }
+    ],
+    "standards": [
+      "EN 13157",
+      "98/37/EC",
+      "Drop-forged hook"
+    ],
+    "syn": [
+      "hand pulley block",
+      "snatch block",
+      "rong roc",
+      "puly",
+      "pu li cau",
+      "palang keo tay"
+    ]
+  },
+  {
+    "id": "electric-chain-hoist-echk",
+    "no": 40,
+    "partNo": "ECHK",
+    "name": "Electric Chain Hoist",
+    "brand": "ABLE",
+    "category": "Hoist and Trolley",
+    "categoryId": "hoist-trolley",
+    "categoryLabel": "Hoist & Trolley",
+    "subcategory": "Electric Chain Hoist",
+    "rank": 9,
+    "wText": "WLL 0.5 - 20 t",
+    "wmin": 0.5,
+    "wmax": 20,
+    "status": "live",
+    "image": "/products/electric-chain-hoist-echk.png",
+    "images": [
+      "/products/electric-chain-hoist-echk.png"
+    ],
+    "catalogImages": [
+      "/catalogs/electric-chain-hoist-echk.png",
+      "/catalogs/electric-chain-hoist-echk-2.png"
+    ],
+    "pdf": null,
+    "desc": "Three-phase electric chain hoist built for heavy-industry lifting, available in single or dual speed. The premium aluminium-alloy body dissipates heat and withstands repeated lifting cycles, while a friction-clutch overload limiter, upper and lower over-travel limit switches, induction-hardened oil-bath gearing and an instant magnetic brake keep operation safe and quiet. Ultra-hardened Grade 80 load chain (Japan-made) and a German-made control switch. Standard lifting height 3–12 m. An electric-trolley version (ECHKT) is available for travel along the beam. Conforms to and tested per EN 13157:2004+A1:2009 and AS 1418.2.",
+    "specs": [
+      { "label": "Type", "value": "3-phase electric chain hoist · single or dual speed" },
+      { "label": "Body shell", "value": "Premium aluminium alloy — high heat dissipation" },
+      { "label": "Load chain", "value": "Grade 80, ultra-hardened, Japan-made" },
+      { "label": "Brake", "value": "Magnetic brake — instant stop on power loss" },
+      { "label": "Overload protection", "value": "Friction clutch" },
+      { "label": "Limit switch", "value": "Over-travel protection, upper & lower" },
+      { "label": "Power supply", "value": "220–440 V · 3-phase · 50 Hz" },
+      { "label": "Lifting height", "value": "3–12 m (standard)" },
+      { "label": "Control switch", "value": "German-made" },
+      { "label": "Operating conditions", "value": "−20°C to +40°C · humidity ≤ 85%" },
+      { "label": "Options", "value": "Remote control · overload limiter · rain cover · thermo switch" }
+    ],
+    "standards": [
+      "EN 13157:2004+A1:2009",
+      "AS 1418.2",
+      "Grade 80 chain"
+    ],
+    "syn": [
+      "electric chain hoist",
+      "pa lang dien",
+      "ba lang dien",
+      "palang dien"
+    ]
+  },
+  {
+    "id": "plain-geared-trolley-pt-gt",
+    "no": 41,
+    "partNo": "PT / GT",
+    "name": "Plain / Geared Trolley",
+    "brand": "ABLE",
+    "category": "Hoist and Trolley",
+    "categoryId": "hoist-trolley",
+    "categoryLabel": "Hoist & Trolley",
+    "subcategory": "Trolley (Plain, Gear)",
+    "rank": 9,
+    "wText": "WLL 0.5 - 30 t",
+    "wmin": 0.5,
+    "wmax": 30,
+    "status": "live",
+    "image": "/products/plain-geared-trolley-pt-gt.png",
+    "images": [
+      "/products/plain-geared-trolley-pt-gt.png"
+    ],
+    "catalogImages": [
+      "/catalogs/plain-geared-trolley-pt-gt.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE PT/GT trolley — a heavy-duty beam trolley to carry a chain hoist along an I-beam, available as a plain push trolley (PT) or a hand-geared trolley (GT). A close-headroom design couples closely to most hoists, adjusts to beam flange widths up to 310 mm, and is fitted with anti-drop plates for safety. Geared trolleys reach 30 t capacity; double-pin versions are also available. WLL 0.5–30 t.",
+    "specs": [
+      { "label": "Type", "value": "Beam trolley — plain (PT) or geared (GT)" },
+      { "label": "Travel", "value": "Push (PT) or hand-geared chain (GT)" },
+      { "label": "Beam flange width", "value": "Up to 310 mm (adjustable)" },
+      { "label": "Safety", "value": "Anti-drop plates" },
+      { "label": "Coupling", "value": "Fits most chain hoists, close headroom" },
+      { "label": "WLL range", "value": "0.5 – 30 t" }
+    ],
+    "standards": [
+      "Anti-drop plates",
+      "Adjustable 35–310 mm"
+    ],
+    "syn": [
+      "plain / geared trolley",
+      "trolley (plain, gear)",
+      "con chay",
+      "xe con",
+      "rua pa lang",
+      "con rua"
+    ]
+  },
+  {
+    "id": "brake-hand-winch-bhw",
+    "no": 42,
+    "partNo": "BHW",
+    "name": "Brake Hand Winch",
+    "brand": "ABLE",
+    "category": "Hoist and Trolley",
+    "categoryId": "hoist-trolley",
+    "categoryLabel": "Hoist & Trolley",
+    "subcategory": "Manual Hand Winch",
+    "rank": 9,
+    "wText": "WLL 180 - 600 kg",
+    "wmin": 0.18,
+    "wmax": 0.6,
+    "status": "live",
+    "image": "/products/brake-hand-winch-bhw.png",
+    "images": [
+      "/products/brake-hand-winch-bhw.png"
+    ],
+    "catalogImages": [
+      "/catalogs/brake-hand-winch-bhw.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE BHW series manual wire-rope hand winch with spur-gear drive and an automatic load-pressure brake for safe holding and lowering of the load. Lifting capacity 180, 270, 410 and 600 kg (pulling capacity up to 1,200 kg); the winch housing and rope drum are pressed from robust steel plate, with the drum running on bearings. Supplied in a high-visibility green powder-coated finish as standard, or in A304 stainless steel (Model BHW-S). Conforms to and tested per EN 13157:2004+A1:2009, with AS 1418.2 compliance when fitted with approved wire rope and fittings. Note: model HW-800 is supplied without an automatic brake.",
+    "specs": [
+      { "label": "Type", "value": "Manual wire-rope hand winch · spur-gear drive" },
+      { "label": "Models", "value": "BHW-1200 / 1800 / 2600 (BHW-S stainless)" },
+      { "label": "Lifting capacity", "value": "180 / 270 / 410 / 600 kg" },
+      { "label": "Pulling capacity", "value": "370 / 545 / 820 / 1,200 kg" },
+      { "label": "Brake", "value": "Automatic load-pressure brake (not on HW-800)" },
+      { "label": "Gear ratio", "value": "3.7:1 – 10:1" },
+      { "label": "Drum", "value": "On bearings · robust steel plate" },
+      { "label": "Finish", "value": "Green powder-coat (or A304 stainless — BHW-S)" },
+      { "label": "Standard", "value": "EN 13157:2004+A1:2009 · AS 1418.2" }
+    ],
+    "standards": [
+      "EN 13157+A1:2009",
+      "AS 1418.2",
+      "Auto brake"
+    ],
+    "syn": [
+      "brake hand winch",
+      "manual hand winch",
+      "toi tay",
+      "toi quay tay",
+      "toi keo tay",
+      "toi"
+    ]
+  },
+  {
+    "id": "aluminum-steel-wire-rope-puller-wrp-rwp-43",
+    "no": 43,
+    "partNo": "WRP / RWP",
+    "name": "Aluminum / Steel Wire Rope Puller",
+    "brand": "ABLE",
+    "category": "Hoist and Trolley",
+    "categoryId": "hoist-trolley",
+    "categoryLabel": "Hoist & Trolley",
+    "subcategory": "Wire rope puller",
+    "rank": 9,
+    "wText": "WLL 0.8 - 5.4 t",
+    "wmin": 0.8,
+    "wmax": 5.4,
+    "status": "live",
+    "image": "/products/aluminum-steel-wire-rope-puller-wrp-rwp.png",
+    "images": [
+      "/products/aluminum-steel-wire-rope-puller-wrp-rwp.png"
+    ],
+    "catalogImages": [
+      "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp.png",
+      "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp-2.png",
+      "/catalogs/aluminum-steel-wire-rope-puller-wrp-rwp-3.png"
+    ],
+    "pdf": null,
+    "desc": "Hand-operated wire rope puller (Tirfor-type) for pulling, lifting and tensioning — no drum required, so it stays compact and light. Moving the forward and backward levers feeds galvanised steel wire rope straight through two clamping jaws, giving unlimited travel and use at any working angle. A high-strength cast aluminium-alloy body keeps weight down, while a built-in shear pin protects against overload (shears at approx. 50% overload; spare pins are stored in the carrying handle). Supplied with a safety hook and reeled galvanised wire rope, proof-tested to 150% of rated capacity with an individual test certificate. Conforms to and tested per EN 13157+A1:2009.",
+    "specs": [
+      { "label": "Model", "value": "WRP series (aluminium-alloy body)" },
+      { "label": "Capacities", "value": "WRP-08 · WRP-16 · WRP-32 · WRP-54" },
+      { "label": "Lifting capacity (WLL)", "value": "0.8 / 1.6 / 3.2 / 5.4 t" },
+      { "label": "Pulling capacity", "value": "1.3 / 2.8 / 6.0 / 10.1 t" },
+      { "label": "Test load", "value": "1.5 / 3.0 / 6.0 / 10.1 t" },
+      { "label": "Wire rope", "value": "IWRC Ø8.3 / 11 / 16 / 20 mm" },
+      { "label": "Rope safety factor", "value": "5 × WLL" },
+      { "label": "Rope breaking strength", "value": "5.43 / 9.68 / 17.20 / 27.00 t" },
+      { "label": "Body", "value": "High-strength cast aluminium alloy" },
+      { "label": "Overload protection", "value": "Built-in shear pin (~50% overload) + spare pins" },
+      { "label": "Safety device", "value": "Safety pins · safety hook" },
+      { "label": "Net weight", "value": "15.7 / 28.4 / 55.2 / 114.0 kg" }
+    ],
+    "standards": [
+      "EN 13157+A1:2009"
+    ],
+    "syn": [
+      "aluminum / steel wire rope puller",
+      "wire rope puller",
+      "toi keo cap tay",
+      "keo cap tay",
+      "toi tay"
+    ]
+  },
+  {
+    "id": "vertical-lifting-clamp-vlc",
+    "no": 44,
+    "partNo": "VLC",
+    "name": "Vertical Lifting Clamp",
+    "brand": "ABLE",
+    "category": "Clamps",
+    "categoryId": "clamps",
+    "categoryLabel": "Clamps",
+    "subcategory": "Vertical Plate Clamp",
+    "rank": 10,
+    "wText": "WLL 1 - 5 t",
+    "wmin": 1,
+    "wmax": 5,
+    "status": "live",
+    "image": "/products/vertical-lifting-clamp-vlc.png",
+    "images": [
+      "/products/vertical-lifting-clamp-vlc.png"
+    ],
+    "catalogImages": [
+      "/catalogs/vertical-lifting-clamp-vlc.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE SV Plus vertical lifting clamp (VLC) for vertical lifting and 180° turning of steel plates. A safety latch keeps the cam locked even if the lifting rope goes slack, protecting against ground-touching shocks. All parts forged and heat-treated (jaw and cam in 20CrMnTi), with a 6× safety factor and an individual serial number for traceability. Meets BS EN 13155. WLL 1–5 t, jaw opening 0–50 mm.",
+    "specs": [
+      { "label": "Type", "value": "Vertical plate lifting clamp" },
+      { "label": "Standard", "value": "BS EN 13155" },
+      { "label": "Jaw / cam material", "value": "20CrMnTi — forged & heat-treated" },
+      { "label": "Safety factor", "value": "6 × WLL" },
+      { "label": "Jaw opening", "value": "0 – 50 mm" },
+      { "label": "Locking", "value": "Safety latch — stays locked if rope slackens" },
+      { "label": "WLL range", "value": "1 – 5 t" }
+    ],
+    "standards": [
+      "BS EN 13155",
+      "Safety factor 6:1",
+      "Serial-traceable"
+    ],
+    "syn": [
+      "vertical lifting clamp",
+      "vertical plate clamp",
+      "kep cau ton",
+      "ngam cau ton",
+      "kep ton dung",
+      "kep cau"
+    ]
+  },
+  {
+    "id": "horizontal-lifting-plate-clamp-hlc-hpc",
+    "no": 45,
+    "partNo": "HLC / HPC",
+    "name": "Horizontal Lifting / Plate Clamp",
+    "brand": "ABLE",
+    "category": "Clamps",
+    "categoryId": "clamps",
+    "categoryLabel": "Clamps",
+    "subcategory": "Horizontal Plate Clamp",
+    "rank": 10,
+    "wText": "WLL 0.75 - 3 t",
+    "wmin": 0.75,
+    "wmax": 3,
+    "status": "live",
+    "image": "/products/horizontal-lifting-plate-clamp-hlc-hpc.png",
+    "images": [
+      "/products/horizontal-lifting-plate-clamp-hlc-hpc.png"
+    ],
+    "catalogImages": [
+      "/catalogs/horizontal-lifting-plate-clamp-hlc-hpc.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE SV Plus horizontal lifting clamp (HLC) for horizontal lifting and transfer of steel plates. A thin ground plate and buffer cams ease insertion and removal under the plate; the clamps can also hang vertically under a spreader. Forged jaw and cam in 20CrMnTi, minimum breaking load 500% of capacity, suitable for surface hardness up to 37 RC (345 HB). Meets BS EN 13155. WLL is rated per pair (0.75–3 t single).",
+    "specs": [
+      { "label": "Type", "value": "Horizontal plate lifting clamp (used in pairs)" },
+      { "label": "Standard", "value": "BS EN 13155" },
+      { "label": "Jaw / cam material", "value": "20CrMnTi — forged" },
+      { "label": "Breaking load", "value": "MBL ≥ 500% of capacity" },
+      { "label": "Surface hardness", "value": "Up to 37 RC (345 HB)" },
+      { "label": "Rating", "value": "WLL given per pair" }
+    ],
+    "standards": [
+      "BS EN 13155",
+      "MBL 5× capacity"
+    ],
+    "syn": [
+      "horizontal lifting / plate clamp",
+      "horizontal plate clamp",
+      "kep cau ton ngang",
+      "kep thep tam ngang",
+      "kep cau"
+    ]
+  },
+  {
+    "id": "plate-lifting-clamp-flexible-plc",
+    "no": 46,
+    "partNo": "PLC",
+    "name": "Plate Lifting Clamp (Flexible)",
+    "brand": "ABLE",
+    "category": "Clamps",
+    "categoryId": "clamps",
+    "categoryLabel": "Clamps",
+    "subcategory": "Plate Lifting Clamp",
+    "rank": 10,
+    "wText": "WLL 0.5 - 8 t",
+    "wmin": 0.5,
+    "wmax": 8,
+    "status": "live",
+    "image": "/products/plate-lifting-clamp-flexible-plc.png",
+    "images": [
+      "/products/plate-lifting-clamp-flexible-plc.png"
+    ],
+    "catalogImages": [
+      "/catalogs/plate-lifting-clamp-flexible-plc.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE PLC universal plate lifting clamp — a flexible-solution clamp that lifts and turns loads through 180° while positively retaining them. A hinged hoisting eye swivels in all directions so the load can be picked from any angle, and a wide jaw aperture handles plates of varying thickness. A double-locking safety latch secures the clamp in both open and closed positions and pre-loads the material. Fully forged, safety factor 6×, suitable for surface hardness up to 37 RC (345 HB). WLL 0.5–8 t.",
+    "specs": [
+      { "label": "Type", "value": "Universal plate lifting clamp (lift & 180° turn)" },
+      { "label": "Hoisting eye", "value": "Hinged — swivels in all directions" },
+      { "label": "Locking", "value": "Double-locking safety latch (open & closed)" },
+      { "label": "Construction", "value": "Fully forged" },
+      { "label": "Safety factor", "value": "6 × WLL" },
+      { "label": "Surface hardness", "value": "Up to 37 RC (345 HB)" },
+      { "label": "WLL range", "value": "0.5 – 8 t" }
+    ],
+    "standards": [
+      "BS EN 13155",
+      "Safety factor 6:1"
+    ],
+    "syn": [
+      "plate lifting clamp (flexible)",
+      "plate lifting clamp",
+      "kep cau thep tam",
+      "ngam cau tam",
+      "kep cau"
+    ]
+  },
+  {
+    "id": "multipurpose-full-body-harness-ulmp02",
+    "no": 47,
+    "partNo": "ULMP02",
+    "name": "Multipurpose Full-Body Harness",
+    "brand": "ABLE",
+    "category": "Safety equipments",
+    "categoryId": "safety",
+    "categoryLabel": "Safety Equipment",
+    "subcategory": "Safety harness",
+    "rank": 11,
+    "wText": "Max user 160 kg · EN 361",
+    "wmin": 0.16,
+    "wmax": 0.16,
+    "status": "live",
+    "image": "/products/multipurpose-full-body-harness-ulmp02.png",
+    "images": [
+      "/products/multipurpose-full-body-harness-ulmp02.png"
+    ],
+    "catalogImages": [
+      "/catalogs/multipurpose-full-body-harness-ulmp02.png",
+      "/catalogs/multipurpose-full-body-harness-ulmp02-2.png"
+    ],
+    "pdf": null,
+    "desc": "ABLE Model ULMP02 multipurpose full-body safety harness for fall arrest and work positioning. Medically designed to minimise wearer injury during and after a fall, with a medically-tested standing step that relieves suspension trauma, padded shoulder and leg straps, a large dorsal dee-ring, front belay loops, side pole-strap dees and a padded tool belt. High-tenacity 45 mm polyester pebble-weave webbing resists UV and common solvents; THETA-pattern stitching exceeds 28 kN; drop-forged, corrosion-resistant alloy-steel hardware with quick-release buckles. Harness WLL 600 kg (MBS 1500 kg); rated wearer capacity 160 kg (wearer + clothing + tools) when used with an ABLE shock-absorbing lanyard. Weight 2.45 kg. Certified and approved to ANSI Z359, EN 361 and AS/NZS 1891.1.",
+    "specs": [
+      { "label": "Model", "value": "ULMP02 — multipurpose full-body harness" },
+      { "label": "Attachment points", "value": "Dorsal dee-ring · front belay loops · side pole-strap dees" },
+      { "label": "Webbing", "value": "45 mm high-tenacity polyester — UV & solvent resistant" },
+      { "label": "Stitching", "value": "THETA pattern, > 28 kN" },
+      { "label": "Hardware", "value": "Drop-forged alloy steel · quick-release buckles" },
+      { "label": "Dee-ring strength", "value": "40 kN (alloy) · 22 kN (alu / SS option)" },
+      { "label": "Harness WLL", "value": "600 kg (MBS 1500 kg)" },
+      { "label": "Rated user capacity", "value": "160 kg (with shock-absorbing lanyard)" },
+      { "label": "Weight", "value": "2.45 kg" },
+      { "label": "Applications", "value": "Fall arrest · construction · scaffolding · tower / confined space" },
+      { "label": "Standard", "value": "ANSI Z359 · EN 361 · AS/NZS 1891.1" }
+    ],
+    "standards": [
+      "EN 361",
+      "ANSI Z359",
+      "AS/NZS 1891.1"
+    ],
+    "syn": [
+      "multipurpose full-body harness",
+      "safety harness",
+      "day an toan",
+      "dai an toan",
+      "day an toan toan than",
+      "day dai"
+    ]
+  },
+  {
+    "id": "cargo-net-safety",
+    "no": 48,
+    "partNo": "",
+    "name": "Cargo Net",
+    "brand": "",
+    "category": "Safety equipments",
+    "categoryId": "safety",
+    "categoryLabel": "Safety Equipment",
+    "subcategory": "Cargo net",
+    "rank": 11,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Cargo Net — Cargo net. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "cargo net",
+      "luoi cau hang",
+      "luoi hang"
+    ]
+  },
+  {
+    "id": "helideck-landing-net-safety",
+    "no": 49,
+    "partNo": "",
+    "name": "Helideck Landing Net",
+    "brand": "",
+    "category": "Safety equipments",
+    "categoryId": "safety",
+    "categoryLabel": "Safety Equipment",
+    "subcategory": "Helideck landing net",
+    "rank": 11,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Helideck Landing Net — Helideck landing net. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "helideck landing net",
+      "luoi san bay",
+      "luoi truc thang"
+    ]
+  },
+  {
+    "id": "personal-transfer-net-safety",
+    "no": 50,
+    "partNo": "",
+    "name": "Personal Transfer Net",
+    "brand": "",
+    "category": "Safety equipments",
+    "categoryId": "safety",
+    "categoryLabel": "Safety Equipment",
+    "subcategory": "Personal transfer net",
+    "rank": 11,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Personal Transfer Net — Personal transfer net. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "personal transfer net",
+      "luoi chuyen nguoi",
+      "long chuyen nguoi"
+    ]
+  },
+  {
+    "id": "load-test-ndt-services-services",
+    "no": 51,
+    "partNo": "",
+    "name": "Load Test & NDT Services",
+    "brand": "",
+    "category": "Load test & NDT services",
+    "categoryId": "services",
+    "categoryLabel": "Load Test & NDT Services",
+    "subcategory": "Load test & NDT services",
+    "rank": 13,
+    "wText": "",
+    "wmin": 0,
+    "wmax": 0,
+    "status": "coming",
+    "image": null,
+    "pdf": null,
+    "desc": "Load Test & NDT Services — Load test & NDT services. Datasheet and full specifications available on request.",
+    "standards": [],
+    "syn": [
+      "load test & ndt services",
+      "kiem dinh",
+      "thu tai",
+      "kiem dinh tai",
+      "kiem tra khong pha huy",
+      "ndt"
+    ]
+  }
+]
