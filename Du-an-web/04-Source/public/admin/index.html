@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Mekong Sling — Content Manager</title>
+    <!-- Absolute path so config loads whether the URL is /admin or /admin/ -->
+    <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url" />
   </head>
   <body>
     <!-- Decap CMS single-page admin. Reads ./config.yml from this folder. -->
