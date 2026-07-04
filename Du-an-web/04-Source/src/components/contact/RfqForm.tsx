@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { PRODUCTS } from "@/lib/products";
 import { useRfqCart } from "@/hooks/useRfqCart";
+import type { RfqItem } from "@/lib/rfq";
 
-function buildRequirements(items: { name: string; partNo: string; wText: string }[]): string {
+function buildRequirements(items: RfqItem[]): string {
   if (items.length === 0) return "";
   const lines = items.map(
     (it, i) =>
@@ -17,8 +18,11 @@ function buildRequirements(items: { name: string; partNo: string; wText: string 
   );
 }
 
+type Status = "idle" | "submitting" | "success" | "error";
+
 export default function RfqForm() {
   const { ids, toggle, count } = useRfqCart();
+  const formRef = useRef<HTMLFormElement>(null);
 
   // Resolve selected products (in catalogue order) from the cart ids.
   const items = useMemo(
@@ -28,19 +32,95 @@ export default function RfqForm() {
 
   const [requirements, setRequirements] = useState("");
   const [edited, setEdited] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
+  const [errorMsg, setErrorMsg] = useState("");
 
   // Prefill the requirements box from the cart, until the user types their own text.
   useEffect(() => {
     if (!edited) setRequirements(buildRequirements(items));
   }, [items, edited]);
 
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (status === "submitting") return;
+    const fd = new FormData(e.currentTarget);
+
+    const payload = {
+      name: String(fd.get("name") || ""),
+      company: String(fd.get("company") || ""),
+      email: String(fd.get("email") || ""),
+      phone: String(fd.get("phone") || ""),
+      industry: String(fd.get("industry") || ""),
+      requirements,
+      website: String(fd.get("website") || ""), // honeypot
+      items: items.map((p) => ({ name: p.name, partNo: p.partNo, wText: p.wText })),
+    };
+
+    setStatus("submitting");
+    setErrorMsg("");
+    try {
+      const res = await fetch("/api/rfq", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.ok) {
+        setStatus("success");
+        items.forEach((p) => toggle(p.id)); // clear the RFQ cart
+      } else {
+        setStatus("error");
+        setErrorMsg(
+          data.unconfigured
+            ? "Our online form is being set up. Please email sales@mekongsling.com or call Ms. Thủy at 0942 928 784."
+            : data.error || "Something went wrong. Please try again or contact us directly."
+        );
+      }
+    } catch {
+      setStatus("error");
+      setErrorMsg(
+        "Network error — please try again, or email sales@mekongsling.com / call 0942 928 784."
+      );
+    }
+  }
+
+  if (status === "success") {
+    return (
+      <div className="rounded-xl border border-teal/40 bg-teal/5 p-8 text-center">
+        <div className="text-4xl mb-3">✅</div>
+        <h3 className="font-heading font-extrabold text-navy text-xl mb-2">
+          RFQ sent — thank you!
+        </h3>
+        <p className="text-navy/70 text-sm leading-relaxed max-w-md mx-auto">
+          We&apos;ve emailed your request to our sales team and sent you a confirmation.
+          We&apos;ll reply with a full technical quote within one business day.
+        </p>
+        <button
+          type="button"
+          onClick={() => {
+            setStatus("idle");
+            setEdited(false);
+          }}
+          className="mt-6 inline-block px-6 py-2.5 rounded border border-navy/20 text-navy font-heading font-semibold text-sm hover:bg-navy/5 transition-colors"
+        >
+          Send another request
+        </button>
+      </div>
+    );
+  }
+
   return (
-    <form
-      action="mailto:sales@mekongsling.com"
-      method="POST"
-      encType="text/plain"
-      className="space-y-5"
-    >
+    <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
+      {/* Honeypot — hidden from real users, catches bots */}
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="absolute left-[-9999px] w-px h-px opacity-0"
+      />
+
       {/* RFQ list summary (only when items are in the cart) */}
       {count > 0 && (
         <div className="rounded-lg border border-teal/30 bg-teal/5 p-4">
@@ -171,11 +251,18 @@ export default function RfqForm() {
         />
       </div>
 
+      {status === "error" && (
+        <p className="rounded-lg border border-red-300 bg-red-50 text-red-700 text-sm px-4 py-3">
+          {errorMsg}
+        </p>
+      )}
+
       <button
         type="submit"
-        className="w-full sm:w-auto px-10 py-3.5 rounded bg-teal text-navy font-heading font-bold text-sm tracking-wide hover:bg-teal-dark transition-colors"
+        disabled={status === "submitting"}
+        className="w-full sm:w-auto px-10 py-3.5 rounded bg-teal text-navy font-heading font-bold text-sm tracking-wide hover:bg-teal-dark transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
       >
-        Send RFQ
+        {status === "submitting" ? "Sending…" : "Send RFQ"}
       </button>
 
       <p className="text-navy/40 text-xs">
