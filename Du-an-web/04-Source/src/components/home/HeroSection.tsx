@@ -2,13 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
+import { HOME } from "@/lib/content";
 
-const FEATURES = [
-  { icon: "⚓", text: "Every line traceable & certified" },
-  { icon: "🔩", text: "Genuine hardware from authorised brands" },
-  { icon: "📋", text: "Technical reply within one business day" },
-  { icon: "🏭", text: "Proof-tested on 700t horizontal bed" },
-];
+const { hero } = HOME;
+const FEATURES = hero.features;
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -41,35 +38,34 @@ export default function HeroSection() {
       <div className="relative flex-1 flex flex-col items-center justify-center text-center px-4 pt-24 pb-16">
         {/* Eyebrow */}
         <p className="font-mono text-teal text-xs tracking-[0.4em] uppercase mb-6">
-          United Mekong JSC · Vung Tau, Vietnam
+          {hero.eyebrow}
         </p>
 
         {/* Headline */}
         <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white leading-tight tracking-tight max-w-4xl mb-6">
-          From <span className="whitespace-nowrap">Vung Tau</span>
+          <span className="whitespace-nowrap">{hero.headlineTop}</span>
           <br />
-          <span className="text-teal">to the world&apos;s oceans</span>
+          <span className="text-teal">{hero.headlineBottom}</span>
         </h1>
 
         {/* Sub-headline */}
         <p className="text-slate-border text-lg sm:text-xl max-w-2xl mb-10 leading-relaxed">
-          Genuine hardware &amp; certified slings for offshore, port, shipbuilding
-          and heavy industry. From the Mekong, to the world&apos;s oceans.
+          {hero.subhead}
         </p>
 
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mb-16">
           <Link
-            href="/products"
+            href={hero.ctaPrimary.href}
             className="px-8 py-3.5 rounded bg-teal text-navy font-heading font-bold text-sm tracking-wide hover:bg-teal-dark transition-colors"
           >
-            Browse Products
+            {hero.ctaPrimary.label}
           </Link>
           <Link
-            href="/contact"
+            href={hero.ctaSecondary.href}
             className="px-8 py-3.5 rounded border border-white/30 text-white font-heading font-semibold text-sm tracking-wide hover:bg-white/10 transition-colors"
           >
-            Request a Quote
+            {hero.ctaSecondary.label}
           </Link>
         </div>
 

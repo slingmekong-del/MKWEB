@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "About Us — United Mekong JSC",
+    "description": "The leading manufacturer and supplier of lifting, towing and mooring equipment in Vietnam. Est. 2008, Vung Tau."
+  },
+  "hero": {
+    "eyebrow": "United Mekong JSC · Est. 2008",
+    "headline": "Vietnam's leading name in certified rigging",
+    "subhead": "The leading manufacturer and supplier of lifting, towing and mooring equipment in Vietnam — serving offshore, port, shipbuilding, and heavy industry since 2008."
+  },
+  "missionVision": {
+    "mission": "“To exceed our customers' expectations with high quality, reliable and innovative products with competitive price and best delivery time.”",
+    "vision": "“To become the regional most trusted partner in supplying of towing, mooring and lifting equipment.”"
+  },
+  "story": {
+    "eyebrow": "Our story",
+    "heading": "15+ years at the heart of Vietnam's lifting industry",
+    "paragraphs": [
+      "United Mekong Holding Company was founded in Vung Tau — Vietnam's oil & gas capital — to serve the rigorous demands of offshore installations and port operations. Today we run our own Dragon Sling Division (synthetic sling manufacturing) alongside our specialist subsidiary ITIS (testing and inspection services).",
+      "We are the authorised distributor of Green Pin and ABLE in Vietnam, holding stock in Vung Tau for immediate supply. Every assembly we produce is proof-tested in-house and delivered with traceable certificates.",
+      "Our customers — from FPSO operators and rig contractors to shipyards and port terminals — share one requirement: zero tolerance for unverified lifting gear. That is the standard we hold ourselves to on every order."
+    ]
+  },
+  "credentials": [
+    { "code": "DNV", "label": "DNV Type Approved", "detail": "Hardware & assemblies" },
+    { "code": "ISO", "label": "ISO 9001 Certified", "detail": "Quality management" },
+    { "code": "IMCA", "label": "IMCA Member", "detail": "Offshore lifting body" },
+    { "code": "700t", "label": "In-house Proof Test", "detail": "Horizontal test bed" }
+  ],
+  "values": {
+    "eyebrow": "What we stand for",
+    "heading": "Four pillars behind every order",
+    "items": [
+      { "title": "Quality", "desc": "Every product we supply meets industrial and world standards. No shortcuts, no grey-market stock." },
+      { "title": "Reliability", "desc": "Genuine hardware from authorised brands — Green Pin, ABLE — with full traceability from mill to deck." },
+      { "title": "Competitive price", "desc": "Direct authorised distributor pricing with stock held in Vung Tau for immediate off-the-shelf supply." },
+      { "title": "Best delivery time", "desc": "Technical reply within one business day. Assemblies proof-tested and dispatched on schedule." }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Trusted by",
+    "heading": "Customers who trust our gear",
+    "names": ["Vietsovpetro", "Seadrill", "Halliburton", "Posco", "Cái Mép Port", "PV Drilling"]
+  },
+  "cta": {
+    "heading": "Ready to work together?",
+    "body": "Send us your lifting schedule and we will quote with full technical specs within one business day.",
+    "primary": { "href": "/contact", "label": "Contact us" },
+    "secondary": { "href": "/products", "label": "Browse products" }
+  }
+}

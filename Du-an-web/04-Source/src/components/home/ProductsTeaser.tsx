@@ -1,14 +1,25 @@
 import Link from "next/link";
 import { VISIBLE_PRODUCTS, CATEGORIES, countByStatus } from "@/lib/products";
+import { HOME } from "@/lib/content";
 
-const HIGHLIGHTS = [
-  { id: "shackle",         desc: "Green Pin bow & dee shackles, screw-pin and safety-bolt", color: "bg-navy" },
-  { id: "synthetic-sling", desc: "ABLE webbing & round slings, colour-coded to EN 1492",   color: "bg-teal-dark" },
-  { id: "hoist-trolley",   desc: "Chain blocks, lever hoists, trolleys & winches",         color: "bg-navy-light" },
-  { id: "fittings",        desc: "Hooks, clips, sockets, swivels & eyebolts",              color: "bg-teal" },
-];
+const { productsTeaser } = HOME;
 
-const BRANDS = ["Green Pin", "ABLE", "DSR", "Usha-Martin", "Dragon", "Dongyang", "O.E.M"];
+// Tailwind color classes must appear as literals in code — Tailwind v4 purges any
+// class name it can't see at build time — so the card colour stays keyed by
+// category id here; the CMS only edits each highlight's `desc`.
+const HIGHLIGHT_COLORS: Record<string, string> = {
+  shackle: "bg-navy",
+  "synthetic-sling": "bg-teal-dark",
+  "hoist-trolley": "bg-navy-light",
+  fittings: "bg-teal",
+};
+
+const HIGHLIGHTS = productsTeaser.highlights.map((h) => ({
+  ...h,
+  color: HIGHLIGHT_COLORS[h.id] ?? "bg-navy",
+}));
+
+const BRANDS = productsTeaser.brands;
 
 export default function ProductsTeaser() {
   const total = VISIBLE_PRODUCTS.length;
@@ -27,10 +38,10 @@ export default function ProductsTeaser() {
         {/* Header */}
         <div className="text-center mb-12">
           <p className="font-mono text-teal-dark text-xs tracking-[0.3em] uppercase mb-4">
-            Product Catalogue
+            {productsTeaser.eyebrow}
           </p>
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-navy mb-4">
-            Find the right rigging product
+            {productsTeaser.heading}
           </h2>
           <p className="text-navy/60 max-w-xl mx-auto">
             {total} products across {CATEGORIES.length} categories — {live} live with full

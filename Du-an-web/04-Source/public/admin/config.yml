@@ -125,6 +125,72 @@ collections:
     editor:
       preview: false
     files:
+      - name: site
+        label: "Site — Liên hệ / Menu / Footer"
+        file: "Du-an-web/04-Source/content/settings/site.json"
+        description: "Thông tin dùng chung toàn site: liên hệ, thanh menu, footer. Sửa 1 nơi, áp dụng mọi trang."
+        fields:
+          - name: company
+            label: "Thông tin công ty"
+            widget: object
+            fields:
+              - { name: name, label: "Tên công ty", widget: string }
+              - { name: brandName, label: "Tên thương hiệu (chữ logo)", widget: string }
+              - { name: brandTagline, label: "Dòng phụ dưới logo", widget: string }
+              - { name: blurb, label: "Mô tả ngắn (footer)", widget: text }
+              - { name: phone, label: "Điện thoại (hiển thị)", widget: string }
+              - { name: phoneHref, label: "Điện thoại (dạng bấm gọi)", widget: string, hint: "định dạng quốc tế, vd: +842543512738" }
+              - { name: fax, label: "Fax", widget: string, required: false }
+              - { name: email, label: "Email", widget: string }
+              - name: addressLines
+                label: "Địa chỉ (mỗi mục 1 dòng)"
+                widget: list
+                field: { name: line, label: "Dòng địa chỉ", widget: string }
+              - { name: addressInline, label: "Địa chỉ 1 dòng (footer + map)", widget: string }
+              - { name: mapQuery, label: "Từ khóa Google Maps", widget: string, hint: "vd: 444A Binh Gia Street Tam Thang Ho Chi Minh City Vietnam" }
+          - name: nav
+            label: "Thanh menu (header)"
+            widget: list
+            summary: "{{fields.label}} → {{fields.href}}"
+            fields:
+              - { name: label, label: "Nhãn", widget: string }
+              - { name: href, label: "Đường dẫn", widget: string }
+          - name: headerCtas
+            label: "Nút trên header"
+            widget: object
+            fields:
+              - { name: wllLabel, label: "Nhãn nút WLL Tool", widget: string }
+              - { name: quoteLabel, label: "Nhãn nút Báo giá", widget: string }
+          - name: footer
+            label: "Footer"
+            widget: object
+            fields:
+              - name: productLinks
+                label: "Cột Products"
+                widget: list
+                summary: "{{fields.label}}"
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+              - name: serviceLinks
+                label: "Cột Services"
+                widget: list
+                summary: "{{fields.label}}"
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+              - name: companyLinks
+                label: "Cột Company"
+                widget: list
+                summary: "{{fields.label}}"
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+              - name: bottomBar
+                label: "Dòng chứng nhận (cuối trang)"
+                widget: list
+                field: { name: item, label: "Mục", widget: string }
+              - { name: copyrightName, label: "Tên bản quyền", widget: string }
       - name: categories
         label: "Danh mục sản phẩm"
         file: "Du-an-web/04-Source/content/categories.json"
@@ -139,3 +205,403 @@ collections:
               - { name: label, label: "Tên hiển thị", widget: string }
               - { name: rank, label: "Thứ tự", widget: number, value_type: int, default: 99 }
               - { name: visible, label: "Hiển thị danh mục này", widget: boolean, default: true }
+
+  # ─────────────────────────────  TRANG NỘI DUNG  ─────────────────────────────
+  # Mỗi trang là 1 file. Chỉ sửa CHỮ — bố cục/màu giữ trong code. Icon SVG ở khối
+  # "Services" trang chủ chọn bằng danh sách; màu thẻ danh mục nổi bật theo `id`.
+  - name: pages
+    label: "Trang (nội dung)"
+    label_singular: "Trang"
+    editor:
+      preview: false
+    files:
+      # ── HOME ──
+      - name: home
+        label: "Trang chủ (Home)"
+        file: "Du-an-web/04-Source/content/pages/home.json"
+        fields:
+          - name: hero
+            label: "Hero (đầu trang)"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ trên tiêu đề", widget: string }
+              - { name: headlineTop, label: "Tiêu đề — dòng 1", widget: string }
+              - { name: headlineBottom, label: "Tiêu đề — dòng 2 (màu teal)", widget: string }
+              - { name: subhead, label: "Mô tả dưới tiêu đề", widget: text }
+              - name: ctaPrimary
+                label: "Nút chính"
+                widget: object
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+              - name: ctaSecondary
+                label: "Nút phụ"
+                widget: object
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+              - name: features
+                label: "Pills tính năng"
+                widget: list
+                summary: "{{fields.icon}} {{fields.text}}"
+                fields:
+                  - { name: icon, label: "Icon (emoji)", widget: string }
+                  - { name: text, label: "Nội dung", widget: string }
+          - name: stats
+            label: "Dải số liệu"
+            widget: list
+            summary: "{{fields.value}} — {{fields.label}}"
+            fields:
+              - { name: value, label: "Số", widget: string }
+              - { name: label, label: "Nhãn", widget: string }
+          - name: aboutTeaser
+            label: "Khối About (giới thiệu ngắn)"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - { name: body, label: "Nội dung", widget: text }
+              - name: link
+                label: "Link 'Learn more'"
+                widget: object
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+              - name: credentials
+                label: "Thẻ chứng nhận"
+                widget: list
+                summary: "{{fields.code}} — {{fields.desc}}"
+                fields:
+                  - { name: code, label: "Mã (vd: DNV)", widget: string }
+                  - { name: desc, label: "Mô tả", widget: string }
+          - name: productsTeaser
+            label: "Khối Products (danh mục nổi bật)"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - name: highlights
+                label: "Thẻ danh mục nổi bật (màu theo id — đừng đổi id)"
+                widget: list
+                summary: "{{fields.id}} — {{fields.desc}}"
+                fields:
+                  - { name: id, label: "ID danh mục (khớp categoryId)", widget: string }
+                  - { name: desc, label: "Mô tả", widget: string }
+              - name: brands
+                label: "Danh sách thương hiệu"
+                widget: list
+                field: { name: brand, label: "Thương hiệu", widget: string }
+          - name: servicesTeaser
+            label: "Khối Services (dịch vụ ngắn)"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - { name: subhead, label: "Mô tả", widget: text }
+              - name: services
+                label: "Thẻ dịch vụ"
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: id, label: "ID", widget: string }
+                  - name: iconKey
+                    label: "Icon"
+                    widget: select
+                    options: ["spooling", "load-testing", "ndt"]
+                  - { name: title, label: "Tiêu đề", widget: string }
+                  - { name: desc, label: "Mô tả", widget: text }
+                  - name: tags
+                    label: "Nhãn (tags)"
+                    widget: list
+                    field: { name: tag, label: "Tag", widget: string }
+              - { name: ctaLabel, label: "Nhãn nút 'View all'", widget: string }
+
+      # ── ABOUT ──
+      - name: about
+        label: "Giới thiệu (About)"
+        file: "Du-an-web/04-Source/content/pages/about.json"
+        fields:
+          - name: meta
+            label: "SEO (tiêu đề trình duyệt)"
+            widget: object
+            fields:
+              - { name: title, label: "Tiêu đề SEO", widget: string }
+              - { name: description, label: "Mô tả SEO", widget: text }
+          - name: hero
+            label: "Hero"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: headline, label: "Tiêu đề", widget: string }
+              - { name: subhead, label: "Mô tả", widget: text }
+          - name: missionVision
+            label: "Sứ mệnh & Tầm nhìn"
+            widget: object
+            fields:
+              - { name: mission, label: "Sứ mệnh (Mission)", widget: text }
+              - { name: vision, label: "Tầm nhìn (Vision)", widget: text }
+          - name: story
+            label: "Câu chuyện"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - name: paragraphs
+                label: "Đoạn văn"
+                widget: list
+                field: { name: p, label: "Đoạn", widget: text }
+          - name: credentials
+            label: "Thẻ chứng nhận"
+            widget: list
+            summary: "{{fields.code}} — {{fields.label}}"
+            fields:
+              - { name: code, label: "Mã", widget: string }
+              - { name: label, label: "Tên", widget: string }
+              - { name: detail, label: "Chi tiết", widget: string }
+          - name: values
+            label: "Giá trị cốt lõi"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - name: items
+                label: "Các giá trị"
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: title, label: "Tiêu đề", widget: string }
+                  - { name: desc, label: "Mô tả", widget: text }
+          - name: clients
+            label: "Khách hàng tiêu biểu"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - name: names
+                label: "Tên khách hàng"
+                widget: list
+                field: { name: name, label: "Tên", widget: string }
+          - name: cta
+            label: "Khối kêu gọi (CTA)"
+            widget: object
+            fields:
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - { name: body, label: "Nội dung", widget: text }
+              - name: primary
+                label: "Nút chính"
+                widget: object
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+              - name: secondary
+                label: "Nút phụ"
+                widget: object
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+
+      # ── SERVICES ──
+      - name: services
+        label: "Dịch vụ (Services)"
+        file: "Du-an-web/04-Source/content/pages/services.json"
+        fields:
+          - name: meta
+            label: "SEO"
+            widget: object
+            fields:
+              - { name: title, label: "Tiêu đề SEO", widget: string }
+              - { name: description, label: "Mô tả SEO", widget: text }
+          - name: hero
+            label: "Hero"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: headline, label: "Tiêu đề", widget: string }
+              - { name: subhead, label: "Mô tả", widget: text }
+          - name: stats
+            label: "Dải số liệu năng lực"
+            widget: list
+            summary: "{{fields.value}} — {{fields.label}}"
+            fields:
+              - { name: value, label: "Số", widget: string }
+              - { name: label, label: "Nhãn", widget: string }
+          - name: services
+            label: "Danh sách dịch vụ"
+            widget: list
+            summary: "{{fields.icon}} {{fields.title}}"
+            fields:
+              - { name: id, label: "ID", widget: string }
+              - { name: icon, label: "Icon (emoji)", widget: string }
+              - { name: title, label: "Tiêu đề", widget: string }
+              - { name: desc, label: "Mô tả", widget: text }
+              - name: items
+                label: "Gạch đầu dòng"
+                widget: list
+                field: { name: item, label: "Mục", widget: string }
+              - name: tags
+                label: "Nhãn (tags)"
+                widget: list
+                field: { name: tag, label: "Tag", widget: string }
+          - name: facility
+            label: "Nhà xưởng & thiết bị"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - name: paragraphs
+                label: "Đoạn văn"
+                widget: list
+                field: { name: p, label: "Đoạn", widget: text }
+              - name: equipment
+                label: "Thiết bị"
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - { name: name, label: "Tên", widget: string }
+                  - { name: detail, label: "Chi tiết", widget: string }
+          - name: process
+            label: "Quy trình"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - name: items
+                label: "Các bước"
+                widget: list
+                summary: "{{fields.step}}. {{fields.title}}"
+                fields:
+                  - { name: step, label: "Số bước", widget: string }
+                  - { name: title, label: "Tiêu đề", widget: string }
+                  - { name: desc, label: "Mô tả", widget: text }
+          - name: certifications
+            label: "Chứng nhận"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - name: items
+                label: "Các chứng nhận"
+                widget: list
+                summary: "{{fields.code}} — {{fields.title}}"
+                fields:
+                  - { name: code, label: "Mã", widget: string }
+                  - { name: title, label: "Tên", widget: string }
+                  - { name: detail, label: "Chi tiết", widget: string }
+          - name: cta
+            label: "Khối kêu gọi (CTA)"
+            widget: object
+            fields:
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - { name: body, label: "Nội dung", widget: text }
+              - name: primary
+                label: "Nút chính"
+                widget: object
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+
+      # ── PROJECTS ──
+      - name: projects
+        label: "Dự án (Projects)"
+        file: "Du-an-web/04-Source/content/pages/projects.json"
+        fields:
+          - name: meta
+            label: "SEO"
+            widget: object
+            fields:
+              - { name: title, label: "Tiêu đề SEO", widget: string }
+              - { name: description, label: "Mô tả SEO", widget: text }
+          - name: hero
+            label: "Hero"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: headline, label: "Tiêu đề", widget: string }
+              - { name: subhead, label: "Mô tả", widget: text }
+          - name: stats
+            label: "Dải số liệu"
+            widget: list
+            summary: "{{fields.value}} — {{fields.label}}"
+            fields:
+              - { name: value, label: "Số", widget: string }
+              - { name: label, label: "Nhãn", widget: string }
+          - name: sectorsSection
+            label: "Tiêu đề khối 'Sectors'"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+          - name: sectors
+            label: "Lĩnh vực (sectors)"
+            widget: list
+            summary: "{{fields.icon}} {{fields.title}}"
+            fields:
+              - { name: id, label: "ID", widget: string }
+              - { name: icon, label: "Icon (emoji)", widget: string }
+              - { name: title, label: "Tiêu đề", widget: string }
+              - { name: desc, label: "Mô tả", widget: text }
+              - { name: clients, label: "Khách hàng (dòng dưới)", widget: string }
+          - name: gallery
+            label: "Thư viện ảnh (placeholder)"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - { name: note, label: "Ghi chú", widget: text }
+          - name: cta
+            label: "Khối kêu gọi (CTA)"
+            widget: object
+            fields:
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - { name: body, label: "Nội dung", widget: text }
+              - name: primary
+                label: "Nút chính"
+                widget: object
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+              - name: secondary
+                label: "Nút phụ"
+                widget: object
+                fields:
+                  - { name: label, label: "Nhãn", widget: string }
+                  - { name: href, label: "Đường dẫn", widget: string }
+
+      # ── CONTACT ──
+      - name: contact
+        label: "Liên hệ (Contact)"
+        file: "Du-an-web/04-Source/content/pages/contact.json"
+        description: "Thông tin công ty (địa chỉ/ĐT/fax) lấy từ Cài đặt → Site, không nhập lại ở đây."
+        fields:
+          - name: meta
+            label: "SEO"
+            widget: object
+            fields:
+              - { name: title, label: "Tiêu đề SEO", widget: string }
+              - { name: description, label: "Mô tả SEO", widget: text }
+          - name: hero
+            label: "Hero"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: headline, label: "Tiêu đề", widget: string }
+              - { name: subhead, label: "Mô tả", widget: text }
+          - name: salesTeam
+            label: "Đội ngũ Sales"
+            widget: list
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { name: name, label: "Tên", widget: string }
+              - { name: role, label: "Chức danh", widget: string }
+              - { name: phone, label: "Điện thoại", widget: string }
+              - { name: email, label: "Email", widget: string }
+              - { name: priority, label: "Ưu tiên (thẻ nổi bật)", widget: boolean, default: false }
+          - name: rfqChecklist
+            label: "Checklist gửi RFQ"
+            widget: object
+            fields:
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - name: items
+                label: "Các mục"
+                widget: list
+                field: { name: item, label: "Mục", widget: string }

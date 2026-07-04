@@ -4,15 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { SITE } from "@/lib/content";
 
-const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/products", label: "Products" },
-  { href: "/services", label: "Services" },
-  { href: "/projects", label: "Projects" },
-  { href: "/contact", label: "Contact" },
-];
+const NAV_LINKS = SITE.nav;
+const { brandName, brandTagline } = SITE.company;
+const { wllLabel, quoteLabel } = SITE.headerCtas;
 
 export default function Header() {
   const pathname = usePathname();
@@ -45,14 +41,14 @@ export default function Header() {
                   isHome ? "text-white" : "text-navy"
                 }`}
               >
-                MEKONG SLING
+                {brandName}
               </span>
               <span
                 className={`font-mono text-[9px] tracking-[0.18em] uppercase ${
                   isHome ? "text-teal" : "text-teal-dark"
                 }`}
               >
-                UNITED MEKONG · VŨNG TÀU
+                {brandTagline}
               </span>
             </div>
           </Link>
@@ -88,13 +84,13 @@ export default function Header() {
                   : "border-teal-dark/50 text-teal-dark hover:bg-teal/10"
               }`}
             >
-              WLL Tool
+              {wllLabel}
             </Link>
             <Link
               href="/contact"
               className="text-sm font-semibold px-4 py-2 rounded bg-teal text-navy hover:bg-teal-dark transition-colors"
             >
-              Request a Quote
+              {quoteLabel}
             </Link>
           </div>
 
@@ -150,14 +146,14 @@ export default function Header() {
                 onClick={() => setMenuOpen(false)}
                 className="text-sm font-mono font-medium px-3 py-1.5 rounded border border-teal/50 text-teal"
               >
-                WLL Tool
+                {wllLabel}
               </Link>
               <Link
                 href="/contact"
                 onClick={() => setMenuOpen(false)}
                 className="text-sm font-semibold px-4 py-2 rounded bg-teal text-navy"
               >
-                Request a Quote
+                {quoteLabel}
               </Link>
             </div>
           </div>

@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Contact — United Mekong JSC",
+    "description": "Get in touch with our sales team. Quote with full technical specs within one business day."
+  },
+  "hero": {
+    "eyebrow": "Get in touch",
+    "headline": "We reply within one business day",
+    "subhead": "Send us your lifting requirements and we will come back with a full technical quote — specs, certs, and lead time included."
+  },
+  "salesTeam": [
+    { "name": "Ms. Thủy", "role": "Head of Sales", "phone": "0942 928 784", "email": "sales@mekongsling.com", "priority": true },
+    { "name": "Ms. Thúy", "role": "Sales Representative", "phone": "0938 261 415", "email": "sales7@mekongsling.com", "priority": false },
+    { "name": "Ms. Phương", "role": "Sales Representative", "phone": "0936 793 973", "email": "sales12@mekongsling.com", "priority": false },
+    { "name": "Mr. An", "role": "Sales Representative", "phone": "0938 185 183", "email": "sales8@mekongsling.com", "priority": false },
+    { "name": "Mr. Ngọc", "role": "Sales Representative", "phone": "0983 325 832", "email": "sales2@mekongsling.com", "priority": false },
+    { "name": "Ms. Hằng", "role": "Sales Representative", "phone": "0909 231 064", "email": "sales5@mekongsling.com", "priority": false }
+  ],
+  "rfqChecklist": {
+    "heading": "For a fast quote, please include:",
+    "items": [
+      "Equipment type required",
+      "Working load limit (SWL / WLL)",
+      "Applicable standard (EN, ASME, DNV…)",
+      "Quantity & delivery location",
+      "Required delivery date"
+    ]
+  }
+}

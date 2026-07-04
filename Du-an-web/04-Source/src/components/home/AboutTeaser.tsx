@@ -1,11 +1,8 @@
 import Link from "next/link";
+import { HOME } from "@/lib/content";
 
-const CREDENTIALS = [
-  { code: "DNV", desc: "DNV Type Approved" },
-  { code: "ISO", desc: "ISO 9001 Certified" },
-  { code: "IMCA", desc: "IMCA Member 2026" },
-  { code: "700t", desc: "In-house Proof Test" },
-];
+const { aboutTeaser } = HOME;
+const CREDENTIALS = aboutTeaser.credentials;
 
 export default function AboutTeaser() {
   return (
@@ -15,22 +12,19 @@ export default function AboutTeaser() {
           {/* Text */}
           <div>
             <p className="font-mono text-teal-dark text-xs tracking-[0.3em] uppercase mb-4">
-              About Mekong Sling
+              {aboutTeaser.eyebrow}
             </p>
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-navy leading-tight mb-6">
-              20+ years delivering certified rigging in Vietnam
+              {aboutTeaser.heading}
             </h2>
             <p className="text-navy/60 text-lg leading-relaxed mb-8">
-              United Mekong JSC is the authorised distributor of Green Pin, ABLE
-              and other leading rigging brands in Vietnam. Every assembly we
-              produce is proof-tested on our 700-tonne horizontal test bed and
-              delivered with traceable certificates.
+              {aboutTeaser.body}
             </p>
             <Link
-              href="/about"
+              href={aboutTeaser.link.href}
               className="inline-flex items-center gap-2 font-heading font-semibold text-sm text-teal-dark hover:text-teal transition-colors"
             >
-              Learn more about us
+              {aboutTeaser.link.label}
               <svg
                 className="w-4 h-4"
                 fill="none"

@@ -1,24 +1,9 @@
 import Link from "next/link";
+import { Fragment } from "react";
+import { SITE } from "@/lib/content";
 
-const PRODUCT_LINKS = [
-  { href: "/products?type=hardware", label: "Shackles & Hardware" },
-  { href: "/products?type=wire-rope", label: "Wire Rope & Slings" },
-  { href: "/products?type=rope", label: "Rope" },
-  { href: "/products?type=safety", label: "Safety Equipment" },
-];
-
-const SERVICE_LINKS = [
-  { href: "/services#spooling", label: "Wire Rope Spooling" },
-  { href: "/services#load-testing", label: "Load & Proof Testing" },
-  { href: "/services#ndt", label: "NDT Inspection" },
-];
-
-const COMPANY_LINKS = [
-  { href: "/about", label: "About Us" },
-  { href: "/projects", label: "Projects" },
-  { href: "/wll-tool", label: "WLL Calculator" },
-  { href: "/contact", label: "Contact" },
-];
+const { company, footer } = SITE;
+const { productLinks: PRODUCT_LINKS, serviceLinks: SERVICE_LINKS, companyLinks: COMPANY_LINKS } = footer;
 
 export default function Footer() {
   return (
@@ -29,35 +14,33 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="mb-4">
               <div className="font-heading font-extrabold text-xl tracking-wider">
-                MEKONG SLING
+                {company.brandName}
               </div>
               <div className="font-mono text-[10px] tracking-[0.2em] text-teal uppercase mt-0.5">
-                UNITED MEKONG · VŨNG TÀU
+                {company.brandTagline}
               </div>
             </div>
             <p className="text-slate-border text-sm leading-relaxed mb-6">
-              Genuine hardware &amp; certified slings. From the Mekong, to the
-              world&apos;s oceans.
+              {company.blurb}
             </p>
             <div className="space-y-2 text-sm text-slate-border">
               <div>
                 <span className="font-mono text-teal">TEL</span>{" "}
-                <a href="tel:+842543512738" className="hover:text-white">
-                  0254 3512 738
+                <a href={`tel:${company.phoneHref}`} className="hover:text-white">
+                  {company.phone}
                 </a>
               </div>
               <div>
                 <span className="font-mono text-teal">EMAIL</span>{" "}
                 <a
-                  href="mailto:sales@mekongsling.com"
+                  href={`mailto:${company.email}`}
                   className="hover:text-white"
                 >
-                  sales@mekongsling.com
+                  {company.email}
                 </a>
               </div>
               <div>
-                <span className="font-mono text-teal">LOC</span> 444A, Binh Gia Str,
-                Ward Tam Thang, Ho Chi Minh City, Vietnam
+                <span className="font-mono text-teal">LOC</span> {company.addressInline}
               </div>
             </div>
           </div>
@@ -123,15 +106,16 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-slate-border font-mono">
-            © {new Date().getFullYear()} United Mekong JSC. All rights
+            © {new Date().getFullYear()} {footer.copyrightName}. All rights
             reserved.
           </p>
           <div className="flex items-center gap-4 text-xs text-slate-border font-mono">
-            <span>DNV Approved</span>
-            <span className="text-white/20">·</span>
-            <span>ISO 9001 Certified</span>
-            <span className="text-white/20">·</span>
-            <span>IMCA Member 2026</span>
+            {footer.bottomBar.map((item, i) => (
+              <Fragment key={item}>
+                {i > 0 && <span className="text-white/20">·</span>}
+                <span>{item}</span>
+              </Fragment>
+            ))}
           </div>
         </div>
       </div>

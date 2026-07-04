@@ -1,9 +1,6 @@
-const STATS = [
-  { value: "700t", label: "Proof Test Bed" },
-  { value: "8", label: "Authorised Brands" },
-  { value: "5,000+", label: "Assemblies / Year" },
-  { value: "20+", label: "Years in Vung Tau" },
-];
+import { HOME } from "@/lib/content";
+
+const STATS = HOME.stats;
 
 export default function StatsStrip() {
   return (

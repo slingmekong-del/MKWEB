@@ -1,49 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PROJECTS } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Projects — United Mekong JSC",
-  description:
-    "Case studies from offshore, port, shipbuilding and heavy-lift projects supplied by United Mekong JSC.",
+  title: PROJECTS.meta.title,
+  description: PROJECTS.meta.description,
 };
 
-const SECTORS = [
-  {
-    id: "offshore",
-    icon: "⚓",
-    title: "Offshore & FPSO",
-    desc: "Wire rope slings, shackles, and crane rigging sets for FPSO mooring, topside lifts, and subsea installation. Familiar with IMCA M 179 and DNV-ST-N001.",
-    clients: "FPSO operators · Rig contractors · DSV support",
-  },
-  {
-    id: "port",
-    icon: "🏗️",
-    title: "Port & Terminal",
-    desc: "Container spreader slings, quay crane rigging, and general cargo gear for Vung Tau, Cái Mép, and HCMC port facilities.",
-    clients: "Port terminals · Stevedores · Logistics contractors",
-  },
-  {
-    id: "shipbuilding",
-    icon: "🚢",
-    title: "Shipbuilding & Repair",
-    desc: "Launch and drydock rigging, block-erection sling sets, and chain blocks for shipyards across Southeast Asia.",
-    clients: "Shipyards · OSV operators · Vessel owners",
-  },
-  {
-    id: "heavy-lift",
-    icon: "🏛️",
-    title: "Heavy Lift & Construction",
-    desc: "Multi-leg sling sets, beam spreaders, and turnbuckle assemblies for onshore heavy-lift, civil construction, and petrochemical plant erection.",
-    clients: "EPC contractors · Heavy-lift specialists",
-  },
-];
-
-const STATS = [
-  { value: "20+", label: "Years in rigging" },
-  { value: "500+", label: "Projects delivered" },
-  { value: "700t", label: "Proof test capacity" },
-  { value: "1-day", label: "Quote turnaround" },
-];
+const { hero, stats, sectorsSection, sectors, gallery, cta } = PROJECTS;
 
 export default function ProjectsPage() {
   return (
@@ -52,15 +16,13 @@ export default function ProjectsPage() {
       <section className="bg-navy py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <p className="font-mono text-teal text-xs tracking-[0.4em] uppercase mb-5">
-            Projects &amp; case studies
+            {hero.eyebrow}
           </p>
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl text-white leading-tight mb-6">
-            Trusted across industries, project after project
+            {hero.headline}
           </h1>
           <p className="text-slate-border text-lg max-w-2xl mx-auto leading-relaxed">
-            From offshore FPSO topside lifts to port crane rigging and
-            shipyard block erection — we deliver certified gear and
-            documentation to keep your operations moving.
+            {hero.subhead}
           </p>
         </div>
       </section>
@@ -68,7 +30,7 @@ export default function ProjectsPage() {
       {/* Stats */}
       <section className="bg-teal py-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-          {STATS.map(({ value, label }) => (
+          {stats.map(({ value, label }) => (
             <div key={label}>
               <div className="font-heading font-extrabold text-3xl text-navy mb-1">
                 {value}
@@ -86,14 +48,14 @@ export default function ProjectsPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <p className="font-mono text-teal-dark text-xs tracking-[0.3em] uppercase mb-4">
-              Industry sectors
+              {sectorsSection.eyebrow}
             </p>
             <h2 className="font-heading font-extrabold text-3xl text-navy">
-              Sectors we serve
+              {sectorsSection.heading}
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {SECTORS.map(({ id, icon, title, desc, clients }) => (
+            {sectors.map(({ id, icon, title, desc, clients }) => (
               <div
                 key={id}
                 className="bg-slate-light rounded-xl p-8 border border-slate-border"
@@ -117,15 +79,13 @@ export default function ProjectsPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <p className="font-mono text-teal-dark text-xs tracking-[0.3em] uppercase mb-4">
-              Gallery
+              {gallery.eyebrow}
             </p>
             <h2 className="font-heading font-extrabold text-3xl text-navy mb-4">
-              Project photos
+              {gallery.heading}
             </h2>
             <p className="text-navy/60 max-w-md mx-auto">
-              Photo gallery coming soon — we are currently curating our
-              project portfolio. Contact us to discuss your specific
-              sector or application.
+              {gallery.note}
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -147,24 +107,23 @@ export default function ProjectsPage() {
       <section className="bg-navy py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-heading font-extrabold text-3xl text-white mb-4">
-            Have a project in mind?
+            {cta.heading}
           </h2>
           <p className="text-slate-border mb-8">
-            Tell us about your lifting requirement and we will respond with
-            a technical proposal within one business day.
+            {cta.body}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/contact"
+              href={cta.primary.href}
               className="px-8 py-3.5 rounded bg-teal text-navy font-heading font-bold text-sm tracking-wide hover:bg-teal-dark transition-colors"
             >
-              Start a conversation
+              {cta.primary.label}
             </Link>
             <Link
-              href="/products"
+              href={cta.secondary.href}
               className="px-8 py-3.5 rounded border border-white/30 text-white font-heading font-semibold text-sm tracking-wide hover:bg-white/10 transition-colors"
             >
-              Browse products
+              {cta.secondary.label}
             </Link>
           </div>
         </div>

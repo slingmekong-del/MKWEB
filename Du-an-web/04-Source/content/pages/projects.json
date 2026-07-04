@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Projects — United Mekong JSC",
+    "description": "Case studies from offshore, port, shipbuilding and heavy-lift projects supplied by United Mekong JSC."
+  },
+  "hero": {
+    "eyebrow": "Projects & case studies",
+    "headline": "Trusted across industries, project after project",
+    "subhead": "From offshore FPSO topside lifts to port crane rigging and shipyard block erection — we deliver certified gear and documentation to keep your operations moving."
+  },
+  "stats": [
+    { "value": "20+", "label": "Years in rigging" },
+    { "value": "500+", "label": "Projects delivered" },
+    { "value": "700t", "label": "Proof test capacity" },
+    { "value": "1-day", "label": "Quote turnaround" }
+  ],
+  "sectorsSection": {
+    "eyebrow": "Industry sectors",
+    "heading": "Sectors we serve"
+  },
+  "sectors": [
+    {
+      "id": "offshore",
+      "icon": "⚓",
+      "title": "Offshore & FPSO",
+      "desc": "Wire rope slings, shackles, and crane rigging sets for FPSO mooring, topside lifts, and subsea installation. Familiar with IMCA M 179 and DNV-ST-N001.",
+      "clients": "FPSO operators · Rig contractors · DSV support"
+    },
+    {
+      "id": "port",
+      "icon": "🏗️",
+      "title": "Port & Terminal",
+      "desc": "Container spreader slings, quay crane rigging, and general cargo gear for Vung Tau, Cái Mép, and HCMC port facilities.",
+      "clients": "Port terminals · Stevedores · Logistics contractors"
+    },
+    {
+      "id": "shipbuilding",
+      "icon": "🚢",
+      "title": "Shipbuilding & Repair",
+      "desc": "Launch and drydock rigging, block-erection sling sets, and chain blocks for shipyards across Southeast Asia.",
+      "clients": "Shipyards · OSV operators · Vessel owners"
+    },
+    {
+      "id": "heavy-lift",
+      "icon": "🏛️",
+      "title": "Heavy Lift & Construction",
+      "desc": "Multi-leg sling sets, beam spreaders, and turnbuckle assemblies for onshore heavy-lift, civil construction, and petrochemical plant erection.",
+      "clients": "EPC contractors · Heavy-lift specialists"
+    }
+  ],
+  "gallery": {
+    "eyebrow": "Gallery",
+    "heading": "Project photos",
+    "note": "Photo gallery coming soon — we are currently curating our project portfolio. Contact us to discuss your specific sector or application."
+  },
+  "cta": {
+    "heading": "Have a project in mind?",
+    "body": "Tell us about your lifting requirement and we will respond with a technical proposal within one business day.",
+    "primary": { "href": "/contact", "label": "Start a conversation" },
+    "secondary": { "href": "/products", "label": "Browse products" }
+  }
+}

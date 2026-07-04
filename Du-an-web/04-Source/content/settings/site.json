@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "United Mekong JSC",
+    "brandName": "MEKONG SLING",
+    "brandTagline": "UNITED MEKONG · VŨNG TÀU",
+    "blurb": "Genuine hardware & certified slings. From the Mekong, to the world's oceans.",
+    "phone": "0254 3512 738",
+    "phoneHref": "+842543512738",
+    "fax": "0254 3512 739",
+    "email": "sales@mekongsling.com",
+    "addressLines": [
+      "No. 444A, Binh Gia Str, Ward Tam Thang,",
+      "Ho Chi Minh City, Vietnam"
+    ],
+    "addressInline": "444A Binh Gia Str, Ward Tam Thang, Ho Chi Minh City, Vietnam",
+    "mapQuery": "444A Binh Gia Street Tam Thang Ho Chi Minh City Vietnam"
+  },
+  "nav": [
+    { "href": "/", "label": "Home" },
+    { "href": "/about", "label": "About" },
+    { "href": "/products", "label": "Products" },
+    { "href": "/services", "label": "Services" },
+    { "href": "/projects", "label": "Projects" },
+    { "href": "/contact", "label": "Contact" }
+  ],
+  "headerCtas": {
+    "wllLabel": "WLL Tool",
+    "quoteLabel": "Request a Quote"
+  },
+  "footer": {
+    "productLinks": [
+      { "href": "/products?type=hardware", "label": "Shackles & Hardware" },
+      { "href": "/products?type=wire-rope", "label": "Wire Rope & Slings" },
+      { "href": "/products?type=rope", "label": "Rope" },
+      { "href": "/products?type=safety", "label": "Safety Equipment" }
+    ],
+    "serviceLinks": [
+      { "href": "/services#spooling", "label": "Wire Rope Spooling" },
+      { "href": "/services#load-testing", "label": "Load & Proof Testing" },
+      { "href": "/services#ndt", "label": "NDT Inspection" }
+    ],
+    "companyLinks": [
+      { "href": "/about", "label": "About Us" },
+      { "href": "/projects", "label": "Projects" },
+      { "href": "/wll-tool", "label": "WLL Calculator" },
+      { "href": "/contact", "label": "Contact" }
+    ],
+    "bottomBar": ["DNV Approved", "ISO 9001 Certified", "IMCA Member 2026"],
+    "copyrightName": "United Mekong JSC"
+  }
+}
