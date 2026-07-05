@@ -72,6 +72,10 @@ export type HomeContent = {
 
 export type Meta = { title: string; description: string };
 
+// A CMS-uploaded gallery photo with an optional caption. Shared by the
+// per-service and per-sector galleries.
+export type GalleryImage = { image: string; caption?: string };
+
 export type AboutContent = {
   meta: Meta;
   hero: { eyebrow: string; headline: string; subhead: string };
@@ -87,13 +91,14 @@ export type ServicesContent = {
   meta: Meta;
   hero: { eyebrow: string; headline: string; subhead: string };
   stats: { value: string; label: string }[];
-  services: { id: string; icon: string; title: string; desc: string; items: string[]; tags: string[] }[];
+  services: { id: string; icon: string; title: string; desc: string; items: string[]; tags: string[]; images?: GalleryImage[] }[];
   facility: {
     eyebrow: string;
     heading: string;
     paragraphs: string[];
     equipment: { name: string; detail: string }[];
   };
+  gallery: { eyebrow: string; heading: string; note: string };
   process: { eyebrow: string; heading: string; items: { step: string; title: string; desc: string }[] };
   certifications: { eyebrow: string; heading: string; items: { code: string; title: string; detail: string }[] };
   cta: { heading: string; body: string; primary: NavLink };
@@ -104,7 +109,7 @@ export type ProjectsContent = {
   hero: { eyebrow: string; headline: string; subhead: string };
   stats: { value: string; label: string }[];
   sectorsSection: { eyebrow: string; heading: string };
-  sectors: { id: string; icon: string; title: string; desc: string; clients: string }[];
+  sectors: { id: string; icon: string; title: string; desc: string; clients: string; images?: GalleryImage[] }[];
   gallery: { eyebrow: string; heading: string; note: string };
   cta: { heading: string; body: string; primary: NavLink; secondary: NavLink };
 };

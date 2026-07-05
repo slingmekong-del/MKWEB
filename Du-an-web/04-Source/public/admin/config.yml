@@ -442,6 +442,17 @@ collections:
                 label: "Nhãn (tags)"
                 widget: list
                 field: { name: tag, label: "Tag", widget: string }
+              - name: images
+                label: "Thư viện ảnh của dịch vụ này (nhiều ảnh)"
+                widget: list
+                required: false
+                label_singular: "Ảnh"
+                summary: "{{fields.caption}}"
+                media_folder: "/Du-an-web/04-Source/public/gallery"
+                public_folder: "/gallery"
+                fields:
+                  - { name: image, label: "Ảnh", widget: image }
+                  - { name: caption, label: "Chú thích (tùy chọn)", widget: string, required: false }
           - name: facility
             label: "Nhà xưởng & thiết bị"
             widget: object
@@ -459,6 +470,13 @@ collections:
                 fields:
                   - { name: name, label: "Tên", widget: string }
                   - { name: detail, label: "Chi tiết", widget: string }
+          - name: gallery
+            label: "Thư viện ảnh — tiêu đề khu (ảnh gắn trong từng dịch vụ ở trên)"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - { name: note, label: "Ghi chú khi chưa có ảnh", widget: text }
           - name: process
             label: "Quy trình"
             widget: object
@@ -541,8 +559,19 @@ collections:
               - { name: title, label: "Tiêu đề", widget: string }
               - { name: desc, label: "Mô tả", widget: text }
               - { name: clients, label: "Khách hàng (dòng dưới)", widget: string }
+              - name: images
+                label: "Thư viện ảnh của lĩnh vực này (nhiều ảnh)"
+                widget: list
+                required: false
+                label_singular: "Ảnh"
+                summary: "{{fields.caption}}"
+                media_folder: "/Du-an-web/04-Source/public/gallery"
+                public_folder: "/gallery"
+                fields:
+                  - { name: image, label: "Ảnh", widget: image }
+                  - { name: caption, label: "Chú thích (tùy chọn)", widget: string, required: false }
           - name: gallery
-            label: "Thư viện ảnh (placeholder)"
+            label: "Thư viện ảnh (tiêu đề khu)"
             widget: object
             fields:
               - { name: eyebrow, label: "Dòng nhỏ", widget: string }

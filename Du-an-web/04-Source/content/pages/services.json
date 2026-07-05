@@ -21,7 +21,8 @@
       "title": "Rigging Supply",
       "desc": "Immediate off-the-shelf supply of wire rope slings, shackles, hooks, swivels, turnbuckles and all standard rigging hardware from authorised brands. Custom assemblies on request.",
       "items": ["Green Pin shackles & hooks", "ABLE wire rope & fittings", "Same-day dispatch from Vung Tau"],
-      "tags": ["Authorised distributor", "Stock held in VT"]
+      "tags": ["Authorised distributor", "Stock held in VT"],
+      "images": []
     },
     {
       "id": "assembly",
@@ -29,7 +30,8 @@
       "title": "Sling Assembly",
       "desc": "Flemish-eye splices, swaged terminations, and custom sling sets fabricated to EN13414, ASME B30.9, or project-specific standards. Each assembly tagged, documented, and issued with a CoC.",
       "items": ["Wire rope slings", "Roundslings & webbing slings", "Chain slings"],
-      "tags": ["EN13414", "ASME B30.9", "CoC included"]
+      "tags": ["EN13414", "ASME B30.9", "CoC included"],
+      "images": []
     },
     {
       "id": "spooling",
@@ -37,7 +39,8 @@
       "title": "Wire Rope Spooling",
       "desc": "Precision drum-to-drum spooling with tension control to prevent birdcaging and internal damage. Available at our Vung Tau facility, with a mobile spooling unit for on-site jobs.",
       "items": ["Tension-controlled re-spooling", "Drum-to-drum transfer", "On-site / mobile unit"],
-      "tags": ["Tension-controlled", "On-site available"]
+      "tags": ["Tension-controlled", "On-site available"],
+      "images": []
     },
     {
       "id": "load-test",
@@ -45,7 +48,8 @@
       "title": "Load & Proof Testing",
       "desc": "In-house 700-tonne horizontal proof test bed. Full certificates issued for every item. DNV-certified process, with short notice accepted for urgent rig-ready deadlines.",
       "items": ["Wire rope slings", "Chain slings", "Webbing slings", "Shackles", "Roundslings"],
-      "tags": ["700t capacity", "DNV certified", "Short notice"]
+      "tags": ["700t capacity", "DNV certified", "Short notice"],
+      "images": []
     },
     {
       "id": "inspection",
@@ -53,7 +57,8 @@
       "title": "Inspection & NDT",
       "desc": "Visual inspection and Non-Destructive Testing by Level II certified technicians — covering lifting equipment and machinery, compliant with EN13414 and DNV-ST-N001.",
       "items": ["Crane inspection", "Escalator inspection", "Elevator inspection", "NDT: Penetrant Testing (PT)", "NDT: Magnetic Testing (MT)"],
-      "tags": ["Level II NDT", "EN13414", "DNV-ST-N001"]
+      "tags": ["Level II NDT", "EN13414", "DNV-ST-N001"],
+      "images": []
     },
     {
       "id": "certification",
@@ -61,7 +66,8 @@
       "title": "Certification & Recertification",
       "desc": "Annual in-service inspection and re-certification of your existing sling inventory to LEEA 030 or project SJP. Full inspection register issued.",
       "items": ["Annual in-service inspection", "Re-certification to LEEA 030", "Full inspection register"],
-      "tags": ["LEEA 030", "In-service inspection"]
+      "tags": ["LEEA 030", "In-service inspection"],
+      "images": []
     }
   ],
   "facility": {
@@ -77,6 +83,11 @@
       { "name": "Roundsling Machine", "detail": "Synthetic roundsling manufacturing" },
       { "name": "Industrial Sewing Machines", "detail": "Webbing slings & soft fittings" }
     ]
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "heading": "Our services in action",
+    "note": "Photos coming soon — we are curating images of our workshop and on-site work."
   },
   "process": {
     "eyebrow": "How it works",

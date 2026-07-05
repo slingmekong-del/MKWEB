@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PROJECTS } from "@/lib/content";
+import GroupedGallery from "@/components/pages/GroupedGallery";
 
 export const metadata: Metadata = {
   title: PROJECTS.meta.title,
@@ -74,33 +75,14 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* Photo gallery placeholder */}
+      {/* Project photo gallery — grouped by sector, editable in the CMS */}
       <section className="bg-slate-light py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="font-mono text-teal-dark text-xs tracking-[0.3em] uppercase mb-4">
-              {gallery.eyebrow}
-            </p>
-            <h2 className="font-heading font-extrabold text-3xl text-navy mb-4">
-              {gallery.heading}
-            </h2>
-            <p className="text-navy/60 max-w-md mx-auto">
-              {gallery.note}
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div
-                key={i}
-                className="aspect-square rounded-xl bg-slate-border/40 border border-slate-border flex items-center justify-center"
-              >
-                <span className="font-mono text-xs text-navy/30 uppercase tracking-wide">
-                  Photo {i + 1}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
+        <GroupedGallery
+          eyebrow={gallery.eyebrow}
+          heading={gallery.heading}
+          note={gallery.note}
+          groups={sectors.map((s) => ({ id: s.id, title: s.title, images: s.images }))}
+        />
       </section>
 
       {/* CTA */}

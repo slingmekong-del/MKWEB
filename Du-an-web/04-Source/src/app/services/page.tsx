@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SERVICES as SERVICES_CONTENT } from "@/lib/content";
+import GroupedGallery from "@/components/pages/GroupedGallery";
 
 export const metadata: Metadata = {
   title: SERVICES_CONTENT.meta.title,
   description: SERVICES_CONTENT.meta.description,
 };
 
-const { hero, stats, services, facility, process, certifications, cta } =
+const { hero, stats, services, facility, gallery, process, certifications, cta } =
   SERVICES_CONTENT;
+
+// Show the gallery section only once at least one service has photos.
+const galleryHasPhotos = services.some((s) => s.images && s.images.length > 0);
 
 export default function ServicesPage() {
   return (
@@ -125,6 +129,18 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* Service photo gallery — grouped by service, editable in the CMS */}
+      {galleryHasPhotos && (
+        <section className="bg-white py-20 px-4 sm:px-6 lg:px-8">
+          <GroupedGallery
+            eyebrow={gallery.eyebrow}
+            heading={gallery.heading}
+            note={gallery.note}
+            groups={services.map((s) => ({ id: s.id, title: s.title, images: s.images }))}
+          />
+        </section>
+      )}
 
       {/* Process */}
       <section className="bg-navy py-20 px-4 sm:px-6 lg:px-8">

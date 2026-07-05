@@ -24,28 +24,32 @@
       "icon": "⚓",
       "title": "Offshore & FPSO",
       "desc": "Wire rope slings, shackles, and crane rigging sets for FPSO mooring, topside lifts, and subsea installation. Familiar with IMCA M 179 and DNV-ST-N001.",
-      "clients": "FPSO operators · Rig contractors · DSV support"
+      "clients": "FPSO operators · Rig contractors · DSV support",
+      "images": []
     },
     {
       "id": "port",
       "icon": "🏗️",
       "title": "Port & Terminal",
       "desc": "Container spreader slings, quay crane rigging, and general cargo gear for Vung Tau, Cái Mép, and HCMC port facilities.",
-      "clients": "Port terminals · Stevedores · Logistics contractors"
+      "clients": "Port terminals · Stevedores · Logistics contractors",
+      "images": []
     },
     {
       "id": "shipbuilding",
       "icon": "🚢",
       "title": "Shipbuilding & Repair",
       "desc": "Launch and drydock rigging, block-erection sling sets, and chain blocks for shipyards across Southeast Asia.",
-      "clients": "Shipyards · OSV operators · Vessel owners"
+      "clients": "Shipyards · OSV operators · Vessel owners",
+      "images": []
     },
     {
       "id": "heavy-lift",
       "icon": "🏛️",
       "title": "Heavy Lift & Construction",
       "desc": "Multi-leg sling sets, beam spreaders, and turnbuckle assemblies for onshore heavy-lift, civil construction, and petrochemical plant erection.",
-      "clients": "EPC contractors · Heavy-lift specialists"
+      "clients": "EPC contractors · Heavy-lift specialists",
+      "images": []
     }
   ],
   "gallery": {
