@@ -1,46 +1,111 @@
 {
   "hero": {
     "eyebrow": "United Mekong JSC · Vung Tau, Vietnam",
-    "headlineTop": "From Vung Tau",
+    "headlineTop": "From Viet Nam",
     "headlineBottom": "to the world's oceans",
     "subhead": "Genuine hardware & certified slings for offshore, port, shipbuilding and heavy industry. From the Mekong, to the world's oceans.",
-    "ctaPrimary": { "href": "/products", "label": "Browse Products" },
-    "ctaSecondary": { "href": "/contact", "label": "Request a Quote" },
+    "ctaPrimary": {
+      "href": "/products",
+      "label": "Browse Products"
+    },
+    "ctaSecondary": {
+      "href": "/contact",
+      "label": "Request a Quote"
+    },
     "features": [
-      { "icon": "⚓", "text": "Every line traceable & certified" },
-      { "icon": "🔩", "text": "Genuine hardware from authorised brands" },
-      { "icon": "📋", "text": "Technical reply within one business day" },
-      { "icon": "🏭", "text": "Proof-tested on 700t horizontal bed" }
+      {
+        "icon": "⚓",
+        "text": "Every line traceable & certified"
+      },
+      {
+        "icon": "🔩",
+        "text": "Genuine hardware from authorised brands"
+      },
+      {
+        "icon": "📋",
+        "text": "Technical reply within one business day"
+      },
+      {
+        "icon": "🏭",
+        "text": "Proof-tested on 700t horizontal bed"
+      }
     ]
   },
   "stats": [
-    { "value": "700t", "label": "Proof Test Bed" },
-    { "value": "8", "label": "Authorised Brands" },
-    { "value": "5,000+", "label": "Assemblies / Year" },
-    { "value": "20+", "label": "Years in Vung Tau" }
+    {
+      "value": "700t",
+      "label": "Proof Test Bed"
+    },
+    {
+      "value": "8",
+      "label": "Authorised Brands"
+    },
+    {
+      "value": "5,000+",
+      "label": "Assemblies / Year"
+    },
+    {
+      "value": "20+",
+      "label": "Years in Vung Tau"
+    }
   ],
   "aboutTeaser": {
     "eyebrow": "About Mekong Sling",
     "heading": "20+ years delivering certified rigging in Vietnam",
     "body": "United Mekong JSC is the authorised distributor of Green Pin, ABLE and other leading rigging brands in Vietnam. Every assembly we produce is proof-tested on our 700-tonne horizontal test bed and delivered with traceable certificates.",
-    "link": { "href": "/about", "label": "Learn more about us" },
+    "link": {
+      "href": "/about",
+      "label": "Learn more about us"
+    },
     "credentials": [
-      { "code": "DNV", "desc": "DNV Type Approved" },
-      { "code": "ISO", "desc": "ISO 9001 Certified" },
-      { "code": "IMCA", "desc": "IMCA Member 2026" },
-      { "code": "700t", "desc": "In-house Proof Test" }
+      {
+        "code": "DNV",
+        "desc": "DNV Type Approved"
+      },
+      {
+        "code": "ISO",
+        "desc": "ISO 9001 Certified"
+      },
+      {
+        "code": "IMCA",
+        "desc": "IMCA Member 2026"
+      },
+      {
+        "code": "700t",
+        "desc": "In-house Proof Test"
+      }
     ]
   },
   "productsTeaser": {
     "eyebrow": "Product Catalogue",
     "heading": "Find the right rigging product",
     "highlights": [
-      { "id": "shackle", "desc": "Green Pin bow & dee shackles, screw-pin and safety-bolt" },
-      { "id": "synthetic-sling", "desc": "ABLE webbing & round slings, colour-coded to EN 1492" },
-      { "id": "hoist-trolley", "desc": "Chain blocks, lever hoists, trolleys & winches" },
-      { "id": "fittings", "desc": "Hooks, clips, sockets, swivels & eyebolts" }
+      {
+        "id": "shackle",
+        "desc": "Green Pin bow & dee shackles, screw-pin and safety-bolt"
+      },
+      {
+        "id": "synthetic-sling",
+        "desc": "ABLE webbing & round slings, colour-coded to EN 1492"
+      },
+      {
+        "id": "hoist-trolley",
+        "desc": "Chain blocks, lever hoists, trolleys & winches"
+      },
+      {
+        "id": "fittings",
+        "desc": "Hooks, clips, sockets, swivels & eyebolts"
+      }
     ],
-    "brands": ["Green Pin", "ABLE", "DSR", "Usha-Martin", "Dragon", "Dongyang", "O.E.M"]
+    "brands": [
+      "Green Pin",
+      "ABLE",
+      "DSR",
+      "Usha-Martin",
+      "Dragon",
+      "Dongyang",
+      "O.E.M"
+    ]
   },
   "servicesTeaser": {
     "eyebrow": "Services",
@@ -52,21 +117,30 @@
         "iconKey": "spooling",
         "title": "Wire Rope Spooling",
         "desc": "Precision spooling from drum to drum with tension control. Available in our Vung Tau facility.",
-        "tags": ["On-site", "Tension-controlled"]
+        "tags": [
+          "On-site",
+          "Tension-controlled"
+        ]
       },
       {
         "id": "load-testing",
         "iconKey": "load-testing",
         "title": "Load & Proof Testing",
         "desc": "In-house 700-tonne horizontal test bed. Full proof-load certificates issued for every tested assembly.",
-        "tags": ["700t capacity", "DNV certified"]
+        "tags": [
+          "700t capacity",
+          "DNV certified"
+        ]
       },
       {
         "id": "ndt",
         "iconKey": "ndt",
         "title": "Inspection & NDT",
         "desc": "Visual inspection, MPI, MT & PT by Level II certified technicians. Compliant with EN13414 and DNV standards.",
-        "tags": ["Level II NDT", "EN13414"]
+        "tags": [
+          "Level II NDT",
+          "EN13414"
+        ]
       }
     ],
     "ctaLabel": "View All Services"
