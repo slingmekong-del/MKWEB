@@ -89,8 +89,15 @@ src/components/
 
 ## 🔄 Session Handoff
 <!-- Claude cập nhật phần này cuối mỗi phiên -->
-**Phiên cuối:** 2026-07-05
-**Trạng thái build sản phẩm: 37/51 SKU live** (14 coming). Pipeline & phân công không đổi: Mr Nam tách trang catalog (PNG → `03-Assets\images`, tên = slug/`id`); Claude lo Description + ảnh gallery (crop bằng `sharp`) + Specs. Hạ tầng có sẵn field `specs?:{label,value}[]` + khối Specifications ở `[slug]/page.tsx`.
+**Phiên cuối:** 2026-07-07
+**Trạng thái build sản phẩm: 38/52 SKU live** (14 coming). +1 SKU mới `green-pin-bow-shackle-fn-g-4143` tạo qua CMS. Pipeline & phân công không đổi: Mr Nam tách trang catalog (PNG → `03-Assets\images`, tên = slug/`id`); Claude lo Description + ảnh gallery (crop bằng `sharp`) + Specs. Hạ tầng có sẵn field `specs?:{label,value}[]` + khối Specifications ở `[slug]/page.tsx`.
+**⚠️ Vị trí data ĐÃ ĐỔI:** thư mục `content/` (products/pages/settings/categories) + `public/admin/config.yml` nay nằm dưới **`Du-an-web/04-Source/`** (Vercel Root Directory), KHÔNG còn ở gốc repo. Mọi tham chiếu `content/...` bên dưới hiểu là `Du-an-web/04-Source/content/...`.
+**🆕 Việc phiên 07/07 (đã commit & push, working tree sạch, HEAD = `f75f0e8`):**
+- **CMS chạy thật rồi** — Mr Bắc/Mr Nam đang sửa Products + Pages (home/about/contact) + Settings/site qua `/admin`, mỗi lần Publish → commit `main` → Vercel deploy (rất nhiều commit `CMS: sửa…`). Phase 1 & Phase 2 coi như **đã verify trên browser**.
+- **RFQ Resend đã PUSH** (`7324fb9`) — form `/contact` bỏ `mailto:`, gửi thật qua `/api/rfq`. **Vẫn chờ Mr Nam set 5 env + verify domain** trên Vercel (xem `docs/RFQ-RESEND-SETUP.md`) để gửi thật; chưa set → route trả 503 unconfigured (form fallback gọi/Zalo). `.gitignore` đã chặn file tài khoản/env (`f1f1760`).
+- **Search VN** (`5569c86`) — bổ sung từ khóa tiếng Việt cho 19 SKU theo bảng Mr Bắc.
+- **Fix build CMS-created SKU** (`f4af7ce`) — SKU tạo qua /admin thiếu field mảng (`standards/syn/images/catalogImages/specs`) làm `lib/products.ts` gọi `.map()` lỗi → sitemap fail → build đứt. `build-content.mjs` nay **default các field mảng + pdf về rỗng** cho mọi SP. (Lưu ý khi thêm field mảng mới: nhớ default trong build script.)
+- **About nâng cấp** (`84d66a6`+`f75f0e8`) — hero banner ảnh nền lấy từ CMS (`about.hero.image`, media → `public/banners`, fallback `/backdrop-about.jpg`); thêm section **Certificates** dưới "Our Story" (grid ảnh `about.certificates`, media → `public/certificates`, ẩn khi trống); nút Header CTA đổi nhãn **"WLL Tool" → "Sling Calculation Tool"** (`site.json`). Fix #52: gắn đúng ảnh đại diện Green Pin Bow Shackle FN.
 **⚠️ Lịch sử Git đã bị GỘP (04/07):** toàn bộ commit batch cũ (`673b826 → 0c65823`) đã gộp thành **1 commit snapshot** `77cb895` để dọn repo → **các mã commit cũ dưới đây KHÔNG còn tồn tại** (chỉ ghi lại nội dung đã build). Backup bundle lịch sử cũ: `scratchpad\mekong-backup-20260704-*.bundle` (còn tới hết phiên). Commit hiện tại: `77cb895` (snapshot) → `396b816` (SEO) → `9983877` (JSON-LD) → `910d6a7` (handoff) → `ee74830` (Backend Phase 1 CMS) → `4e4bb34` (fix config path CMS).
 **Đã build (37 SKU live — nội dung, mã commit cũ đã gộp):**
 - Batch 1–5: Batch 1 (4 Master Link Green Pin #27–30) · Batch 2 (5 fitting Green Pin #22,32,33,35,36) · Batch 3 (#2 Bow Shackle BN + 3 Clamp ABLE #44,45,46) · Batch 4 (4 Hoist & Trolley ABLE #37,38,39,41) · Batch 5 (#13 Cargo Lashing Straps · #16&#43 Wire Rope Puller · #18 Binder Chain). Cùng 4 SKU đầu (#1,8,12,40).
