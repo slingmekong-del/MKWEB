@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: ABOUT.meta.description,
 };
 
-const { hero, missionVision, story, credentials, values, clients, cta } = ABOUT;
+const { hero, missionVision, story, certificates, credentials, values, clients, cta } = ABOUT;
 
 export default function AboutPage() {
   return (
@@ -16,7 +16,7 @@ export default function AboutPage() {
       {/* Hero with backdrop image */}
       <section className="relative bg-navy py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <Image
-          src="/backdrop-about.jpg"
+          src={hero.image || "/backdrop-about.jpg"}
           alt=""
           fill
           className="object-cover opacity-90"
@@ -100,6 +100,49 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Certificates */}
+      {certificates && (
+        <section className="bg-white border-t border-slate-border py-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <p className="font-mono text-teal-dark text-xs tracking-[0.3em] uppercase mb-4">
+                {certificates.eyebrow}
+              </p>
+              <h2 className="font-heading font-extrabold text-3xl text-navy">
+                {certificates.heading}
+              </h2>
+            </div>
+            {certificates.items.length > 0 ? (
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                {certificates.items.map(({ image, title }, i) => (
+                  <figure
+                    key={i}
+                    className="bg-white rounded-xl p-3 border border-slate-border"
+                  >
+                    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-light">
+                      <Image
+                        src={image}
+                        alt={title || "Certificate"}
+                        fill
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                        className="object-contain"
+                      />
+                    </div>
+                    {title && (
+                      <figcaption className="mt-3 text-center font-heading font-semibold text-sm text-navy">
+                        {title}
+                      </figcaption>
+                    )}
+                  </figure>
+                ))}
+              </div>
+            ) : (
+              <p className="text-center text-navy/50">{certificates.note}</p>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Values */}
       <section className="bg-slate-light py-20 px-4 sm:px-6 lg:px-8">

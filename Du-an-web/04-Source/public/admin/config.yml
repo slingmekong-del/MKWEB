@@ -159,7 +159,7 @@ collections:
             label: "Nút trên header"
             widget: object
             fields:
-              - { name: wllLabel, label: "Nhãn nút WLL Tool", widget: string }
+              - { name: wllLabel, label: "Nhãn nút công cụ tính cáp (Sling Calculation Tool)", widget: string }
               - { name: quoteLabel, label: "Nhãn nút Báo giá", widget: string }
           - name: footer
             label: "Footer"
@@ -334,6 +334,13 @@ collections:
               - { name: eyebrow, label: "Dòng nhỏ", widget: string }
               - { name: headline, label: "Tiêu đề", widget: string }
               - { name: subhead, label: "Mô tả", widget: text }
+              - name: image
+                label: "Ảnh banner (nền hero)"
+                widget: image
+                required: false
+                media_folder: "/Du-an-web/04-Source/public/banners"
+                public_folder: "/banners"
+                hint: "Ảnh nền phía sau tiêu đề. Nên dùng ảnh ngang, ≥1600px."
           - name: missionVision
             label: "Sứ mệnh & Tầm nhìn"
             widget: object
@@ -350,6 +357,25 @@ collections:
                 label: "Đoạn văn"
                 widget: list
                 field: { name: p, label: "Đoạn", widget: text }
+          - name: certificates
+            label: "Chứng chỉ (Certificates)"
+            widget: object
+            hint: "Khu ảnh chứng chỉ hiển thị ngay dưới 'Câu chuyện'."
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ", widget: string }
+              - { name: heading, label: "Tiêu đề", widget: string }
+              - { name: note, label: "Ghi chú khi chưa có ảnh", widget: text }
+              - name: items
+                label: "Ảnh chứng chỉ"
+                widget: list
+                required: false
+                label_singular: "Chứng chỉ"
+                summary: "{{fields.title}}"
+                media_folder: "/Du-an-web/04-Source/public/certificates"
+                public_folder: "/certificates"
+                fields:
+                  - { name: image, label: "Ảnh chứng chỉ", widget: image }
+                  - { name: title, label: "Tên chứng chỉ (tùy chọn)", widget: string, required: false }
           - name: credentials
             label: "Thẻ chứng nhận"
             widget: list

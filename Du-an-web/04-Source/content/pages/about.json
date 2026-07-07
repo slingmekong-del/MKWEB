@@ -6,7 +6,8 @@
   "hero": {
     "eyebrow": "United Mekong Holding Company · Est. 2008",
     "headline": "Vietnam's leading name in certified rigging",
-    "subhead": "The leading manufacturer and supplier of lifting, towing and mooring equipment in Vietnam — serving offshore, port, shipbuilding, and heavy industry since 2008."
+    "subhead": "The leading manufacturer and supplier of lifting, towing and mooring equipment in Vietnam — serving offshore, port, shipbuilding, and heavy industry since 2008.",
+    "image": "/backdrop-about.jpg"
   },
   "missionVision": {
     "mission": "“To exceed our customers' expectations with high quality, reliable and innovative products with competitive price and best delivery time.”",
@@ -20,6 +21,12 @@
       "We are the authorised distributor of Vanbeest B.V - Netherland with wellknown Brand Named Green Pin and also we are slole distributor for ABLE Forge in Vietnam, holding stock in Vung Tau for immediate supply. Every assembly we produce is proof-tested in-house and delivered with traceable certificates.",
       "Our customers — from Tanker, FPSO operators and rig contractors to shipyards and port terminals, onshore industrial contractors — share one requirement: zero tolerance for unverified lifting gear. That is the standard we hold ourselves to on every order."
     ]
+  },
+  "certificates": {
+    "eyebrow": "Certificates",
+    "heading": "Our certifications & approvals",
+    "note": "Certificates will be published here soon.",
+    "items": []
   },
   "credentials": [
     {

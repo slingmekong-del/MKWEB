@@ -78,9 +78,15 @@ export type GalleryImage = { image: string; caption?: string };
 
 export type AboutContent = {
   meta: Meta;
-  hero: { eyebrow: string; headline: string; subhead: string };
+  hero: { eyebrow: string; headline: string; subhead: string; image?: string };
   missionVision: { mission: string; vision: string };
   story: { eyebrow: string; heading: string; paragraphs: string[] };
+  certificates?: {
+    eyebrow: string;
+    heading: string;
+    note: string;
+    items: { image: string; title?: string }[];
+  };
   credentials: { code: string; label: string; detail: string }[];
   values: { eyebrow: string; heading: string; items: { title: string; desc: string }[] };
   clients: { eyebrow: string; heading: string; names: string[] };
