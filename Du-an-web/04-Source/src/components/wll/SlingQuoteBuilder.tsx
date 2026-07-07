@@ -42,6 +42,13 @@ export default function SlingQuoteBuilder() {
     else setOffshore(true);
   }
 
+  // A single-leg sling only lifts vertically → force β = 0° and lock the angle
+  function onLegsChange(n: NumLegs) {
+    setSoChan(n);
+    if (n === 1) setBeta(0);
+  }
+  const singleLeg = soChan === 1;
+
   const cap = useMemo(() => {
     if (!validLoad) return null;
     return chonCap({ tai_t, soChan, betaDeg: beta, standard, construction, offshore });
@@ -134,7 +141,7 @@ export default function SlingQuoteBuilder() {
                 {([1, 2, 3, 4] as NumLegs[]).map((n) => (
                   <button
                     key={n}
-                    onClick={() => setSoChan(n)}
+                    onClick={() => onLegsChange(n)}
                     className={`py-3 rounded-lg font-heading font-bold text-sm transition-all ${
                       soChan === n
                         ? "bg-navy text-white shadow-md scale-105"
@@ -161,20 +168,32 @@ export default function SlingQuoteBuilder() {
                 </span>
               </div>
               <div className="flex gap-2 flex-wrap mb-3">
-                {BETA_PRESETS.map((a) => (
-                  <button
-                    key={a}
-                    onClick={() => setBeta(a)}
-                    className={`px-4 py-2 rounded-lg font-mono text-sm font-bold transition-all ${
-                      beta === a
-                        ? "bg-navy text-white"
-                        : "bg-slate-light border border-slate-border text-navy hover:border-teal/50"
-                    }`}
-                  >
-                    {a}°
-                  </button>
-                ))}
+                {BETA_PRESETS.map((a) => {
+                  const locked = singleLeg && a > 0;
+                  return (
+                    <button
+                      key={a}
+                      onClick={() => setBeta(a)}
+                      disabled={locked}
+                      title={locked ? "Single-leg sling lifts vertically only (β = 0°)" : undefined}
+                      className={`px-4 py-2 rounded-lg font-mono text-sm font-bold transition-all ${
+                        locked
+                          ? "bg-slate-light border border-slate-border text-navy/25 cursor-not-allowed"
+                          : beta === a
+                          ? "bg-navy text-white"
+                          : "bg-slate-light border border-slate-border text-navy hover:border-teal/50"
+                      }`}
+                    >
+                      {a}°
+                    </button>
+                  );
+                })}
               </div>
+              {singleLeg && (
+                <p className="font-mono text-xs text-navy/40 mb-3">
+                  Single-leg sling — vertical lift only, so β is fixed at 0°.
+                </p>
+              )}
               <div className="flex items-center gap-3 mt-1">
                 <span
                   className="inline-block px-3 py-1 rounded-full text-xs font-mono font-bold"
