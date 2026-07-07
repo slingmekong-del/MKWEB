@@ -1,28 +1,40 @@
 {
-  "id": "green-pin-bow-shackle-sc-g-4161",
   "no": 1,
-  "partNo": "G-4161",
-  "name": "Green Pin Bow Shackle SC",
-  "brand": "Green Pin",
-  "category": "Shackle",
-  "categoryId": "shackle",
-  "categoryLabel": "Shackle",
-  "subcategory": "Bow Screw Pin shackle",
-  "rank": 1,
   "wText": "WLL 0.33 - 55 t",
-  "wmin": 0.33,
-  "wmax": 55,
-  "status": "live",
-  "hidden": false,
-  "image": "/products/green-pin-bow-shackle-sc-g-4161.png",
-  "images": [
-    "/products/green-pin-bow-shackle-sc-g-4161.png"
+  "brand": "Green Pin",
+  "syn": [
+    "green pin bow shackle sc",
+    "bow screw pin shackle",
+    "ma ni",
+    "mani",
+    "ma ni omega",
+    "ma ni chu u",
+    "ma ni cong",
+    "khoa ma ni",
+    "ma ni chot van",
+    "cai cum",
+    "cai cong"
   ],
+  "hidden": false,
+  "name": "Green Pin Bow Shackle SC",
+  "rank": 1,
+  "wmax": 55,
+  "desc": "Green Pin® bow (anchor) shackle with screw collar pin. The bow and pin are forged from high-tensile steel, grade 6, quenched and tempered, giving a minimum breaking load of 6× the working load limit. Hot-dipped galvanized finish for corrosion resistance, rated for −40°C to +200°C. Manufactured to ISO 2415 and EN 13889 and meeting US Fed. Spec. RR-C-271 Type IVA Class 2; from 2 t upward it complies with ASME B30.26. Working load limits 0.33–55 t, available with full DNV, ABS and 3.1 certification.",
   "catalogImages": [
     "/catalogs/green-pin-bow-shackle-sc-g-4161.png"
   ],
   "pdf": null,
-  "desc": "Green Pin® bow (anchor) shackle with screw collar pin. The bow and pin are forged from high-tensile steel, grade 6, quenched and tempered, giving a minimum breaking load of 6× the working load limit. Hot-dipped galvanized finish for corrosion resistance, rated for −40°C to +200°C. Manufactured to ISO 2415 and EN 13889 and meeting US Fed. Spec. RR-C-271 Type IVA Class 2; from 2 t upward it complies with ASME B30.26. Working load limits 0.33–55 t, available with full DNV, ABS and 3.1 certification.",
+  "status": "live",
+  "partNo": "G-4161",
+  "categoryLabel": "Shackle",
+  "standards": [
+    "ISO 2415",
+    "EN 13889",
+    "ASME B30.26",
+    "DNV",
+    "ABS",
+    "CE"
+  ],
   "specs": [
     {
       "label": "Type",
@@ -49,25 +61,13 @@
       "value": "2.1 / 2.2 / 3.1 MTC · DNV 0378 · ABS PDA / MA · CE IIA"
     }
   ],
-  "standards": [
-    "ISO 2415",
-    "EN 13889",
-    "ASME B30.26",
-    "DNV",
-    "ABS",
-    "CE"
+  "images": [
+    "/products/green-pin-bow-shackle-sc-g-4161.png"
   ],
-  "syn": [
-    "green pin bow shackle sc",
-    "bow screw pin shackle",
-    "ma ni",
-    "mani",
-    "ma ni omega",
-    "ma ni chu u",
-    "ma ni cong",
-    "khoa ma ni",
-    "ma ni chot van",
-    "cai cum",
-    "cai cong"
-  ]
+  "categoryId": "shackle",
+  "id": "green-pin-bow-shackle-sc-g-4161",
+  "image": "/products/green-pin-bow-shackle-sc-g-4161.png",
+  "wmin": 0.33,
+  "category": "Shackle",
+  "subcategory": "Bow Screw Pin Shackle"
 }
