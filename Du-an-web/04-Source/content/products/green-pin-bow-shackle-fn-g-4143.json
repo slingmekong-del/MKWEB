@@ -1,0 +1,49 @@
+{
+  "no": 52,
+  "wText": "WLL 2 - 85 t",
+  "brand": "Green Pin",
+  "hidden": false,
+  "name": "Green Pin Bow Shackle FN",
+  "rank": 1,
+  "wmax": 85,
+  "desc": "The Green Pin® Bow Shackle FN is a standard bow shackle with a safety bolt and fixed nut, featuring a bow and pin made of grade 6 high-tensile steel that is quenched and tempered. It has a safety factor where MBL equals 6 x WLL and complies with the EN 13889 standard while meeting the performance requirements of US Fed. Spec. RR-C-271 Type IVA Class 3, grade A, with shackles from 2 t and upward, also complying with ASME B30.26. Additionally, the product features a hot-dip galvanized finish, operates within a temperature range of -40°C up to +200°C, and carries certifications including 2.1, 2.2, 3.1, MTC, DNV GL 2.7-1, and CE.",
+  "catalogImages": [
+    "/products/green-pin-bow-shackle-fn-g-4143-catalogue.png"
+  ],
+  "status": "live",
+  "partNo": "G-4143",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Bow shackle · safety bolt and fixed nut"
+    },
+    {
+      "label": "Material",
+      "value": "Bow & pin - high tensile steel, grade 6, quenched and tempered"
+    },
+    {
+      "label": "Safety factor",
+      "value": " MBL = 6 x WLL"
+    },
+    {
+      "label": "Finish",
+      "value": "Hot dipped galvanized"
+    },
+    {
+      "label": "Temperature Range",
+      "value": "-40°C up to +200°C"
+    },
+    {
+      "label": "Certification",
+      "value": "2.1 / 2.2 / 3.1 / MTC / DNV / GL 2.7-1 / DNV GL 2.7-1 / CE"
+    }
+  ],
+  "images": [
+    "/products/green-pin-bow-shackle-fn-g-4143.png"
+  ],
+  "categoryId": "shackle",
+  "id": "green-pin-bow-shackle-fn-g-4143",
+  "image": "/products/green-pin-bow-shackle-fn-g-4143.png",
+  "wmin": 2,
+  "subcategory": "Bow Shackle with Safety Bolt and Fixed Nut"
+}
