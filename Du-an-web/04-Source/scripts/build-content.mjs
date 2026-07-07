@@ -24,6 +24,15 @@ for (const f of files) {
     data.categoryLabel = label;
     data.category = label;
   }
+  // The CMS omits empty array fields when it creates a product, but the app code
+  // (search indexing in lib/products, gallery/specs in [slug]/page) assumes these
+  // always exist. Default them so a brand-new SKU can never crash the build.
+  data.standards ??= [];
+  data.syn ??= [];
+  data.images ??= [];
+  data.catalogImages ??= [];
+  data.specs ??= [];
+  data.pdf ??= null;
   products.push(data);
 }
 
