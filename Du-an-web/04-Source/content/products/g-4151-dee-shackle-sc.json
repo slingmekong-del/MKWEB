@@ -1,28 +1,43 @@
 {
-  "id": "g-4151-dee-shackle-sc",
   "no": 4,
-  "partNo": "G-4151",
-  "name": "Green Pin Dee Shackle SC",
-  "brand": "Green Pin",
-  "category": "Shackle",
-  "categoryId": "shackle",
-  "categoryLabel": "Shackle",
-  "subcategory": "Type D screw pin shackle",
-  "rank": 1,
   "wText": "WLL 0.33 – 55 t",
-  "wmin": 0.33,
-  "wmax": 55,
-  "status": "live",
-  "hidden": false,
-  "image": "/products/g-4151-dee-shackle-sc.png",
-  "images": [
-    "/products/g-4151-dee-shackle-sc.png"
+  "brand": "Green Pin",
+  "syn": [
+    "shackle",
+    "ma ni",
+    "mani",
+    "dee",
+    "chu d",
+    "screw pin",
+    "green pin",
+    "g-4151",
+    "ma ni chu d",
+    "ma ni d",
+    "ma ni chot van",
+    "khoa ma ni",
+    "cai cum",
+    "cai cong"
   ],
+  "hidden": false,
+  "name": "Green Pin Dee Shackle SC",
+  "rank": 1,
+  "wmax": 55,
+  "desc": "Green Pin® standard dee (D) shackle with screw collar pin. Bow and pin forged in high-tensile steel, grade 6, quenched and tempered; minimum breaking load equals 6× the working load limit. Hot-dipped galvanized for offshore corrosion resistance, rated −40°C to +200°C. Manufactured to ISO 2415 and EN 13889, meeting US Fed. Spec. RR-C-271 Type IVB Class 2; from 2 t upward it complies with ASME B30.26.",
   "catalogImages": [
     "/catalogs/g-4151-dee-shackle-sc.png"
   ],
   "pdf": "/catalogs/g-4151-dee-shackle-sc.pdf",
-  "desc": "Green Pin® standard dee (D) shackle with screw collar pin. Bow and pin forged in high-tensile steel, grade 6, quenched and tempered; minimum breaking load equals 6× the working load limit. Hot-dipped galvanized for offshore corrosion resistance, rated −40°C to +200°C. Manufactured to ISO 2415 and EN 13889, meeting US Fed. Spec. RR-C-271 Type IVB Class 2; from 2 t upward it complies with ASME B30.26.",
+  "status": "live",
+  "partNo": "G-4151",
+  "categoryLabel": "Shackle",
+  "standards": [
+    "ISO 2415",
+    "EN 13889",
+    "ASME B30.26",
+    "DNV",
+    "ABS",
+    "CE"
+  ],
   "specs": [
     {
       "label": "Type",
@@ -49,28 +64,13 @@
       "value": "2.1 / 2.2 / 3.1 MTC · DNV 0378 · ABS PDA / MA · CE IIA"
     }
   ],
-  "standards": [
-    "ISO 2415",
-    "EN 13889",
-    "ASME B30.26",
-    "DNV",
-    "ABS",
-    "CE"
+  "images": [
+    "/products/g-4151-dee-shackle-sc.png"
   ],
-  "syn": [
-    "shackle",
-    "ma ni",
-    "mani",
-    "dee",
-    "chu d",
-    "screw pin",
-    "green pin",
-    "g-4151",
-    "ma ni chu d",
-    "ma ni d",
-    "ma ni chot van",
-    "khoa ma ni",
-    "cai cum",
-    "cai cong"
-  ]
+  "categoryId": "shackle",
+  "id": "g-4151-dee-shackle-sc",
+  "image": "/products/g-4151-dee-shackle-sc.png",
+  "wmin": 0.33,
+  "category": "Shackle",
+  "subcategory": "Type D screw pin shackle"
 }
