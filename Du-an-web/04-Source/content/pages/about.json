@@ -1,13 +1,54 @@
 {
+  "values": {
+    "eyebrow": "What we stand for",
+    "heading": "Four pillars behind every order",
+    "items": [
+      {
+        "title": "Quality",
+        "desc": "Every product we supply meets industrial and world standards, is certified, and is insured by PVI Insurance Company. No shortcuts, no grey-market stock."
+      },
+      {
+        "title": "Reliability",
+        "desc": "Genuine hardware from authorised brands — Green Pin, ABLE — with full traceability from mill to deck."
+      },
+      {
+        "title": "Competitive price",
+        "desc": "Direct authorised distributor pricing with stock held in Vung Tau for immediate off-the-shelf supply."
+      },
+      {
+        "title": "Best delivery time",
+        "desc": "Technical reply within one business day. Assemblies proof-tested and dispatched on schedule."
+      }
+    ]
+  },
   "meta": {
     "title": "About Us — United Mekong Holding Company",
     "description": "The leading manufacturer and supplier of lifting, towing and mooring equipment in Vietnam. Est. 2008, Vung Tau."
   },
-  "hero": {
-    "eyebrow": "United Mekong Holding Company · Est. 2008",
-    "headline": "Vietnam's leading name in certified rigging",
-    "subhead": "The leading manufacturer and supplier of lifting, towing and mooring equipment in Vietnam — serving offshore, port, shipbuilding, and heavy industry since 2008.",
-    "image": "/backdrop-about.jpg"
+  "clients": {
+    "eyebrow": "Trusted by",
+    "heading": "Customers who trust our gear",
+    "names": [
+      "Vietsovpetro",
+      "Cuulong JOC",
+      "Halliburton",
+      "Posco",
+      "Cái Mép Port",
+      "PV Drilling",
+      "Hoa Phat JSC"
+    ]
+  },
+  "cta": {
+    "heading": "Ready to work together?",
+    "body": "Send us your lifting schedule and we will quote with full technical specs within one business day.",
+    "primary": {
+      "href": "/contact",
+      "label": "Contact us"
+    },
+    "secondary": {
+      "href": "/products",
+      "label": "Browse products"
+    }
   },
   "missionVision": {
     "mission": "“To exceed our customers' expectations with high quality, reliable and innovative products with competitive price and best delivery time.”",
@@ -21,6 +62,12 @@
       "We are the authorised distributor of Vanbeest B.V - Netherland with wellknown Brand Named Green Pin and also we are slole distributor for ABLE Forge in Vietnam, holding stock in Vung Tau for immediate supply. Every assembly we produce is proof-tested in-house and delivered with traceable certificates.",
       "Our customers — from Tanker, FPSO operators and rig contractors to shipyards and port terminals, onshore industrial contractors — share one requirement: zero tolerance for unverified lifting gear. That is the standard we hold ourselves to on every order."
     ]
+  },
+  "hero": {
+    "eyebrow": "United Mekong Holding Company · Est. 2008",
+    "headline": "Vietnam's leading name in certified rigging",
+    "subhead": "The leading manufacturer and supplier of lifting, towing and mooring equipment in Vietnam — serving offshore, port, shipbuilding, and heavy industry since 2008.",
+    "image": "/banners/gemini_generated_image_d7rjw5d7rjw5d7rj.png"
   },
   "certificates": {
     "eyebrow": "Certificates",
@@ -49,52 +96,5 @@
       "label": "In-house Proof Test",
       "detail": "Horizontal test bed"
     }
-  ],
-  "values": {
-    "eyebrow": "What we stand for",
-    "heading": "Four pillars behind every order",
-    "items": [
-      {
-        "title": "Quality",
-        "desc": "Every product we supply meets industrial and world standards, is certified, and is insured by PVI Insurance Company. No shortcuts, no grey-market stock."
-      },
-      {
-        "title": "Reliability",
-        "desc": "Genuine hardware from authorised brands — Green Pin, ABLE — with full traceability from mill to deck."
-      },
-      {
-        "title": "Competitive price",
-        "desc": "Direct authorised distributor pricing with stock held in Vung Tau for immediate off-the-shelf supply."
-      },
-      {
-        "title": "Best delivery time",
-        "desc": "Technical reply within one business day. Assemblies proof-tested and dispatched on schedule."
-      }
-    ]
-  },
-  "clients": {
-    "eyebrow": "Trusted by",
-    "heading": "Customers who trust our gear",
-    "names": [
-      "Vietsovpetro",
-      "Cuulong JOC",
-      "Halliburton",
-      "Posco",
-      "Cái Mép Port",
-      "PV Drilling",
-      "Hoa Phat JSC"
-    ]
-  },
-  "cta": {
-    "heading": "Ready to work together?",
-    "body": "Send us your lifting schedule and we will quote with full technical specs within one business day.",
-    "primary": {
-      "href": "/contact",
-      "label": "Contact us"
-    },
-    "secondary": {
-      "href": "/products",
-      "label": "Browse products"
-    }
-  }
+  ]
 }
