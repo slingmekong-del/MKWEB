@@ -75,7 +75,8 @@
     "note": "Certificates will be published here soon.",
     "items": [
       {
-        "image": "/products/united-mekong-iso-9001.png"
+        "image": "/products/united-mekong-iso-9001.png",
+        "title": "ISO 9001"
       }
     ]
   },
