@@ -73,7 +73,11 @@
     "eyebrow": "Certificates",
     "heading": "Our certifications & approvals",
     "note": "Certificates will be published here soon.",
-    "items": []
+    "items": [
+      {
+        "image": "/products/united-mekong-iso-9001.png"
+      }
+    ]
   },
   "credentials": [
     {
