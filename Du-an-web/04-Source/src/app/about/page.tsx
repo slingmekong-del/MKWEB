@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ABOUT } from "@/lib/content";
+import CertificateGallery from "@/components/pages/CertificateGallery";
 
 export const metadata: Metadata = {
   title: ABOUT.meta.title,
@@ -114,29 +115,7 @@ export default function AboutPage() {
               </h2>
             </div>
             {certificates.items.length > 0 ? (
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-                {certificates.items.map(({ image, title }, i) => (
-                  <figure
-                    key={i}
-                    className="bg-white rounded-xl p-3 border border-slate-border"
-                  >
-                    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-light">
-                      <Image
-                        src={image}
-                        alt={title || "Certificate"}
-                        fill
-                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                        className="object-contain"
-                      />
-                    </div>
-                    {title && (
-                      <figcaption className="mt-3 text-center font-heading font-semibold text-sm text-navy">
-                        {title}
-                      </figcaption>
-                    )}
-                  </figure>
-                ))}
-              </div>
+              <CertificateGallery items={certificates.items} />
             ) : (
               <p className="text-center text-navy/50">{certificates.note}</p>
             )}
