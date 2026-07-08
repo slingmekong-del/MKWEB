@@ -51,7 +51,9 @@
       "value": "2.1 / 2.2 / 3.1 / MTC / DNV / GL 2.7-1 / DNV GL 2.7-1 / CE"
     }
   ],
-  "images": [],
+  "images": [
+    "/products/green-pin-bow-shackle-fn-g-4143.png"
+  ],
   "categoryId": "shackle",
   "id": "green-pin-bow-shackle-fn-g-4143",
   "image": "/products/green-pin-bow-shackle-fn-g-4143.png",
