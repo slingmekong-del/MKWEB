@@ -9,6 +9,7 @@ import aboutData from "../../content/pages/about.json";
 import servicesData from "../../content/pages/services.json";
 import projectsData from "../../content/pages/projects.json";
 import contactData from "../../content/pages/contact.json";
+import productsPageData from "../../content/pages/products.json";
 
 export type NavLink = { href: string; label: string };
 
@@ -127,9 +128,20 @@ export type ContactContent = {
   rfqChecklist: { heading: string; items: string[] };
 };
 
+export type ProductsPageContent = {
+  meta: Meta;
+  hero: {
+    eyebrow: string;
+    heading: string;
+    subhead: string; // supports {live} and {total} tokens, replaced with live/total counts
+    searchPlaceholder: string;
+  };
+};
+
 export const SITE = siteData as SiteSettings;
 export const HOME = homeData as unknown as HomeContent;
 export const ABOUT = aboutData as AboutContent;
 export const SERVICES = servicesData as ServicesContent;
 export const PROJECTS = projectsData as ProjectsContent;
 export const CONTACT = contactData as ContactContent;
+export const PRODUCTS_PAGE = productsPageData as ProductsPageContent;

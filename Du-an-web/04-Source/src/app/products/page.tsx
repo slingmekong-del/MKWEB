@@ -6,10 +6,12 @@ import {
   sortFlat,
   groupByCategory,
   countByStatus,
+  VISIBLE_PRODUCTS,
   EMPTY_FILTERS,
   type Filters,
   type SortKey,
 } from "@/lib/products";
+import { PRODUCTS_PAGE } from "@/lib/content";
 import { useRfqCart } from "@/hooks/useRfqCart";
 import FilterSidebar from "@/components/products/FilterSidebar";
 import SearchBar from "@/components/products/SearchBar";
@@ -22,7 +24,14 @@ const SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: "brand-az",  label: "Brand A–Z" },
 ];
 
+const { hero } = PRODUCTS_PAGE;
 const LIVE_COUNT = countByStatus("live");
+const TOTAL_COUNT = VISIBLE_PRODUCTS.length;
+// Fill {live}/{total} tokens in the CMS-managed subhead with the real counts so
+// the banner always matches the catalogue (no hard-coded number to drift).
+const HERO_SUBHEAD = hero.subhead
+  .replace(/\{live\}/g, String(LIVE_COUNT))
+  .replace(/\{total\}/g, String(TOTAL_COUNT));
 
 export default function ProductsPage() {
   const [query, setQuery] = useState("");
@@ -45,17 +54,15 @@ export default function ProductsPage() {
       <div className="bg-navy py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <p className="font-mono text-teal text-xs tracking-[0.3em] uppercase mb-3">
-            Product Catalogue
+            {hero.eyebrow}
           </p>
           <h1 className="font-heading font-extrabold text-3xl sm:text-4xl text-white mb-4">
-            Find the right rigging product
+            {hero.heading}
           </h1>
           <p className="text-slate-border max-w-xl mb-6">
-            {LIVE_COUNT} products with full datasheets online today — the rest of our{" "}
-            Green&nbsp;Pin &amp; ABLE range is being added. Filter by WLL, brand or
-            category, or search in English or Vietnamese.
+            {HERO_SUBHEAD}
           </p>
-          <SearchBar value={query} onChange={setQuery} />
+          <SearchBar value={query} onChange={setQuery} placeholder={hero.searchPlaceholder} />
         </div>
       </div>
 

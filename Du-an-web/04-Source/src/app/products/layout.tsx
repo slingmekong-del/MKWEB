@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
+import { PRODUCTS_PAGE } from "@/lib/content";
+
+const { meta } = PRODUCTS_PAGE;
 
 export const metadata: Metadata = {
-  title: "Products — Rigging & Lifting Catalogue",
-  description:
-    "Browse our full catalogue of shackles, wire rope slings, chains, master links, hoists and rigging hardware. Filter by category, brand and working load limit, then request a quote.",
+  title: meta.title,
+  description: meta.description,
   alternates: { canonical: "/products" },
   openGraph: {
-    title: "Products — Rigging & Lifting Catalogue | Mekong Sling",
-    description:
-      "Shackles, wire rope slings, chains, master links, hoists and rigging hardware — filter by category, brand and WLL.",
+    title: `${meta.title} | Mekong Sling`,
+    description: meta.description,
     url: "/products",
   },
 };

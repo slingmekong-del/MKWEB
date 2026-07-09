@@ -6,9 +6,13 @@ import { suggest } from "@/lib/products";
 type Props = {
   value: string;
   onChange: (q: string) => void;
+  placeholder?: string;
 };
 
-export default function SearchBar({ value, onChange }: Props) {
+const DEFAULT_PLACEHOLDER =
+  "Search by name, WLL, brand, code — English or Vietnamese (e.g. ma ní, cáp bản, 50t, Green Pin)";
+
+export default function SearchBar({ value, onChange, placeholder }: Props) {
   const [focused, setFocused] = useState(false);
 
   // Ranked, accent-insensitive, English + Vietnamese (e.g. "ma ní", "pa lăng")
@@ -37,7 +41,7 @@ export default function SearchBar({ value, onChange }: Props) {
           onChange={(e) => onChange(e.target.value)}
           onFocus={() => setFocused(true)}
           onBlur={() => setTimeout(() => setFocused(false), 150)}
-          placeholder="Search by name, WLL, brand, code — English or Vietnamese (e.g. ma ní, cáp bản, 50t, Green Pin)"
+          placeholder={placeholder || DEFAULT_PLACEHOLDER}
           className="w-full pl-9 pr-4 py-3 border border-slate-border rounded-lg text-sm text-navy placeholder:text-navy/30 focus:outline-none focus:border-teal focus:ring-1 focus:ring-teal/30 bg-white"
         />
         {value && (

@@ -661,3 +661,23 @@ collections:
                 label: "Các mục"
                 widget: list
                 field: { name: item, label: "Mục", widget: string }
+
+      - name: products
+        label: "Sản phẩm (Products) — banner"
+        file: "Du-an-web/04-Source/content/pages/products.json"
+        description: "Chữ trên đầu trang danh mục sản phẩm. Danh sách sản phẩm quản lý ở collection Sản phẩm, không nhập ở đây."
+        fields:
+          - name: meta
+            label: "SEO"
+            widget: object
+            fields:
+              - { name: title, label: "Tiêu đề SEO", widget: string }
+              - { name: description, label: "Mô tả SEO", widget: text }
+          - name: hero
+            label: "Banner đầu trang"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Dòng nhỏ (trên tiêu đề)", widget: string }
+              - { name: heading, label: "Tiêu đề lớn", widget: string }
+              - { name: subhead, label: "Mô tả — dùng {live} = số SP đã đăng, {total} = tổng SP (tự thay số)", widget: text }
+              - { name: searchPlaceholder, label: "Chữ gợi ý trong ô tìm kiếm", widget: string }
