@@ -25,6 +25,14 @@
   ],
   "status": "live",
   "partNo": "G-4143",
+  "standards": [
+    "EN 13889",
+    "US Fed. Spec. RR-C-271 Type IVA Class 3, grade A",
+    "ASME B30.26",
+    "MTC",
+    "DNV GL 2.7-1",
+    "CE"
+  ],
   "specs": [
     {
       "label": "Type",
