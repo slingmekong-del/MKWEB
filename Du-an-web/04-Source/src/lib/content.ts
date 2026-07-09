@@ -27,7 +27,7 @@ export type SiteSettings = {
     mapQuery: string;
   };
   nav: NavLink[];
-  headerCtas: { wllLabel: string; quoteLabel: string };
+  headerCtas: { wllLabel: string; quoteLabel: string; productsLabel: string };
   footer: {
     productLinks: NavLink[];
     serviceLinks: NavLink[];

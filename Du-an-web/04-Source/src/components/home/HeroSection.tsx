@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { HOME } from "@/lib/content";
 
@@ -53,24 +52,8 @@ export default function HeroSection() {
           {hero.subhead}
         </p>
 
-        {/* CTA buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 mb-16">
-          <Link
-            href={hero.ctaPrimary.href}
-            className="px-8 py-3.5 rounded bg-teal text-navy font-heading font-bold text-sm tracking-wide hover:bg-teal-dark transition-colors"
-          >
-            {hero.ctaPrimary.label}
-          </Link>
-          <Link
-            href={hero.ctaSecondary.href}
-            className="px-8 py-3.5 rounded border border-white/30 text-white font-heading font-semibold text-sm tracking-wide hover:bg-white/10 transition-colors"
-          >
-            {hero.ctaSecondary.label}
-          </Link>
-        </div>
-
         {/* Feature pills */}
-        <div className="flex flex-wrap justify-center gap-3 max-w-2xl">
+        <div className="flex flex-wrap justify-center gap-3 max-w-2xl mt-4">
           {FEATURES.map(({ icon, text }) => (
             <div
               key={text}

@@ -8,7 +8,7 @@ import { SITE } from "@/lib/content";
 
 const NAV_LINKS = SITE.nav;
 const { brandName, brandTagline } = SITE.company;
-const { wllLabel, quoteLabel } = SITE.headerCtas;
+const { wllLabel, quoteLabel, productsLabel } = SITE.headerCtas;
 
 export default function Header() {
   const pathname = usePathname();
@@ -87,6 +87,16 @@ export default function Header() {
               {wllLabel}
             </Link>
             <Link
+              href="/products"
+              className={`text-sm font-semibold px-4 py-2 rounded border transition-colors ${
+                isHome
+                  ? "border-teal text-teal hover:bg-teal/10"
+                  : "border-teal-dark text-teal-dark hover:bg-teal/10"
+              }`}
+            >
+              {productsLabel}
+            </Link>
+            <Link
               href="/contact"
               className="text-sm font-semibold px-4 py-2 rounded bg-teal text-navy hover:bg-teal-dark transition-colors"
             >
@@ -140,13 +150,20 @@ export default function Header() {
                 {label}
               </Link>
             ))}
-            <div className="flex gap-3 mt-3">
+            <div className="flex flex-wrap gap-3 mt-3">
               <Link
                 href="/wll-tool"
                 onClick={() => setMenuOpen(false)}
                 className="text-sm font-mono font-medium px-3 py-1.5 rounded border border-teal/50 text-teal"
               >
                 {wllLabel}
+              </Link>
+              <Link
+                href="/products"
+                onClick={() => setMenuOpen(false)}
+                className="text-sm font-semibold px-4 py-2 rounded border border-teal/50 text-teal"
+              >
+                {productsLabel}
               </Link>
               <Link
                 href="/contact"

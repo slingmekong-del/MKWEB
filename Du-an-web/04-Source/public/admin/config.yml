@@ -161,6 +161,7 @@ collections:
             fields:
               - { name: wllLabel, label: "Nhãn nút công cụ tính cáp (Sling Calculation Tool)", widget: string }
               - { name: quoteLabel, label: "Nhãn nút Báo giá", widget: string }
+              - { name: productsLabel, label: "Nhãn nút Tìm sản phẩm (Search Products)", widget: string }
           - name: footer
             label: "Footer"
             widget: object

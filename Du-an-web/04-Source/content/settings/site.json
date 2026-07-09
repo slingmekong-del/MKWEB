@@ -43,7 +43,8 @@
   ],
   "headerCtas": {
     "wllLabel": "Sling Calculation Tool",
-    "quoteLabel": "Request a Quote"
+    "quoteLabel": "Request a Quote",
+    "productsLabel": "Search Products"
   },
   "footer": {
     "productLinks": [
