@@ -57,7 +57,16 @@ collections:
       - { name: rank, label: "Rank (ưu tiên trong danh mục)", widget: number, value_type: int, required: false, default: 1 }
       - { name: name, label: "Tên sản phẩm", widget: string }
       - { name: partNo, label: "Part No.", widget: string, required: false }
-      - { name: brand, label: "Thương hiệu", widget: string, required: false }
+      - name: brand
+        label: "Thương hiệu"
+        widget: relation
+        required: false
+        collection: settings
+        file: brands
+        search_fields: ["brands.*.label"]
+        value_field: "brands.*.label"
+        display_fields: ["brands.*.label"]
+        hint: "Chọn thương hiệu. Thêm/xóa thương hiệu ở Cài đặt → Thương hiệu."
       - name: categoryId
         label: "Danh mục"
         widget: relation
@@ -206,6 +215,21 @@ collections:
               - { name: label, label: "Tên hiển thị", widget: string }
               - { name: rank, label: "Thứ tự", widget: number, value_type: int, default: 99 }
               - { name: visible, label: "Hiển thị danh mục này", widget: boolean, default: true }
+      - name: brands
+        label: "Thương hiệu"
+        file: "Du-an-web/04-Source/content/brands.json"
+        description: "Danh sách thương hiệu để chọn khi thêm/sửa sản phẩm. Thêm/xóa ở đây; sản phẩm chọn từ danh sách này."
+        fields:
+          - name: brands
+            label: "Thương hiệu"
+            label_singular: "Thương hiệu"
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { name: id, label: "ID (slug, KHÔNG đổi)", widget: string, hint: "vd: able, green-pin" }
+              - { name: label, label: "Tên hiển thị (lưu vào sản phẩm)", widget: string }
+              - { name: rank, label: "Thứ tự", widget: number, value_type: int, default: 99 }
+              - { name: visible, label: "Hiển thị (dự phòng)", widget: boolean, default: true }
 
   # ─────────────────────────────  TRANG NỘI DUNG  ─────────────────────────────
   # Mỗi trang là 1 file. Chỉ sửa CHỮ — bố cục/màu giữ trong code. Icon SVG ở khối

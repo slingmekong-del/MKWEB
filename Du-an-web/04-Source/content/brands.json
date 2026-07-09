@@ -1,0 +1,7 @@
+{
+  "brands": [
+    { "id": "able",          "label": "ABLE",             "rank": 1, "visible": true },
+    { "id": "green-pin",     "label": "Green Pin",        "rank": 2, "visible": true },
+    { "id": "green-pin-able", "label": "Green Pin / ABLE", "rank": 3, "visible": true }
+  ]
+}
