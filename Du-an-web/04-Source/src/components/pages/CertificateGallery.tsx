@@ -52,8 +52,8 @@ export default function CertificateGallery({ items }: { items: CertItem[] }) {
 
   return (
     <>
-      {/* Thumbnail grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+      {/* Thumbnail grid — max 3 columns so 6 certs lay out 3-top / 3-bottom */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
         {items.map(({ image, title }, i) => (
           <button
             key={i}
