@@ -61,6 +61,6 @@
     "heading": "Have a project in mind?",
     "body": "Tell us about your lifting requirement and we will respond with a technical proposal within one business day.",
     "primary": { "href": "/contact", "label": "Start a conversation" },
-    "secondary": { "href": "/products", "label": "Browse products" }
+    "secondary": { "href": "/products", "label": "Search Products" }
   }
 }
