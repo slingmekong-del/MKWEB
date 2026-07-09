@@ -1,27 +1,114 @@
 {
+  "facility": {
+    "eyebrow": "Our facility",
+    "heading": "A 3,500 m² workshop built for heavy lifting work",
+    "paragraphs": [
+      "Every service runs from our own 9,000 m² facility in Vung Tau, staffed by 40 technicians and inspectors. Manufacturing, proof testing, and inspection happen in-house — so we control quality and lead time end to end.",
+      "Our operations are covered by PVI insurance up to USD 1 million per loss, giving project teams the assurance they need for safety-critical lifting gear."
+    ],
+    "equipment": [
+      {
+        "name": "Horizontal Test Bed",
+        "detail": "700-tonne proof load capacity"
+      },
+      {
+        "name": "Hydraulic Press",
+        "detail": "Swaging & swaged terminations"
+      },
+      {
+        "name": "Roundsling Machine",
+        "detail": "Synthetic roundsling manufacturing"
+      },
+      {
+        "name": "Industrial Sewing Machines",
+        "detail": "Webbing slings & soft fittings"
+      }
+    ]
+  },
   "meta": {
     "title": "Services — United Mekong JSC",
     "description": "Rigging supply, sling assembly, wire rope spooling, 700t proof load testing, NDT inspection and re-certification — all under one roof in Vung Tau. ISO 9001 certified."
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "heading": "From enquiry to rig-ready in four steps",
+    "items": [
+      {
+        "step": "01",
+        "title": "Send enquiry",
+        "desc": "Email or call with your equipment list, SWL, and required standard."
+      },
+      {
+        "step": "02",
+        "title": "Technical quote",
+        "desc": "We respond with full specs, certifications, and delivery timeline within one business day."
+      },
+      {
+        "step": "03",
+        "title": "Manufacture & test",
+        "desc": "Assembly and proof testing at our Vung Tau facility. You can witness if required."
+      },
+      {
+        "step": "04",
+        "title": "Deliver with docs",
+        "desc": "Equipment delivered with CoC, test report, and mill certs — ready for your doc control."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Tell us what you need to lift",
+    "body": "Send your lifting schedule, SWL requirements, and any applicable standards — we will quote within one business day.",
+    "primary": {
+      "href": "/contact",
+      "label": "Request a quote"
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "heading": "Our services in action",
+    "note": "Photos coming soon — we are curating images of our workshop and on-site work."
+  },
+  "certifications": {
+    "eyebrow": "Accreditations",
+    "heading": "Certified processes you can audit",
+    "items": [
+      {
+        "code": "ISO",
+        "title": "ISO 9001:2008",
+        "detail": "Quality management — certified by ACS and DNV"
+      },
+      {
+        "code": "V.R",
+        "title": "Vietnam Register",
+        "detail": "Lifting equipment type approval"
+      },
+      {
+        "code": "MOLISA",
+        "title": "Safety Inspection Certificate",
+        "detail": "Vietnam Ministry of Labour (Bộ LĐ-TBXH)"
+      }
+    ]
   },
   "hero": {
     "eyebrow": "Services",
     "headline": "End-to-end rigging services in Vung Tau",
     "subhead": "From supply to assembly, proof testing to NDT — everything under one roof so your lifting gear arrives rig-ready with full certification."
   },
-  "stats": [
-    { "value": "9,000 m²", "label": "Workshop" },
-    { "value": "700t", "label": "Proof Test Bed" },
-    { "value": "40", "label": "Technicians" },
-    { "value": "$1M", "label": "PVI Insurance / loss" }
-  ],
   "services": [
     {
       "id": "supply",
       "icon": "📦",
       "title": "Rigging Supply",
       "desc": "Immediate off-the-shelf supply of wire rope slings, shackles, hooks, swivels, turnbuckles and all standard rigging hardware from authorised brands. Custom assemblies on request.",
-      "items": ["Green Pin shackles & hooks", "ABLE wire rope & fittings", "Same-day dispatch from Vung Tau"],
-      "tags": ["Authorised distributor", "Stock held in VT"],
+      "items": [
+        "Green Pin shackles & hooks",
+        "ABLE wire rope & fittings",
+        "Same-day dispatch from Vung Tau"
+      ],
+      "tags": [
+        "Authorised distributor",
+        "Stock held in VT"
+      ],
       "images": []
     },
     {
@@ -29,8 +116,16 @@
       "icon": "🔗",
       "title": "Sling Assembly",
       "desc": "Flemish-eye splices, swaged terminations, and custom sling sets fabricated to EN13414, ASME B30.9, or project-specific standards. Each assembly tagged, documented, and issued with a CoC.",
-      "items": ["Wire rope slings", "Roundslings & webbing slings", "Chain slings"],
-      "tags": ["EN13414", "ASME B30.9", "CoC included"],
+      "items": [
+        "Wire rope slings",
+        "Roundslings & webbing slings",
+        "Chain slings"
+      ],
+      "tags": [
+        "EN13414",
+        "ASME B30.9",
+        "CoC included"
+      ],
       "images": []
     },
     {
@@ -38,8 +133,15 @@
       "icon": "🔄",
       "title": "Wire Rope Spooling",
       "desc": "Precision drum-to-drum spooling with tension control to prevent birdcaging and internal damage. Available at our Vung Tau facility, with a mobile spooling unit for on-site jobs.",
-      "items": ["Tension-controlled re-spooling", "Drum-to-drum transfer", "On-site / mobile unit"],
-      "tags": ["Tension-controlled", "On-site available"],
+      "items": [
+        "Tension-controlled re-spooling",
+        "Drum-to-drum transfer",
+        "On-site / mobile unit"
+      ],
+      "tags": [
+        "Tension-controlled",
+        "On-site available"
+      ],
       "images": []
     },
     {
@@ -47,8 +149,18 @@
       "icon": "⚖️",
       "title": "Load & Proof Testing",
       "desc": "In-house 700-tonne horizontal proof test bed. Full certificates issued for every item. DNV-certified process, with short notice accepted for urgent rig-ready deadlines.",
-      "items": ["Wire rope slings", "Chain slings", "Webbing slings", "Shackles", "Roundslings"],
-      "tags": ["700t capacity", "DNV certified", "Short notice"],
+      "items": [
+        "Wire rope slings",
+        "Chain slings",
+        "Webbing slings",
+        "Shackles",
+        "Roundslings"
+      ],
+      "tags": [
+        "700t capacity",
+        "DNV certified",
+        "Short notice"
+      ],
       "images": []
     },
     {
@@ -56,8 +168,18 @@
       "icon": "🔍",
       "title": "Inspection & NDT",
       "desc": "Visual inspection and Non-Destructive Testing by Level II certified technicians — covering lifting equipment and machinery, compliant with EN13414 and DNV-ST-N001.",
-      "items": ["Crane inspection", "Escalator inspection", "Elevator inspection", "NDT: Penetrant Testing (PT)", "NDT: Magnetic Testing (MT)"],
-      "tags": ["Level II NDT", "EN13414", "DNV-ST-N001"],
+      "items": [
+        "Crane inspection",
+        "Escalator inspection",
+        "Elevator inspection",
+        "NDT: Penetrant Testing (PT)",
+        "NDT: Magnetic Testing (MT)"
+      ],
+      "tags": [
+        "Level II NDT",
+        "EN13414",
+        "DNV-ST-N001"
+      ],
       "images": []
     },
     {
@@ -65,52 +187,34 @@
       "icon": "📋",
       "title": "Certification & Recertification",
       "desc": "Annual in-service inspection and re-certification of your existing sling inventory to LEEA 030 or project SJP. Full inspection register issued.",
-      "items": ["Annual in-service inspection", "Re-certification to LEEA 030", "Full inspection register"],
-      "tags": ["LEEA 030", "In-service inspection"],
+      "items": [
+        "Annual in-service inspection",
+        "Re-certification to LEEA 030",
+        "Full inspection register"
+      ],
+      "tags": [
+        "LEEA 030",
+        "In-service inspection"
+      ],
       "images": []
     }
   ],
-  "facility": {
-    "eyebrow": "Our facility",
-    "heading": "A 9,000 m² workshop built for heavy lifting work",
-    "paragraphs": [
-      "Every service runs from our own 9,000 m² facility in Vung Tau, staffed by 40 technicians and inspectors. Manufacturing, proof testing, and inspection happen in-house — so we control quality and lead time end to end.",
-      "Our operations are covered by PVI insurance up to USD 1 million per loss, giving project teams the assurance they need for safety-critical lifting gear."
-    ],
-    "equipment": [
-      { "name": "Horizontal Test Bed", "detail": "700-tonne proof load capacity" },
-      { "name": "Hydraulic Press", "detail": "Swaging & swaged terminations" },
-      { "name": "Roundsling Machine", "detail": "Synthetic roundsling manufacturing" },
-      { "name": "Industrial Sewing Machines", "detail": "Webbing slings & soft fittings" }
-    ]
-  },
-  "gallery": {
-    "eyebrow": "Gallery",
-    "heading": "Our services in action",
-    "note": "Photos coming soon — we are curating images of our workshop and on-site work."
-  },
-  "process": {
-    "eyebrow": "How it works",
-    "heading": "From enquiry to rig-ready in four steps",
-    "items": [
-      { "step": "01", "title": "Send enquiry", "desc": "Email or call with your equipment list, SWL, and required standard." },
-      { "step": "02", "title": "Technical quote", "desc": "We respond with full specs, certifications, and delivery timeline within one business day." },
-      { "step": "03", "title": "Manufacture & test", "desc": "Assembly and proof testing at our Vung Tau facility. You can witness if required." },
-      { "step": "04", "title": "Deliver with docs", "desc": "Equipment delivered with CoC, test report, and mill certs — ready for your doc control." }
-    ]
-  },
-  "certifications": {
-    "eyebrow": "Accreditations",
-    "heading": "Certified processes you can audit",
-    "items": [
-      { "code": "ISO", "title": "ISO 9001:2008", "detail": "Quality management — certified by ACS and DNV" },
-      { "code": "V.R", "title": "Vietnam Register", "detail": "Lifting equipment type approval" },
-      { "code": "MOLISA", "title": "Safety Inspection Certificate", "detail": "Vietnam Ministry of Labour (Bộ LĐ-TBXH)" }
-    ]
-  },
-  "cta": {
-    "heading": "Tell us what you need to lift",
-    "body": "Send your lifting schedule, SWL requirements, and any applicable standards — we will quote within one business day.",
-    "primary": { "href": "/contact", "label": "Request a quote" }
-  }
+  "stats": [
+    {
+      "value": "3,500 m²",
+      "label": "Workshop"
+    },
+    {
+      "value": "700t",
+      "label": "Proof Test Bed"
+    },
+    {
+      "value": "40",
+      "label": "Technicians"
+    },
+    {
+      "value": "$1M",
+      "label": "PVI Insurance / loss"
+    }
+  ]
 }
