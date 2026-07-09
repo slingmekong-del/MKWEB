@@ -1,0 +1,29 @@
+{
+  "id": "thimble-fittings",
+  "no": 54,
+  "partNo": "",
+  "name": "Thimble",
+  "brand": "",
+  "category": "Fittings",
+  "categoryId": "fittings",
+  "categoryLabel": "Fittings",
+  "subcategory": "Thimble",
+  "rank": 10,
+  "wText": "",
+  "wmin": 0,
+  "wmax": 0,
+  "status": "coming",
+  "hidden": false,
+  "image": null,
+  "pdf": null,
+  "desc": "Thimble — protects the wire rope eye from wear and crushing, holding the correct eye radius. Datasheet and full specifications available on request.",
+  "standards": [],
+  "syn": [
+    "thimble",
+    "wire rope thimble",
+    "ben lot cap",
+    "khoen lot cap",
+    "khuyet cap",
+    "lot cap"
+  ]
+}
