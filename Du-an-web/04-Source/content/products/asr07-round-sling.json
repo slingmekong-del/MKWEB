@@ -1,34 +1,7 @@
 {
-  "id": "asr07-round-sling",
   "no": 9,
-  "partNo": "ASR07",
-  "name": "Able Round Sling",
-  "brand": "ABLE",
-  "category": "Synthetic Sling",
-  "categoryId": "synthetic-sling",
-  "categoryLabel": "Synthetic Sling",
-  "subcategory": "Round Sling",
-  "rank": 2,
   "wText": "WLL 1 – 10 t",
-  "wmin": 1,
-  "wmax": 10,
-  "status": "live",
-  "hidden": false,
-  "image": "/products/asr07-round-sling.jpg",
-  "images": [
-    "/products/asr07-round-sling.jpg"
-  ],
-  "catalogImages": [
-    "/catalogs/asr07-round-sling.jpg"
-  ],
-  "pdf": "/catalogs/asr07-round-sling.pdf",
-  "desc": "Endless polyester round sling with a two-ply heavy-duty woven outer sleeve protecting a continuously wound high-tensile core. Colour-coded to EN 1492-2; each stripe equals 1 tonne. Low elongation, length 1–10 m, safety factors 5:1 / 6:1 / 7:1.",
-  "standards": [
-    "EN 1492-2",
-    "Colour-coded",
-    "7:1",
-    "ISO 9001"
-  ],
+  "brand": "ABLE",
   "syn": [
     "round sling",
     "cap tron",
@@ -41,5 +14,33 @@
     "day tron",
     "day cap vai tron",
     "cap vai ban tron"
-  ]
+  ],
+  "hidden": false,
+  "name": "Able Round Sling",
+  "rank": 2,
+  "wmax": 10,
+  "featured": true,
+  "desc": "Endless polyester round sling with a two-ply heavy-duty woven outer sleeve protecting a continuously wound high-tensile core. Colour-coded to EN 1492-2; each stripe equals 1 tonne. Low elongation, length 1–10 m, safety factors 5:1 / 6:1 / 7:1.",
+  "catalogImages": [
+    "/catalogs/asr07-round-sling.jpg"
+  ],
+  "pdf": "/catalogs/asr07-round-sling.pdf",
+  "status": "live",
+  "partNo": "ASR07",
+  "categoryLabel": "Synthetic Sling",
+  "standards": [
+    "EN 1492-2",
+    "Colour-coded",
+    "7:1",
+    "ISO 9001"
+  ],
+  "images": [
+    "/products/asr07-round-sling.jpg"
+  ],
+  "categoryId": "synthetic-sling",
+  "id": "asr07-round-sling",
+  "image": "/products/asr07-round-sling.jpg",
+  "wmin": 1,
+  "category": "Synthetic Sling",
+  "subcategory": "Round Sling"
 }
