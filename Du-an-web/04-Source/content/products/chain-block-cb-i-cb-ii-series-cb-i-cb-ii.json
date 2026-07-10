@@ -1,28 +1,39 @@
 {
-  "id": "chain-block-cb-i-cb-ii-series-cb-i-cb-ii",
   "no": 37,
-  "partNo": "CB-I / CB-II",
-  "name": "Chain Block CB-I / CB-II Series",
-  "brand": "ABLE",
-  "category": "Hoist and Trolley",
-  "categoryId": "hoist-trolley",
-  "categoryLabel": "Hoist & Trolley",
-  "subcategory": "Chain hoist",
-  "rank": 9,
   "wText": "WLL 0.5 - 30 t",
-  "wmin": 0.5,
-  "wmax": 30,
-  "status": "live",
-  "hidden": false,
-  "image": "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png",
-  "images": [
-    "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
+  "brand": "ABLE",
+  "syn": [
+    "chain block cb-i / cb-ii series",
+    "chain hoist",
+    "palang",
+    "pa lang xich",
+    "palang xich",
+    "ba lang xich",
+    "palang keo tay",
+    "pa lang",
+    "puli visai",
+    "rong roc xich",
+    "palang xich keo tay"
   ],
+  "hidden": false,
+  "name": "Chain Block CB-I / CB-II Series",
+  "rank": 9,
+  "wmax": 30,
+  "featured": true,
+  "desc": "ABLE CB-I series chain block (manual chain hoist) for general and heavy lifting. The heat-treated ISO Grade T (900 N/mm²) load chain is approved to DIN 5684, and a fail-safe double-pawl brake keeps the load secure even if one pawl fails. Wider, easier-handling hooks yield rather than break under overload; the ribbed gear case gives accurate gear centering, and the load sheave runs on sealed roller bearings with wet friction discs for long life. Individually proof-load tested with a serial number. Conforms to EN 13157:2004+A1:2009, ANSI/ASME B30.21, AS 1418.2 and SANS 1636. WLL 0.5–20 t, standard lift 3 m.",
   "catalogImages": [
     "/catalogs/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
   ],
   "pdf": null,
-  "desc": "ABLE CB-I series chain block (manual chain hoist) for general and heavy lifting. The heat-treated ISO Grade T (900 N/mm²) load chain is approved to DIN 5684, and a fail-safe double-pawl brake keeps the load secure even if one pawl fails. Wider, easier-handling hooks yield rather than break under overload; the ribbed gear case gives accurate gear centering, and the load sheave runs on sealed roller bearings with wet friction discs for long life. Individually proof-load tested with a serial number. Conforms to EN 13157:2004+A1:2009, ANSI/ASME B30.21, AS 1418.2 and SANS 1636. WLL 0.5–20 t, standard lift 3 m.",
+  "status": "live",
+  "partNo": "CB-I / CB-II",
+  "categoryLabel": "Hoist & Trolley",
+  "standards": [
+    "EN 13157",
+    "ASME B30.21",
+    "AS 1418.2",
+    "SANS 1636"
+  ],
   "specs": [
     {
       "label": "Type",
@@ -57,23 +68,13 @@
       "value": "0.5 – 20 t"
     }
   ],
-  "standards": [
-    "EN 13157",
-    "ASME B30.21",
-    "AS 1418.2",
-    "SANS 1636"
+  "images": [
+    "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
   ],
-  "syn": [
-    "chain block cb-i / cb-ii series",
-    "chain hoist",
-    "palang",
-    "pa lang xich",
-    "palang xich",
-    "ba lang xich",
-    "palang keo tay",
-    "pa lang",
-    "puli visai",
-    "rong roc xich",
-    "palang xich keo tay"
-  ]
+  "categoryId": "hoist-trolley",
+  "id": "chain-block-cb-i-cb-ii-series-cb-i-cb-ii",
+  "image": "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png",
+  "wmin": 0.5,
+  "category": "Hoist and Trolley",
+  "subcategory": "Chain hoist"
 }
