@@ -140,7 +140,7 @@ export default function ProductsPage() {
                 {featured.length > 0 && (
                   <section id="featured" className="scroll-mt-24">
                     <div className="flex items-baseline gap-3 mb-4 pb-2 border-b-2 border-teal">
-                      <h2 className="font-heading font-extrabold text-navy text-xl">Featured</h2>
+                      <h2 className="font-heading font-extrabold text-navy text-xl">Featured Products</h2>
                       <span className="font-mono text-xs text-navy/40">
                         {featured.length} item{featured.length > 1 ? "s" : ""}
                       </span>
