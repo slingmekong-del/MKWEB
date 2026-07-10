@@ -1,0 +1,45 @@
+{
+  "no": 56,
+  "wText": "WLL 120-150 t",
+  "brand": "Green Pin",
+  "hidden": false,
+  "name": "Green Pin Heavy Duty Bow Shackle FN",
+  "rank": 1,
+  "wmax": 149,
+  "desc": "Green Pin® Heavy Duty Bow Shackle FN is a high-strength bow shackle made from Grade 8 alloy steel with a safety bolt and fixed nut, offering a 5:1 safety factor, ASME B30.26 compliance, and reliable performance for heavy lifting and rigging applications.",
+  "catalogImages": [
+    "/products/green-pin-heavy-duty-bow-shackle-fn-p-6016-catalogue.jpg"
+  ],
+  "status": "live",
+  "partNo": "P-6016",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "High load capacity bow shackle with safety bolt and fixed nut"
+    },
+    {
+      "label": "Material",
+      "value": "bow and pin alloy steel, grade 8, quenched and tempered"
+    },
+    {
+      "label": " Safety Factor",
+      "value": "MBL equals 5 x WLL"
+    },
+    {
+      "label": "Finish",
+      "value": "shackle bow painted silver, pin painted green(120 tons shackle is hot dipped galvanized)"
+    },
+    {
+      "label": "Certification",
+      "value": "EN 12195-3 / EN 13889 / EN 10204 3.1 / MTC / MTCb / LROS / MPI / US / CE"
+    }
+  ],
+  "images": [
+    "/products/green-pin-heavy-duty-bow-shackle-fn-p-6016.png"
+  ],
+  "categoryId": "shackle",
+  "id": "green-pin-heavy-duty-bow-shackle-fn-p-6016",
+  "image": "/products/green-pin-heavy-duty-bow-shackle-fn-p-6016.png",
+  "wmin": 120,
+  "subcategory": "Green Pin Heavy Duty Bow Shackle FN"
+}
