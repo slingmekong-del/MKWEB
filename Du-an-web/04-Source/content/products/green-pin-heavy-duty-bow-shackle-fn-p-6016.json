@@ -2,6 +2,10 @@
   "no": 56,
   "wText": "WLL 120-150 t",
   "brand": "Green Pin",
+  "syn": [
+    "shackle",
+    "Green Pin Heavy Duty Bow Shackle FN"
+  ],
   "hidden": false,
   "name": "Green Pin Heavy Duty Bow Shackle FN",
   "rank": 1,
@@ -12,6 +16,17 @@
   ],
   "status": "live",
   "partNo": "P-6016",
+  "standards": [
+    "ASME B30.26",
+    "EN 13889",
+    "EN 10204 3.1",
+    "Mill Test Certificate (MTC)",
+    "Mill Test Certificate Type B (MTCb)",
+    "Lloyd's Register (LROS) Approval",
+    "Magnetic Particle Inspection (MPI)",
+    "US Certification",
+    "CE Marking"
+  ],
   "specs": [
     {
       "label": "Type",
