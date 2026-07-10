@@ -33,6 +33,8 @@ for (const f of files) {
   data.catalogImages ??= [];
   data.specs ??= [];
   data.pdf ??= null;
+  data.featured ??= false;
+  data.rank ??= 99;
   products.push(data);
 }
 

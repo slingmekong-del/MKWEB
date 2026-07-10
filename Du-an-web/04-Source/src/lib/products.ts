@@ -19,6 +19,7 @@ export type Product = {
   wmax: number;
   status: ProductStatus;
   hidden?: boolean; // true = removed from the whole site (CMS toggle), distinct from status
+  featured?: boolean; // true = also pinned to the "Featured" section atop the catalogue
   image: string | null;
   images?: string[];        // product photos, 1–4 (gallery); falls back to `image`
   catalogImages?: string[]; // catalog / spec-sheet page images
@@ -35,6 +36,19 @@ export const PRODUCTS: Product[] = productsData as Product[];
 // public-facing listing/search/grouping runs off this subset; `PRODUCTS` is kept
 // for lookups by id where hidden state is handled by the caller.
 export const VISIBLE_PRODUCTS: Product[] = PRODUCTS.filter((p) => !p.hidden);
+
+// Within a category (and inside the Featured section) products are ordered by
+// `rank` ascending — the CMS "priority" lever — falling back to catalogue `no`.
+function byRankThenNo(a: Product, b: Product): number {
+  return (a.rank ?? 99) - (b.rank ?? 99) || a.no - b.no;
+}
+
+// Featured products inside a given result list, so the pinned "Featured" block
+// still respects whatever filters are active. Featured items also remain in
+// their own category section — this block is an extra, not a move.
+export function featuredFrom(list: Product[]): Product[] {
+  return list.filter((p) => p.featured).sort(byRankThenNo);
+}
 
 // Accent-insensitive normalization: lowercase, strip Vietnamese diacritics,
 // đ→d. Lets a customer type "ma ní" or "ma ni", "cáp bản" or "cap ban" alike.
@@ -245,6 +259,6 @@ export function groupByCategory(list: Product[]): CategoryGroup[] {
     id: c.id,
     label: c.label,
     rank: c.rank,
-    items: list.filter((p) => p.categoryId === c.id).sort((a, b) => a.no - b.no),
+    items: list.filter((p) => p.categoryId === c.id).sort(byRankThenNo),
   })).filter((g) => g.items.length > 0);
 }

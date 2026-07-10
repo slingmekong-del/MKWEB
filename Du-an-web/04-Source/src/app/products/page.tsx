@@ -5,6 +5,7 @@ import {
   applyFilters,
   sortFlat,
   groupByCategory,
+  featuredFrom,
   countByStatus,
   VISIBLE_PRODUCTS,
   EMPTY_FILTERS,
@@ -47,6 +48,8 @@ export default function ProductsPage() {
   const grouped = !query && sort === "catalogue";
   const groups = useMemo(() => (grouped ? groupByCategory(results) : []), [grouped, results]);
   const flat = useMemo(() => (grouped ? [] : sortFlat(results, sort)), [grouped, results, sort]);
+  // Pinned "Featured" block — only while browsing the catalogue (no search / custom sort)
+  const featured = useMemo(() => (grouped ? featuredFrom(results) : []), [grouped, results]);
 
   return (
     <div className="pt-16 min-h-screen bg-slate-light">
@@ -130,6 +133,29 @@ export default function ProductsPage() {
             ) : grouped ? (
               /* Grouped by category — the two-level catalogue view */
               <div className="space-y-12">
+                {/* Featured — pinned above the categories; these products also
+                    still appear inside their own category section below. */}
+                {featured.length > 0 && (
+                  <section id="featured" className="scroll-mt-24">
+                    <div className="flex items-baseline gap-3 mb-4 pb-2 border-b-2 border-teal">
+                      <h2 className="font-heading font-extrabold text-navy text-xl">Featured</h2>
+                      <span className="font-mono text-xs text-navy/40">
+                        {featured.length} item{featured.length > 1 ? "s" : ""}
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+                      {featured.map((product) => (
+                        <ProductCard
+                          key={`featured-${product.id}`}
+                          product={product}
+                          onAddRfq={toggleRfq}
+                          inRfq={inRfq(product.id)}
+                        />
+                      ))}
+                    </div>
+                  </section>
+                )}
+
                 {groups.map((g) => (
                   <section key={g.id} id={g.id} className="scroll-mt-24">
                     <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-slate-border">

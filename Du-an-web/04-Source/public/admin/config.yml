@@ -54,7 +54,7 @@ collections:
     fields:
       - { name: id, label: "ID / slug URL (KHÔNG đổi sau khi tạo)", widget: string, hint: "vd: green-pin-bow-shackle-sc-g-4161 — chữ thường, gạch nối, không dấu" }
       - { name: no, label: "Số thứ tự (catalogue)", widget: number, value_type: int, default: 99 }
-      - { name: rank, label: "Rank (ưu tiên trong danh mục)", widget: number, value_type: int, required: false, default: 1 }
+      - { name: rank, label: "Rank (ưu tiên trong danh mục)", widget: number, value_type: int, required: false, default: 1, hint: "Số nhỏ = lên trước, trong cùng danh mục (và trong khu Featured). Bằng nhau thì xếp theo Số thứ tự catalogue." }
       - { name: name, label: "Tên sản phẩm", widget: string }
       - { name: partNo, label: "Part No.", widget: string, required: false }
       - name: brand
@@ -89,6 +89,7 @@ collections:
           - { label: "Coming soon — đang cập nhật", value: coming }
         default: coming
       - { name: hidden, label: "Ẩn hoàn toàn khỏi website", widget: boolean, default: false, hint: "Bật = gỡ khỏi danh sách, tìm kiếm, sitemap và trang chi tiết (404)." }
+      - { name: featured, label: "Sản phẩm nổi bật (Featured)", widget: boolean, default: false, hint: "Bật = ghim thêm vào khu 'Featured' trên đầu trang Sản phẩm. Vẫn hiện trong danh mục của nó." }
       - { name: wText, label: "WLL / dải tải (chữ hiển thị)", widget: string, required: false, hint: "vd: WLL 0.33 - 55 t" }
       - { name: wmin, label: "WLL nhỏ nhất (tấn, để lọc)", widget: number, value_type: float, required: false, default: 0 }
       - { name: wmax, label: "WLL lớn nhất (tấn, để lọc)", widget: number, value_type: float, required: false, default: 0 }
