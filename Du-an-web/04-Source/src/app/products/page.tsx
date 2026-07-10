@@ -72,8 +72,10 @@ export default function ProductsPage() {
       {/* Body */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex gap-8 items-start">
-          {/* Sidebar — desktop */}
-          <div className="hidden lg:block">
+          {/* Sidebar — desktop. `sticky` lives on this flex item (not inside
+              FilterSidebar) so its containing block is the tall flex row and it
+              actually has room to travel as the catalogue scrolls. */}
+          <div className="hidden lg:block lg:sticky lg:top-20 lg:self-start">
             <FilterSidebar filters={filters} onChange={setFilters} totalCount={results.length} />
           </div>
 

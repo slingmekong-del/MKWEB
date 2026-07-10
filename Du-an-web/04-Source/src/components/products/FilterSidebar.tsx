@@ -66,7 +66,9 @@ export default function FilterSidebar({ filters, onChange, totalCount }: Props) 
 
   return (
     <aside className="w-full lg:w-60 shrink-0">
-      <div className="bg-white border border-slate-border rounded-xl p-5 sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto">
+      {/* Capped to the viewport height so a long filter list scrolls inside the
+          card. Sticky positioning is applied by the parent flex item. */}
+      <div className="bg-white border border-slate-border rounded-xl p-5 max-h-[calc(100vh-6rem)] overflow-y-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-3">
           <span className="font-heading font-bold text-navy text-sm">Filters</span>
