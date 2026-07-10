@@ -1,29 +1,33 @@
 {
-  "id": "vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl",
   "no": 21,
-  "partNo": "DLVC / LTVC / VDL",
-  "name": "Vertical / Auto / Chain Drum Lifter",
-  "brand": "ABLE",
-  "category": "Lifting chain and Fittings",
-  "categoryId": "lifting-chain",
-  "categoryLabel": "Lifting Chain & Fittings",
-  "subcategory": "Drum Lifter",
-  "rank": 5,
   "wText": "WLL 0.5 t",
-  "wmin": 0.5,
-  "wmax": 0.5,
-  "status": "live",
-  "hidden": false,
-  "image": "/products/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl.png",
-  "images": [
-    "/products/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl.png"
+  "brand": "ABLE",
+  "syn": [
+    "vertical / auto / chain drum lifter",
+    "drum lifter",
+    "kep nang phuy",
+    "cau phuy",
+    "kep phuy"
   ],
+  "hidden": false,
+  "name": "Vertical / Auto / Chain Drum Lifter",
+  "rank": 5,
+  "wmax": 0.5,
+  "featured": true,
+  "desc": "ABLE drum lifting clamps for lifting, moving and transferring 50–55 gallon steel drums with steel tops. The range covers the DLVC vertical drum lifting clamp (WLL 0.5 t, jaw 0–30 mm, proof 1.0 t) for upright shackle-eye lifting; the LTVC automatic-locking clamp (WLL 0.5 t, jaw 0–17 mm, proof 0.75 t) that locks onto the drum automatically and can be used alone or in pairs; and the VDL universal chain drum lifter (500 kg single / 1000 kg double, 6 mm Grade-80 chain, 2000 kg proof) with positive rim-grip action for hands-free safety. Welded alloy-steel bodies with forged components, individually proof-tested to twice the WLL with certification and a stamped serial number; maximum breaking strength 500% of the WLL. Manufactured by an ISO 9001 facility.",
   "catalogImages": [
     "/catalogs/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl.png",
     "/catalogs/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl-2.png"
   ],
   "pdf": null,
-  "desc": "ABLE drum lifting clamps for lifting, moving and transferring 50–55 gallon steel drums with steel tops. The range covers the DLVC vertical drum lifting clamp (WLL 0.5 t, jaw 0–30 mm, proof 1.0 t) for upright shackle-eye lifting; the LTVC automatic-locking clamp (WLL 0.5 t, jaw 0–17 mm, proof 0.75 t) that locks onto the drum automatically and can be used alone or in pairs; and the VDL universal chain drum lifter (500 kg single / 1000 kg double, 6 mm Grade-80 chain, 2000 kg proof) with positive rim-grip action for hands-free safety. Welded alloy-steel bodies with forged components, individually proof-tested to twice the WLL with certification and a stamped serial number; maximum breaking strength 500% of the WLL. Manufactured by an ISO 9001 facility.",
+  "status": "live",
+  "partNo": "DLVC / LTVC / VDL",
+  "categoryLabel": "Lifting Chain & Fittings",
+  "standards": [
+    "ISO 9001",
+    "MBL 5× WLL",
+    "Serial-traceable"
+  ],
   "specs": [
     {
       "label": "Type",
@@ -58,16 +62,13 @@
       "value": "Individually proof-tested, serialized · ISO 9001"
     }
   ],
-  "standards": [
-    "ISO 9001",
-    "MBL 5× WLL",
-    "Serial-traceable"
+  "images": [
+    "/products/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl.png"
   ],
-  "syn": [
-    "vertical / auto / chain drum lifter",
-    "drum lifter",
-    "kep nang phuy",
-    "cau phuy",
-    "kep phuy"
-  ]
+  "categoryId": "lifting-chain",
+  "id": "vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl",
+  "image": "/products/vertical-auto-chain-drum-lifter-dlvc-ltvc-vdl.png",
+  "wmin": 0.5,
+  "category": "Lifting chain and Fittings",
+  "subcategory": "Drum Lifter"
 }
