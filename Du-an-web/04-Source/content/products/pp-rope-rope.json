@@ -1,29 +1,32 @@
 {
-  "id": "pp-rope-rope",
   "no": 23,
-  "partNo": "",
-  "name": "PP Rope",
-  "brand": "",
-  "category": "Rope",
-  "categoryId": "rope",
-  "categoryLabel": "Rope",
-  "subcategory": "PP rope",
-  "rank": 6,
   "wText": "Ø 24 – 120 mm · MBL up to 195 t",
-  "wmin": 0,
-  "wmax": 0,
-  "status": "live",
-  "hidden": false,
-  "image": "/products/pp-rope-rope.png",
-  "images": [
-    "/products/pp-rope-rope.png"
+  "brand": "",
+  "syn": [
+    "pp rope",
+    "day thung pp",
+    "day pp",
+    "day thung"
   ],
+  "hidden": false,
+  "name": "PP Rope",
+  "rank": 6,
+  "wmax": 0,
+  "featured": true,
+  "desc": "Eight-strand plaited polypropylene (polyolefin) rope for marine, mooring and general use. Lightweight and buoyant — it floats — with good UV resistance and a smooth white finish carrying a coloured tracer. The torque-balanced 8-strand construction is easy to splice, coil and handle. Diameters Ø 24–120 mm with unspliced minimum breaking load from 8 t up to 195 t; weight tolerance ±5% to ISO 2307 and line design break force (LDBF) rated to OCIMF Mooring Equipment Guidelines 4 (MEG4). A 12-strand PP Multi variant is also offered for mooring, tugging and fishing.",
   "catalogImages": [
     "/catalogs/pp-rope-rope.png",
     "/catalogs/pp-rope-rope-2.png"
   ],
   "pdf": null,
-  "desc": "Eight-strand plaited polypropylene (polyolefin) rope for marine, mooring and general use. Lightweight and buoyant — it floats — with good UV resistance and a smooth white finish carrying a coloured tracer. The torque-balanced 8-strand construction is easy to splice, coil and handle. Diameters Ø 24–120 mm with unspliced minimum breaking load from 8 t up to 195 t; weight tolerance ±5% to ISO 2307 and line design break force (LDBF) rated to OCIMF Mooring Equipment Guidelines 4 (MEG4). A 12-strand PP Multi variant is also offered for mooring, tugging and fishing.",
+  "status": "live",
+  "partNo": "",
+  "categoryLabel": "Rope",
+  "standards": [
+    "ISO 2307",
+    "OCIMF MEG4",
+    "8-strand"
+  ],
   "specs": [
     {
       "label": "Type",
@@ -66,15 +69,13 @@
       "value": "Mooring · tugging · fishing"
     }
   ],
-  "standards": [
-    "ISO 2307",
-    "OCIMF MEG4",
-    "8-strand"
+  "images": [
+    "/products/pp-rope-rope.png"
   ],
-  "syn": [
-    "pp rope",
-    "day thung pp",
-    "day pp",
-    "day thung"
-  ]
+  "categoryId": "rope",
+  "id": "pp-rope-rope",
+  "image": "/products/pp-rope-rope.png",
+  "wmin": 0,
+  "category": "Rope",
+  "subcategory": "PP rope"
 }
