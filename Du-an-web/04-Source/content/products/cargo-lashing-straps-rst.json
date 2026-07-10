@@ -1,29 +1,34 @@
 {
-  "id": "cargo-lashing-straps-rst",
   "no": 13,
-  "partNo": "RST",
-  "name": "Cargo Lashing Straps",
-  "brand": "ABLE",
-  "category": "Lashing Equipments",
-  "categoryId": "lashing",
-  "categoryLabel": "Lashing Equipment",
-  "subcategory": "Cargo Lashing belt",
-  "rank": 4,
   "wText": "WLL 0.5 - 5 t",
-  "wmin": 0.5,
-  "wmax": 5,
-  "status": "live",
-  "hidden": false,
-  "image": "/products/cargo-lashing-straps-rst.png",
-  "images": [
-    "/products/cargo-lashing-straps-rst.png"
+  "brand": "ABLE",
+  "syn": [
+    "cargo lashing straps",
+    "cargo lashing belt",
+    "day chang hang",
+    "day ghi hang",
+    "day tang vai",
+    "day chang",
+    "chang buoc"
   ],
+  "hidden": false,
+  "name": "Cargo Lashing Straps",
+  "rank": 4,
+  "wmax": 5,
+  "featured": true,
+  "desc": "Ratchet cargo lashing straps for securing loads in road, rail, sea and air transport. Two-piece system with a pressure-ratchet tensioning element and double J-hook (JJ) end fittings, on colour-coded polyester webbing with a stitched capacity label. Lashing capacity (LC) from 500 to 5,000 daN, with breaking strength twice the working load. The range covers 25–100 mm web widths and 5–12 m lengths in eight standard sizes. Certified and approved to EN 12195-2 and AS/NZS 4380-2001.",
   "catalogImages": [
     "/catalogs/cargo-lashing-straps-rst.png",
     "/catalogs/cargo-lashing-straps-rst-2.png"
   ],
   "pdf": null,
-  "desc": "Ratchet cargo lashing straps for securing loads in road, rail, sea and air transport. Two-piece system with a pressure-ratchet tensioning element and double J-hook (JJ) end fittings, on colour-coded polyester webbing with a stitched capacity label. Lashing capacity (LC) from 500 to 5,000 daN, with breaking strength twice the working load. The range covers 25–100 mm web widths and 5–12 m lengths in eight standard sizes. Certified and approved to EN 12195-2 and AS/NZS 4380-2001.",
+  "status": "live",
+  "partNo": "RST",
+  "categoryLabel": "Lashing Equipment",
+  "standards": [
+    "EN 12195-2",
+    "AS/NZS 4380-2001"
+  ],
   "specs": [
     {
       "label": "Model",
@@ -66,17 +71,13 @@
       "value": "RST0105 · RST0206 · RST0306 · RST0409 · RST0508 · RST0510 · RST1010 · RST1012"
     }
   ],
-  "standards": [
-    "EN 12195-2",
-    "AS/NZS 4380-2001"
+  "images": [
+    "/products/cargo-lashing-straps-rst.png"
   ],
-  "syn": [
-    "cargo lashing straps",
-    "cargo lashing belt",
-    "day chang hang",
-    "day ghi hang",
-    "day tang vai",
-    "day chang",
-    "chang buoc"
-  ]
+  "categoryId": "lashing",
+  "id": "cargo-lashing-straps-rst",
+  "image": "/products/cargo-lashing-straps-rst.png",
+  "wmin": 0.5,
+  "category": "Lashing Equipments",
+  "subcategory": "Cargo Lashing belt"
 }
