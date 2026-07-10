@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Archivo, IBM_Plex_Mono, Inter } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import BackToTop from "@/components/layout/BackToTop";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 import { organizationSchema, websiteSchema } from "@/lib/jsonld";
 import JsonLd from "@/components/seo/JsonLd";
@@ -82,6 +83,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <BackToTop />
       </body>
     </html>
   );
