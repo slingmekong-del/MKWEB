@@ -22,7 +22,8 @@
   "featured": true,
   "desc": "ABLE CB-I series chain block (manual chain hoist) for general and heavy lifting. The heat-treated ISO Grade T (900 N/mm²) load chain is approved to DIN 5684, and a fail-safe double-pawl brake keeps the load secure even if one pawl fails. Wider, easier-handling hooks yield rather than break under overload; the ribbed gear case gives accurate gear centering, and the load sheave runs on sealed roller bearings with wet friction discs for long life. Individually proof-load tested with a serial number. Conforms to EN 13157:2004+A1:2009, ANSI/ASME B30.21, AS 1418.2 and SANS 1636. WLL 0.5–20 t, standard lift 3 m.",
   "catalogImages": [
-    "/catalogs/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
+    "/catalogs/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png",
+    "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii-2-catalogue.png"
   ],
   "pdf": null,
   "status": "live",
@@ -69,7 +70,8 @@
     }
   ],
   "images": [
-    "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png"
+    "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii.png",
+    "/products/chain-block-cb-i-cb-ii-series-cb-i-cb-ii-2.png"
   ],
   "categoryId": "hoist-trolley",
   "id": "chain-block-cb-i-cb-ii-series-cb-i-cb-ii",
