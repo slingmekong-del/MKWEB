@@ -49,10 +49,18 @@ export default function SlingQuoteBuilder() {
   }
   const singleLeg = soChan === 1;
 
+  // DNV 2.7-1 Table 8-1 (and its 7 t floor) governs offshore CONTAINER sling
+  // sets, which are always multi-leg — a container is lifted from its corners.
+  // A single-leg sling is not a container set, so the rule must not size it:
+  // applying it pushed a 12 t load onto Ø40 when Ø32 is what the load needs.
+  // Derived (not stored) so the user's checkbox choice survives going back to
+  // a multi-leg set.
+  const offshoreApplies = offshore && standard === "DNV" && !singleLeg;
+
   const cap = useMemo(() => {
     if (!validLoad) return null;
-    return chonCap({ tai_t, soChan, betaDeg: beta, standard, construction, offshore });
-  }, [validLoad, tai_t, soChan, beta, standard, construction, offshore]);
+    return chonCap({ tai_t, soChan, betaDeg: beta, standard, construction, offshore: offshoreApplies });
+  }, [validLoad, tai_t, soChan, beta, standard, construction, offshoreApplies]);
 
   // Selected rope Ø → add "2 hard eyes" allowance by size (replaces fixed +0.3m)
   const dia = cap && cap.ok ? cap.duongKinh_mm : null;
@@ -238,17 +246,34 @@ export default function SlingQuoteBuilder() {
                 </select>
               </div>
               {standard === "DNV" && (
-                <label className="flex items-center gap-2.5 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={offshore}
-                    onChange={(e) => setOffshore(e.target.checked)}
-                    className="w-4 h-4 accent-teal"
-                  />
-                  <span className="font-mono text-xs text-navy/70">
-                    Offshore container — sling WLL ≥ WLL_min (Table 8-1, 7t floor)
-                  </span>
-                </label>
+                <div>
+                  <label
+                    className={`flex items-center gap-2.5 ${
+                      singleLeg ? "cursor-not-allowed" : "cursor-pointer"
+                    }`}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={offshoreApplies}
+                      disabled={singleLeg}
+                      onChange={(e) => setOffshore(e.target.checked)}
+                      className="w-4 h-4 accent-teal disabled:opacity-40"
+                    />
+                    <span
+                      className={`font-mono text-xs ${
+                        singleLeg ? "text-navy/30" : "text-navy/70"
+                      }`}
+                    >
+                      Offshore container — sling WLL ≥ WLL_min (Table 8-1, 7t floor)
+                    </span>
+                  </label>
+                  {singleLeg && (
+                    <p className="font-mono text-[11px] text-navy/40 mt-1.5 pl-[26px] leading-relaxed">
+                      Container sling sets are multi-leg — this rule does not apply to a
+                      single-leg sling, which is sized on the load itself.
+                    </p>
+                  )}
+                </div>
               )}
             </div>
 
@@ -298,15 +323,15 @@ export default function SlingQuoteBuilder() {
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <Stat label="SWL per leg" value={`${cap.swl1Soi_t} t`} />
                   <Stat label="System WLL" value={`${cap.wllHeThong_t} t`} highlight={ss.color} />
-                  <Stat label="Tension per leg" value={`${cap.lucCang1Chan_t} t`} />
-                  {cap.enhanced && cap.wllMin_t != null ? (
-                    <Stat label="WLL_min (Table 8-1)" value={`${cap.wllMin_t} t`} />
-                  ) : (
-                    <Stat label="Legs" value={`${soChan}`} />
+                  {/* On a single leg the tension IS the load — repeating it next to
+                      the sling's WLL only invites "why don't these match?". */}
+                  {!singleLeg && (
+                    <Stat label="Tension per leg" value={`${cap.lucCang1Chan_t} t`} />
                   )}
                   {cap.enhanced && cap.wllMin_t != null && (
-                    <Stat label="Legs" value={`${soChan}`} />
+                    <Stat label="WLL_min (Table 8-1)" value={`${cap.wllMin_t} t`} />
                   )}
+                  <Stat label="Legs" value={`${soChan}`} />
                 </div>
 
                 {/* Length block */}
