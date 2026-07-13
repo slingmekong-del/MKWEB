@@ -30,7 +30,6 @@ export default function SlingQuoteBuilder() {
   const [L, setL] = useState("");
   const [W, setW] = useState("");
 
-  const constructions = getConstructions(standard);
   const tai_t = num(tai);
   const validLoad = tai_t > 0;
 
@@ -49,18 +48,31 @@ export default function SlingQuoteBuilder() {
   }
   const singleLeg = soChan === 1;
 
-  // DNV 2.7-1 Table 8-1 (and its 7 t floor) governs offshore CONTAINER sling
-  // sets, which are always multi-leg — a container is lifted from its corners.
-  // A single-leg sling is not a container set, so the rule must not size it:
-  // applying it pushed a 12 t load onto Ø40 when Ø32 is what the load needs.
-  // Derived (not stored) so the user's checkbox choice survives going back to
-  // a multi-leg set.
-  const offshoreApplies = offshore && standard === "DNV" && !singleLeg;
+  // DNV-ST-E271 covers offshore CONTAINER sling sets, which are always multi-leg
+  // — a container is lifted from its corners. A single leg is not a container
+  // set, so Mr Bac sizes it from the Grade 1960 table instead. These are derived
+  // (not stored) so the user's DNV choice survives a trip through 1-leg.
+  const effectiveStandard: Standard = singleLeg ? "grade1960" : standard;
+  const constructions = getConstructions(effectiveStandard);
+  // The stored construction belongs to the other standard after a switch — fall
+  // back to the first valid one, otherwise the lookup table comes back empty and
+  // the tool wrongly reports "no rope fits".
+  const effectiveConstruction = constructions.some((c) => c.id === construction)
+    ? construction
+    : constructions[0].id;
+  const offshoreApplies = offshore && effectiveStandard === "DNV";
 
   const cap = useMemo(() => {
     if (!validLoad) return null;
-    return chonCap({ tai_t, soChan, betaDeg: beta, standard, construction, offshore: offshoreApplies });
-  }, [validLoad, tai_t, soChan, beta, standard, construction, offshoreApplies]);
+    return chonCap({
+      tai_t,
+      soChan,
+      betaDeg: beta,
+      standard: effectiveStandard,
+      construction: effectiveConstruction,
+      offshore: offshoreApplies,
+    });
+  }, [validLoad, tai_t, soChan, beta, effectiveStandard, effectiveConstruction, offshoreApplies]);
 
   // Selected rope Ø → add "2 hard eyes" allowance by size (replaces fixed +0.3m)
   const dia = cap && cap.ok ? cap.duongKinh_mm : null;
@@ -223,18 +235,27 @@ export default function SlingQuoteBuilder() {
               <div>
                 <label className={labelCls}>Standard</label>
                 <select
-                  value={standard}
+                  value={effectiveStandard}
                   onChange={(e) => onStandardChange(e.target.value as Standard)}
-                  className={inputCls}
+                  disabled={singleLeg}
+                  className={`${inputCls} disabled:bg-slate-light disabled:text-navy/40 disabled:cursor-not-allowed`}
                 >
-                  <option value="DNV">DNV-ST-E271 (offshore container)</option>
+                  <option value="DNV" disabled={singleLeg}>
+                    DNV-ST-E271 (offshore container)
+                  </option>
                   <option value="grade1960">Grade 1960 (general lifting)</option>
                 </select>
+                {singleLeg && (
+                  <p className="font-mono text-[11px] text-navy/40 mt-1.5 leading-relaxed">
+                    Single-leg slings are sized from the Grade 1960 table. DNV-ST-E271
+                    covers offshore-container sling sets, which are multi-leg.
+                  </p>
+                )}
               </div>
               <div>
                 <label className={labelCls}>Construction / rope grade</label>
                 <select
-                  value={construction}
+                  value={effectiveConstruction}
                   onChange={(e) => setConstruction(e.target.value)}
                   className={inputCls}
                 >
@@ -245,35 +266,20 @@ export default function SlingQuoteBuilder() {
                   ))}
                 </select>
               </div>
-              {standard === "DNV" && (
-                <div>
-                  <label
-                    className={`flex items-center gap-2.5 ${
-                      singleLeg ? "cursor-not-allowed" : "cursor-pointer"
-                    }`}
-                  >
-                    <input
-                      type="checkbox"
-                      checked={offshoreApplies}
-                      disabled={singleLeg}
-                      onChange={(e) => setOffshore(e.target.checked)}
-                      className="w-4 h-4 accent-teal disabled:opacity-40"
-                    />
-                    <span
-                      className={`font-mono text-xs ${
-                        singleLeg ? "text-navy/30" : "text-navy/70"
-                      }`}
-                    >
-                      Offshore container — sling WLL ≥ WLL_min (Table 8-1, 7t floor)
-                    </span>
-                  </label>
-                  {singleLeg && (
-                    <p className="font-mono text-[11px] text-navy/40 mt-1.5 pl-[26px] leading-relaxed">
-                      Container sling sets are multi-leg — this rule does not apply to a
-                      single-leg sling, which is sized on the load itself.
-                    </p>
-                  )}
-                </div>
+              {/* Only meaningful under DNV — a single leg forces Grade 1960, so this
+                  disappears on its own along with the Table 8-1 requirement. */}
+              {effectiveStandard === "DNV" && (
+                <label className="flex items-center gap-2.5 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={offshoreApplies}
+                    onChange={(e) => setOffshore(e.target.checked)}
+                    className="w-4 h-4 accent-teal"
+                  />
+                  <span className="font-mono text-xs text-navy/70">
+                    Offshore container — sling WLL ≥ WLL_min (Table 8-1, 7t floor)
+                  </span>
+                </label>
               )}
             </div>
 
@@ -316,7 +322,7 @@ export default function SlingQuoteBuilder() {
                   </div>
                 </div>
                 <div className="text-navy/50 font-mono text-sm mb-4">
-                  {constructions.find((c) => c.id === construction)?.label}
+                  {constructions.find((c) => c.id === effectiveConstruction)?.label}
                 </div>
 
                 {/* Spec grid */}
