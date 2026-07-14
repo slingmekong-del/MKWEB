@@ -17,7 +17,7 @@
   "rank": 9,
   "wmax": 3,
   "featured": true,
-  "desc": "ROTATION CHAIN HOIST\nChain Hoist Revolution\nThis innovative and patented hand chain hoist the Ableforge 360 is designed for heavy industrial applications.\nThis 360° rotating hand chain guide allows hoist operations from various angles and helps the operator stay out of the danger zone.\nPremium brake system ensures safe operation, low maintenance and is extremely quiet.\nSealed Roller Bearings.\n\nStrength\nEquipped with hardened load chain for optimum strength, flexibility and long wear life.\n\nLow maintenance\nEnclosed housing allows outdoor use. The load brake requires no lubrication.\n\nQuality features\nWheel cover with guide slots guard against jamming and slipping of chain.\nForged swivel hooks and latches prevent twisting of chain and reduce unintentional unhooking of the unit or the load.\nChain guide and stripper ensures proper fit of chain over pocket wheel.\nTwo-stage gear reduction with hardened gears and pinion.\n\nModel: CB360",
+  "desc": "Engineered for heavy industrial applications, the Ableforge CB360 is an innovative manual chain hoist featuring a patented 360° rotating hand chain guide. This revolutionary design allows users to operate the hoist from virtually any angle, ensuring the operator remains safely out of the danger zone beneath the load.\n\nBuilt for maximum durability and safety, the hoist is equipped with a premium low-maintenance braking system, sealed roller bearings, and a hardened load chain that delivers exceptional strength and longevity. Its fully enclosed housing protects internal components, making it ideal for rugged outdoor environments. A specialized black variant is also available, specifically designed to blend seamlessly into entertainment industry rigging setups.",
   "catalogImages": [
     "/products/screenshot-2026-07-14-121310.png"
   ],
@@ -33,7 +33,7 @@
   "specs": [
     {
       "label": "Product name",
-      "value": "Rotation chain hoist"
+      "value": "Rotation Chain Hoist"
     },
     {
       "label": "Model",
@@ -96,8 +96,8 @@
     "/products/11.png"
   ],
   "categoryId": "hoist-trolley",
-  "id": "Rotation-Chain-Hoist",
+  "id": "rotation-chain-hoist-cb360",
   "image": "/products/11.png",
   "wmin": 1,
-  "subcategory": "Chain hoist"
+  "subcategory": "Chain Hoist"
 }
