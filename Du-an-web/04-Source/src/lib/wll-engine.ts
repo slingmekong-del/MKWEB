@@ -57,10 +57,13 @@ const DNV_CONSTRUCTIONS: ConstructionOption[] = [
   { id: "E-2_fibre_1770", label: "E-2 · Fibre core · 1770" },
 ];
 
+// Mr Quy (2026-07-14): the Grade 1960 table offers only these two constructions.
+// The old "6x36 Compacted" entry was dropped — its numbers were the catalogue's
+// last column (lower than plain FC), so the "compacted" label was wrong, and
+// compacted rope is not to be quoted from this tool. 6×36 IWRC stays the default.
 const G1960_CONSTRUCTIONS: ConstructionOption[] = [
-  { id: "6x36_IWRC", label: "6×36 · IWRC (lõi thép)" },
-  { id: "6x36_FC", label: "6×36 · FC (lõi sợi)" },
-  { id: "6x36_compacted", label: "6×36 · Compacted (bện chặt)" },
+  { id: "6x36_IWRC", label: "6×36 · IWRC (steel core)" },
+  { id: "6x36_FC", label: "6×36 · FC (fibre core)" },
 ];
 
 export function getConstructions(standard: Standard): ConstructionOption[] {
