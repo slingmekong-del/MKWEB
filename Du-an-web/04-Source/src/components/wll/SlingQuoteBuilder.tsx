@@ -74,6 +74,7 @@ export default function SlingQuoteBuilder() {
     });
   }, [validLoad, tai_t, soChan, beta, effectiveStandard, effectiveConstruction, offshoreApplies]);
 
+
   // Selected rope Ø → add "2 hard eyes" allowance by size (replaces fixed +0.3m)
   const dia = cap && cap.ok ? cap.duongKinh_mm : null;
   const eyeAdd = dia != null ? hardEyeAllowance(dia) : null;
@@ -329,14 +330,14 @@ export default function SlingQuoteBuilder() {
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <Stat label="SWL per leg" value={`${cap.swl1Soi_t} t`} />
                   <Stat label="System WLL" value={`${cap.wllHeThong_t} t`} highlight={ss.color} />
-                  {/* On a single leg the tension IS the load — repeating it next to
-                      the sling's WLL only invites "why don't these match?". */}
-                  {!singleLeg && (
-                    <Stat label="Tension per leg" value={`${cap.lucCang1Chan_t} t`} />
-                  )}
-                  {cap.enhanced && cap.wllMin_t != null && (
-                    <Stat label="WLL_min (Table 8-1)" value={`${cap.wllMin_t} t`} />
-                  )}
+                  {/* Mr Quy (2026-07-14): the proof/test load applied to the finished
+                      sling set is twice its system WLL. Replaces the old WLL_min box —
+                      that limit still drives the sizing, and is spelled out in the
+                      DNV note below. "Tension per leg" was dropped: never used. */}
+                  <Stat
+                    label="Proof load maximum"
+                    value={`${(cap.wllHeThong_t * 2).toFixed(2)} t`}
+                  />
                   <Stat label="Legs" value={`${soChan}`} />
                 </div>
 
