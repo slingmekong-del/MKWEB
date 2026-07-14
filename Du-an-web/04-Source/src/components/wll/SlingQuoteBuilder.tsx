@@ -335,7 +335,7 @@ export default function SlingQuoteBuilder() {
                       that limit still drives the sizing, and is spelled out in the
                       DNV note below. "Tension per leg" was dropped: never used. */}
                   <Stat
-                    label="Proof load maximum"
+                    label="Proof load maximum - set"
                     value={`${(cap.wllHeThong_t * 2).toFixed(2)} t`}
                   />
                   <Stat label="Legs" value={`${soChan}`} />
