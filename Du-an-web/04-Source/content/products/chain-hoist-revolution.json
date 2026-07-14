@@ -13,7 +13,7 @@
     "industrial 360 Degree Rotation Chain Hoist"
   ],
   "hidden": false,
-  "name": "ROTATION CHAIN HOIST",
+  "name": "Rotation chain hoist",
   "rank": 9,
   "wmax": 3,
   "featured": true,
@@ -96,7 +96,7 @@
     "/products/11.png"
   ],
   "categoryId": "hoist-trolley",
-  "id": "chain-hoist-revolution",
+  "id": "Rotation-chain-hoist",
   "image": "/products/11.png",
   "wmin": 1,
   "subcategory": "Chain hoist"
