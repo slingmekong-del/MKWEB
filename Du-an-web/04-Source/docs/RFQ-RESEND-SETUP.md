@@ -1,5 +1,14 @@
 # RFQ → Email (Resend) + Danh sách khách hàng — Hướng dẫn cấu hình
 
+> ## ✅ ĐÃ CẤU HÌNH XONG & CHẠY THẬT (14/07/2026)
+> Domain Resend **Verified** (region Tokyo `ap-northeast-1`). Đã set 4 env trên Vercel
+> (`RESEND_API_KEY`, `RFQ_FROM_EMAIL`, `RFQ_TO_EMAIL`, `GOOGLE_SHEET_WEBHOOK_URL`).
+> Test end-to-end trên `www.mekongsling.com` → HTTP 200, email về `sales@mekongsling.com`,
+> auto-reply tới khách, dòng ghi vào Google Sheet **RFQ Leads** (Drive `slingmekong@gmail.com`).
+> `RESEND_AUDIENCE_ID` chưa set — tùy chọn, bỏ trống vẫn chạy.
+>
+> Tài liệu dưới đây giữ lại để tham khảo khi cần đổi key / đổi Sheet / dựng lại.
+
 Form RFQ (`/contact`) nay gửi qua **API route `/api/rfq`** thay cho `mailto:`.
 Khi khách bấm **Send RFQ**, server sẽ:
 

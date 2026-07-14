@@ -9,7 +9,7 @@
 - **Stack:** Next.js 16.2.9 (App Router) · Tailwind CSS v4 · TypeScript · Vercel
 - **CMS:** Decap CMS (Git-based) — làm sau khi hoàn thiện frontend
 - **Email/RFQ:** Resend (kế hoạch)
-- **Domain:** mekongsling.com (đang lấy lại từ Web360)
+- **Domain:** **mekongsling.com — ĐÃ LIVE** (14/07). Registrar + DNS: **PA Vietnam** (`ns1/ns2.pavietnam.vn`, KHÔNG còn Cloudflare). Apex A → `76.76.21.21` (Vercel), apex 308→`www`. **Email chạy riêng qua Viettel IDC** (MX `mx.viettelidc.com.vn`) — sửa DNS phải tránh đụng MX/SPF gốc.
 
 ## 📁 Thư mục quan trọng
 ```
@@ -82,10 +82,10 @@ src/components/
 - [ ] WLL tool — E3 phụ kiện (master link/shackle/mắt cáp), link chia sẻ URL, xuất PDF báo giá (để sau)
 - [x] SEO — metadata per-page + canonical, sitemap.xml (58 URL), robots.txt, OpenGraph image (`next/og`), JSON-LD (Organization/WebSite/Product/Breadcrumb)
 - [x] Dọn repo — gộp lịch sử thành 1 commit snapshot, tách `03-Assets\images` ra local-only (.gitignore), `.git` 174MB→103MB
-- [ ] Sprint 8 — Launch (domain + deploy Vercel) + submit sitemap vào Google Search Console
+- [x] Sprint 8 — Launch: **domain `mekongsling.com` ĐÃ LIVE** trên Vercel (14/07). Còn lại: submit sitemap vào Google Search Console
 - [x] Backend Phase 1 — Decap CMS quản trị **Products** (thêm/sửa/xóa/ẩn, category, ảnh) + GitHub OAuth trên Vercel · ĐÃ SETUP & CHẠY THẬT tại `/admin`
 - [x] Backend Phase 2 — đưa nội dung Home/About/Services/Projects/Contact + settings (liên hệ/nav/footer) vào CMS · full scope, contact info gộp 1 nguồn
-- [x] Backend — Resend cho RFQ form (CODE xong: `/api/rfq` gửi sales + auto-reply + Audience + Google Sheet; **chờ Mr Nam set env + verify domain** — xem `docs/RFQ-RESEND-SETUP.md`)
+- [x] Backend — Resend cho RFQ form — **ĐÃ CHẠY THẬT (14/07)**: `/api/rfq` gửi email về `sales@mekongsling.com` (from `rfq@mekongsling.com`) + auto-reply cho khách + ghi Google Sheet. Domain Resend **Verified** (region Tokyo `ap-northeast-1`). Đã test end-to-end trên `www.mekongsling.com` → 200, email tới, dòng vào Sheet. (`RESEND_AUDIENCE_ID` chưa set — tùy chọn.)
 
 ## 🔄 Session Handoff
 <!-- Claude cập nhật phần này cuối mỗi phiên -->
