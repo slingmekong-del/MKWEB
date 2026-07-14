@@ -1,0 +1,103 @@
+{
+  "no": 55,
+  "wText": "WLL 1 - 3 t",
+  "brand": "ABLE",
+  "syn": [
+    "palang xich xoay",
+    "palang xích quay 360 do",
+    "palang xich treo",
+    "palang xich keo tay cong nghiep 360",
+    "CB360 360° Rotating Hand Chain Hoist",
+    "heavy Duty Hanging Chain Hoist",
+    "pa lang xich keo tay xoay 360° CB360",
+    "industrial 360 Degree Rotation Chain Hoist"
+  ],
+  "hidden": false,
+  "name": "Chain hoist revolution",
+  "rank": 9,
+  "wmax": 3,
+  "featured": true,
+  "desc": "ROTATION CHAIN HOIST\nChain Hoist Revolution\nThis innovative and patented hand chain hoist the Ableforge 360 is designed for heavy industrial applications.\nThis 360° rotating hand chain guide allows hoist operations from various angles and helps the operator stay out of the danger zone.\nPremium brake system ensures safe operation, low maintenance and is extremely quiet.\nSealed Roller Bearings.\n\nStrength\nEquipped with hardened load chain for optimum strength, flexibility and long wear life.\n\nLow maintenance\nEnclosed housing allows outdoor use. The load brake requires no lubrication.\n\nQuality features\nWheel cover with guide slots guard against jamming and slipping of chain.\nForged swivel hooks and latches prevent twisting of chain and reduce unintentional unhooking of the unit or the load.\nChain guide and stripper ensures proper fit of chain over pocket wheel.\nTwo-stage gear reduction with hardened gears and pinion.\n\nModel: CB360",
+  "catalogImages": [
+    "/products/screenshot-2026-07-14-121310.png"
+  ],
+  "status": "live",
+  "partNo": "CB360",
+  "standards": [
+    "ASME B30.16",
+    "ASME HST-2",
+    "EN 13157",
+    "ISO 9001",
+    "CE Marking"
+  ],
+  "specs": [
+    {
+      "label": "Product name",
+      "value": "Rotation chain hoist"
+    },
+    {
+      "label": "Model",
+      "value": " CB360"
+    },
+    {
+      "label": "Brand",
+      "value": "Ableforge"
+    },
+    {
+      "label": "Type",
+      "value": "Manual Hand Chain Hoist"
+    },
+    {
+      "label": "Hand Chain Guide",
+      "value": "360° Rotating Chain Guide"
+    },
+    {
+      "label": "Application",
+      "value": " Heavy Industrial Applications"
+    },
+    {
+      "label": "Brake System",
+      "value": "Premium Mechanical Brake"
+    },
+    {
+      "label": "Bearings",
+      "value": "Sealed Roller Bearings"
+    },
+    {
+      "label": "Load Chain",
+      "value": "Hardened Alloy Steel Load Chain"
+    },
+    {
+      "label": "Housing",
+      "value": "Fully Enclosed Housing"
+    },
+    {
+      "label": "Maintenance",
+      "value": "Low Maintenance"
+    },
+    {
+      "label": "Lubrication",
+      "value": "Load Brake Requires No Lubrication"
+    },
+    {
+      "label": "Gear System",
+      "value": "Two-Stage Gear Reduction with Hardened Gears and Pinion"
+    },
+    {
+      "label": "Hooks",
+      "value": "Forged Swivel Hooks with Safety Latches"
+    },
+    {
+      "label": "Chain Guide",
+      "value": " Integrated Chain Guide and Stripper"
+    }
+  ],
+  "images": [
+    "/products/11.png"
+  ],
+  "categoryId": "hoist-trolley",
+  "id": "chain-hoist-revolution",
+  "image": "/products/11.png",
+  "wmin": 1,
+  "subcategory": "Chain hoist"
+}
