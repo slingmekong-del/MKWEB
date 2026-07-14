@@ -13,15 +13,46 @@ Khi khách bấm **Send RFQ**, server sẽ:
 
 ---
 
+## ⚠️ ĐỌC TRƯỚC — Không được làm hỏng email đang chạy
+
+Domain `mekongsling.com` đang chạy **email thật qua Viettel IDC** (hộp thư
+`sales@mekongsling.com`…). Thêm Resend **không được đụng** các bản ghi sau:
+
+| Bản ghi | Giá trị hiện tại | |
+|---|---|---|
+| `MX` (gốc) | `mx.viettelidc.com.vn` | 🔒 **GIỮ NGUYÊN** |
+| `TXT` SPF (gốc) | `v=spf1 +ip4:171.244.194.81 +ip4:103.1.208.0/24 +a +mx -all` | 🔒 **GIỮ NGUYÊN** |
+| `A` `mail` / `webmail` | `171.244.194.81` | 🔒 **GIỮ NGUYÊN** |
+| `TXT` `default._domainkey` | (DKIM Viettel) | 🔒 **GIỮ NGUYÊN** |
+
+**🚨 BẪY CHẾT NGƯỜI — SPF:** một domain chỉ được có **ĐÚNG 1 bản ghi SPF**.
+Nếu thêm bản ghi SPF **thứ hai** ở gốc (vd `v=spf1 include:amazonses.com ~all`)
+thì SPF thành **KHÔNG HỢP LỆ** → email Viettel đang chạy sẽ **bị đánh spam / trả về**.
+
+→ Cách tránh: dùng đúng bộ record Resend đưa ra, chúng nằm trên **subdomain
+`send.mekongsling.com`** (MX + SPF) và selector riêng `resend._domainkey`,
+**không đụng gốc**. Nếu Resend đòi SPF ở **gốc**, TUYỆT ĐỐI không thêm dòng
+thứ hai — phải **gộp vào 1 dòng duy nhất**:
+`v=spf1 +ip4:171.244.194.81 +ip4:103.1.208.0/24 include:amazonses.com +a +mx -all`
+
+**DNS quản ở đâu:** nameserver hiện là **PA Vietnam** (`ns1/ns2.pavietnam.vn`)
+→ thêm record tại **PA Vietnam → DNS → Cấu hình bản ghi tên miền** (không phải
+Cloudflare nữa).
+
+---
+
 ## Bước 1 — Tài khoản Resend + API key
 1. Đăng ký **https://resend.com** (free 3.000 email/tháng, 100/ngày — dư dùng).
 2. **API Keys → Create** → copy key `re_...` → dùng cho env `RESEND_API_KEY`.
 
 ## Bước 2 — Verify domain `mekongsling.com` (để gửi từ địa chỉ thương hiệu)
 1. Resend → **Domains → Add Domain** → nhập `mekongsling.com`.
-2. Resend cho **3 record DNS** (SPF/DKIM + MX cho từng loại). Vào nhà cung cấp DNS của `mekongsling.com` thêm đúng 3 record đó.
+2. Resend cho **3 record DNS** (thường là: `MX` + `TXT` SPF trên `send.mekongsling.com`,
+   và `TXT` DKIM trên `resend._domainkey`). Vào **PA Vietnam** thêm đúng 3 record đó.
+   **Đọc lại phần cảnh báo SPF ở trên trước khi thêm.**
 3. Bấm **Verify** trong Resend (chờ DNS lan ~vài phút–vài giờ). Verified xong mới gửi đàng hoàng.
    - Địa chỉ gửi khuyến nghị: `rfq@mekongsling.com` (không cần tạo hộp thư thật — chỉ cần domain verified).
+   - Vì Return-Path nằm ở `send.mekongsling.com`, SPF được kiểm trên subdomain đó → **không xung đột** SPF gốc của Viettel.
 
 > Trước khi domain verified, tài khoản Resend **chỉ gửi được về đúng email chủ tài khoản**. Muốn test sớm: tạm để `RFQ_FROM_EMAIL="Mekong Sling <onboarding@resend.dev>"` và `RFQ_TO_EMAIL=<email chủ tài khoản Resend>`.
 
@@ -31,6 +62,10 @@ Khi khách bấm **Send RFQ**, server sẽ:
    - Bỏ trống env này = bỏ qua bước thêm contact (vẫn gửi email bình thường).
 
 ## Bước 4 — Google Sheet webhook (danh sách khách hàng dạng bảng)
+
+> Làm **bằng chính tài khoản `slingmekong@gmail.com`** — Sheet sẽ nằm trên Drive
+> của tài khoản này, và Apps Script chạy dưới quyền tài khoản này.
+
 1. Tạo Google Sheet mới, đổi tên tab (sheet) thành **`RFQ`**. Hàng 1 đặt tiêu đề cột:
    `Timestamp | Name | Company | Email | Phone | Industry | Products | Requirements`
 2. **Extensions → Apps Script**, dán đoạn sau, lưu:
