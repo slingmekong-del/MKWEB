@@ -1,0 +1,60 @@
+{
+  "no": 56,
+  "wText": "WLL 250",
+  "brand": "ABLE",
+  "hidden": false,
+  "name": "Mini Chain Block",
+  "rank": 10,
+  "wmax": 250,
+  "featured": false,
+  "desc": "The CS 250 Chain Block is a robust and reliable manual hoist designed for safe and efficient lifting in industrial, construction, and maintenance applications. Featuring a Grade 100 load chain, forged safety hooks, and a dual-pawl braking system, it ensures superior durability, safety, and consistent performance in demanding environments.",
+  "catalogImages": [
+    "/products/mini-chain-block-cb250-catalogue.png",
+    "/products/mini-chain-block-cb250-2-catalogue.png"
+  ],
+  "status": "live",
+  "partNo": "CB250",
+  "standards": [],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "250 kg"
+    },
+    {
+      "label": "Standard Lift",
+      "value": "3.0 m"
+    },
+    {
+      "label": "Test Load",
+      "value": "375 kg"
+    },
+    {
+      "label": "Headroom (H min)",
+      "value": "230 mm"
+    },
+    {
+      "label": "Pulling Effort",
+      "value": "11.6 kg"
+    },
+    {
+      "label": "Load Chain Size",
+      "value": "Ø4 × 12 mm"
+    },
+    {
+      "label": "Chainfalls",
+      "value": "1"
+    },
+    {
+      "label": "Net Weight",
+      "value": "6.0 kg"
+    }
+  ],
+  "images": [
+    "/products/mini-chain-block-cb250.png"
+  ],
+  "categoryId": "hoist-trolley",
+  "id": "Mini-chain-block-cb250",
+  "image": "/products/mini-chain-block-cb250.png",
+  "wmin": 0,
+  "subcategory": "Chain Block"
+}
