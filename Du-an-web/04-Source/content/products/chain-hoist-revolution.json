@@ -23,13 +23,7 @@
   ],
   "status": "live",
   "partNo": "CB360",
-  "standards": [
-    "ASME B30.16",
-    "ASME HST-2",
-    "EN 13157",
-    "ISO 9001",
-    "CE Marking"
-  ],
+  "standards": [],
   "specs": [
     {
       "label": "Model",
