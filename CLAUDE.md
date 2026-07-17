@@ -89,8 +89,18 @@ src/components/
 
 ## 🔄 Session Handoff
 <!-- Claude cập nhật phần này cuối mỗi phiên -->
-**Phiên cuối:** 2026-07-10
-**Trạng thái build sản phẩm: 39/54 SKU live** (15 coming, 0 featured). +2 SKU so với phiên trước: `green-pin-dee-shackle-fn-g-4133` (CMS tạo, `no:53`) và `thimble-fittings` (`no:54`, coming).
+**Phiên cuối:** 2026-07-17
+**Trạng thái build sản phẩm: 39/54 SKU live** (15 coming). Mr Bắc đang tự bật Featured + thêm brand (`ABLE / DRAGON`) + sửa SP qua CMS liên tục.
+
+**🆕 Việc phiên 14–17/07 — WEBSITE LAUNCH HOÀN TẤT (đã commit & push):**
+- **🚀 Domain `mekongsling.com` LIVE trên Vercel.** Nameserver chuyển Cloudflare → **PA Vietnam** (`ns1/ns2.pavietnam.vn`); apex A → `76.76.21.21`. **17/07 đảo primary: apex = chính, `www` 308 → apex** (trước đó ngược lại — sitemap/canonical toàn dùng apex nên phải đảo để khỏi dính "Page with redirect" hàng loạt). Email Viettel giữ nguyên qua đợt chuyển (MX/SPF/mail/webmail OK; ⚠️ riêng `dkim._domainkey` BỊ MẤT khi chuyển NS — đã báo Mr Nam hỏi Viettel, chưa xử lý).
+- **📧 RFQ Resend + Google Sheet CHẠY THẬT** (`35b40e8`): Resend domain Verified (Tokyo `ap-northeast-1`, 3 record trên `send.` + `resend._domainkey` tại PA Vietnam — KHÔNG đụng SPF gốc). 4 env set trên Vercel. Test end-to-end OK: email → `sales@mekongsling.com`, auto-reply → khách, dòng → Sheet `Mekong Sling — RFQ Leads` (Drive `slingmekong@gmail.com`, tab `RFQ`, Apps Script webhook). Đã soạn hướng dẫn sử dụng cho Ms. Thủy. Bẫy đã gặp: env nhập 2 biến chung 1 form Vercel → biến 2 rơi mất; Apps Script lỗi trả HTTP 200 + trang HTML, thành công trả 302 → echo URL.
+- **🔍 Google Search Console XONG:** property kiểu **Domain** `mekongsling.com` (account `slingmekong@gmail.com`), verify bằng TXT `google-site-verification=3peb...` tại PA Vietnam, **đã submit `sitemap.xml` (64 URL)**. SEO live đã kiểm: title/description/canonical ✓, 4 khối JSON-LD trang chủ + Product schema trang SP ✓, OG image 200 ✓. → **Sprint 8 ĐÓNG HOÀN TOÀN.**
+- **WLL tool — vòng chỉnh theo Mr Bắc/Mr Quý** (`50df879`→`9dfd6e0`): (1) 1 chân KHÔNG áp DNV offshore container (Table 8-1 ép cáp to dư: 12t ra Ø40 thay vì Ø32) → ép dùng bảng **Grade 1960**, select Standard khóa+mờ khi 1 chân, fallback construction chống bảng rỗng; (2) gỡ hẳn cấu trúc **"6x36 Compacted"** (nhãn sai — số là cột "6×36 Rope Sling", thấp hơn FC; Mr Quý chốt bỏ, không thêm 35×7 WSC, mặc định 6×36 IWRC); (3) bỏ ô **Tension per leg** + thay **WLL_min** bằng **"Proof load maximum - set"** = 2×System WLL, áp mọi số chân. ❓ Treo: chữ `WLL_min` còn ở nhãn checkbox + ghi chú DNV (cố ý giữ để giải thích cáp to) — chờ Mr Quý chốt giữ/bỏ.
+- **Trạng thái build sản phẩm:** 39/54 live. Mr Bắc tự vận hành CMS: bật Featured (~9 SP), thêm brand `ABLE / DRAGON` (⚠️ id="Dragon Sling" lệch chuẩn slug nhưng vô hại — code chỉ dùng label), thêm SKU `green-pin-heavy-duty-bow-shackle-fn-p-6016`, sửa banner Products (đổi heading, giữ token `{live}` đúng).
+- **Còn treo sau launch:** (a) hỏi Viettel khôi phục `dkim._domainkey` · (b) `RESEND_AUDIENCE_ID` chưa set (tùy chọn) · (c) xóa dòng TEST trong Sheet + email TEST trong hộp `sales@` · (d) share Sheet cho Ms. Thủy · (e) Mr Quý chốt giữ/bỏ chữ WLL_min · (f) theo dõi GSC index sau vài ngày (Coverage/Performance).
+
+**Phiên 10/07 (giữ tham chiếu):** +2 SKU `green-pin-dee-shackle-fn-g-4133` (`no:53`), `thimble-fittings` (`no:54`, coming).
 **⚠️ Vị trí data ĐÃ ĐỔI:** thư mục `content/` (products/pages/settings/categories/**brands**) + `public/admin/config.yml` nay nằm dưới **`Du-an-web/04-Source/`** (Vercel Root Directory), KHÔNG còn ở gốc repo. Mọi tham chiếu `content/...` bên dưới hiểu là `Du-an-web/04-Source/content/...`.
 **⚠️ CMS chạy song song:** Mr Bắc/Mr Nam Publish qua `/admin` liên tục → luôn `git pull --rebase origin main` **trước khi push**, nếu không sẽ bị reject (đã xảy ra nhiều lần phiên này).
 
