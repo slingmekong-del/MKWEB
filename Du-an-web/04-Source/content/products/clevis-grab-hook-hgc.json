@@ -1,5 +1,5 @@
 {
-  "no": 58,
+  "no": 59,
   "wText": "WLL 1.2 - 15 t",
   "brand": "ABLE",
   "syn": [
@@ -16,13 +16,12 @@
   ],
   "hidden": false,
   "name": "Clevis Grab Hook",
-  "rank": 8,
+  "rank": 10,
   "wmax": 15,
   "featured": false,
   "desc": "The HGC Clevis Grab Hook is specifically engineered to be used with Grade 80 alloy lifting chains. Its narrow clevis opening ensures that only the correct chain size can be fitted, allowing full engagement between the hook and chain to prevent accidental slip-off during lifting operations.\nMaterial: High-grade alloy steel, quenched and tempered\nChain Compatibility: Designed for use with Grade 80 alloy lifting chains\nMarking: Batch number, size, CE marking, G80/T8, manufacturer identification, and product code embossed on the hook\nUltimate Load: 4 times the rated working load capacity\nProof Load: 2.5 times the Working Load Limit (WLL)\nFatigue Rating: 1.5 times the WLL for 20,000 load cycles\nDesign Feature: Narrow clevis opening allows only the correct chain size to be fitted\nSafety Feature: Full engagement of the chain in the hook helps prevent slip-off during lifting\n",
   "catalogImages": [
-    "/products/screenshot-2026-07-20-095533.png",
-    "/products/screenshot-2026-07-20-095712.png"
+    "/products/clevis-grab-hook-hgc-catalogue.png"
   ],
   "status": "live",
   "partNo": "HGC",
@@ -76,7 +75,7 @@
   "images": [
     "/products/screenshot-2026-07-20-095037.png"
   ],
-  "categoryId": "fittings",
+  "categoryId": "lifting-chain",
   "id": "clevis-grab-hook-hgc",
   "image": "/products/screenshot-2026-07-20-095037.png",
   "wmin": 1.2,
