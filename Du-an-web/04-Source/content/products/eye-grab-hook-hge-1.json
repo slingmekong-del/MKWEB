@@ -1,0 +1,56 @@
+{
+  "no": 60,
+  "wText": "1.2-15t",
+  "brand": "ABLE",
+  "syn": [
+    "Eye Grab  Hook"
+  ],
+  "hidden": false,
+  "name": "eye grab hook",
+  "rank": 10,
+  "wmax": 15,
+  "featured": false,
+  "desc": "Grade 80 alloy steel eye grab hook, quenched and tempered for lifting applications with Grade 80 chain. The supporting wing design helps prevent chain link deformation without reducing the working load limit. A narrow hook gap ensures secure chain engagement to minimize slip-off. Each hook is permanently marked with the batch number, size, CE, Grade 80/T8, ABLE, and product code.",
+  "catalogImages": [
+    "/products/clevis-grab-hook-hgc-catalogue.png"
+  ],
+  "status": "live",
+  "partNo": "ABLE",
+  "standards": [
+    "ABS consulting"
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Material is high grade alloy steel (quenched and tempered)"
+    },
+    {
+      "label": "Proof load",
+      "value": "2.5 × WLL."
+    },
+    {
+      "label": "Fatigue rated",
+      "value": ".5 × WLL for 20,000 cycles."
+    },
+    {
+      "label": "Used with alloy chain",
+      "value": "Used with alloy chain grade 80 for lifting application"
+    },
+    {
+      "label": "Specifications",
+      "value": "Batch Number, Size, CE, G80/T8, ABLE & Product Code embossed"
+    },
+    {
+      "label": "Ultimate load",
+      "value": "Ultimate load is 4 times of capacity"
+    },
+    {
+      "label": "Narrow gap",
+      "value": "Narrow gap allows for full engagement in hook to prevent slip-off"
+    }
+  ],
+  "categoryId": "hoist-trolley",
+  "id": "Eye - Grab -Hook - HGE",
+  "wmin": 1.2,
+  "subcategory": "Hook"
+}
