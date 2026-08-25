@@ -109,6 +109,14 @@ export default function Footer() {
             © {new Date().getFullYear()} {footer.copyrightName}. All rights
             reserved.
           </p>
+          <a
+            href="https://vietmindai.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-slate-border font-mono hover:text-teal transition-colors"
+          >
+            Built by VIETMIND AI
+          </a>
           <div className="flex items-center gap-4 text-xs text-slate-border font-mono">
             {footer.bottomBar.map((item, i) => (
               <Fragment key={item}>
