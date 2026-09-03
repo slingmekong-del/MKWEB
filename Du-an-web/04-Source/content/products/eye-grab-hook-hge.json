@@ -49,8 +49,12 @@
       "value": "Narrow gap allows for full engagement in hook to prevent slip-off"
     }
   ],
+  "images": [
+    "/products/eye-grab-hook-hge.png"
+  ],
   "categoryId": "hoist-trolley",
-  "id": "Eye - Grab -Hook - HGE",
+  "id": "eye-grab-hook-hge",
+  "image": "/products/eye-grab-hook-hge.png",
   "wmin": 1.2,
   "subcategory": "Hook"
 }
