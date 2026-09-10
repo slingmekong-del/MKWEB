@@ -11,7 +11,9 @@
   "wmax": 12.5,
   "featured": true,
   "desc": "Grade 80 forged alloy steel clevis hook designed for lifting applications. Its clevis opening allows the correct chain size to be fitted, with a stainless-steel spring for rust prevention.",
-  "catalogImages": [],
+  "catalogImages": [
+    "/products/untitled1_001.png"
+  ],
   "status": "coming",
   "partNo": "ABLE",
   "standards": [
@@ -43,6 +45,7 @@
       "value": "Stainless steel to prevent rust"
     }
   ],
+  "images": [],
   "categoryId": "lifting-chain",
   "id": "clevis-sling-hook-hcs",
   "image": "/products/untitled1_001.png",
