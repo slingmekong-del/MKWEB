@@ -1,0 +1,51 @@
+{
+  "no": 58,
+  "wText": "1.2 - 12.5",
+  "brand": "ABLE",
+  "syn": [
+    "Clevis Sling Hook"
+  ],
+  "hidden": false,
+  "name": "Clevis Sling Hook",
+  "rank": 10,
+  "wmax": 12.5,
+  "featured": true,
+  "desc": "Grade 80 forged alloy steel clevis hook designed for lifting applications. Its clevis opening allows the correct chain size to be fitted, with a stainless-steel spring for rust prevention.",
+  "catalogImages": [],
+  "status": "coming",
+  "partNo": "ABLE",
+  "standards": [
+    "ABS consulting"
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Forged alloy steel, quenched & tempered"
+    },
+    {
+      "label": "Grade",
+      "value": "80"
+    },
+    {
+      "label": "Proof Load",
+      "value": "2.5 × WLL"
+    },
+    {
+      "label": "Fatigue Rating",
+      "value": "1.5 × WLL, 20,000 cycles"
+    },
+    {
+      "label": "Ultimate load",
+      "value": "Ultimate load is 4 times of capacity"
+    },
+    {
+      "label": "Spring",
+      "value": "Stainless steel to prevent rust"
+    }
+  ],
+  "categoryId": "lifting-chain",
+  "id": "clevis-sling-hook-hcs",
+  "image": "/products/untitled1_001.png",
+  "wmin": 1.2,
+  "subcategory": "Hook"
+}
