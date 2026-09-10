@@ -1,0 +1,54 @@
+{
+  "no": 61,
+  "wText": "1.2 - 20.6",
+  "brand": "ABLE",
+  "syn": [
+    "eye sling hook",
+    "moc cap mat"
+  ],
+  "hidden": false,
+  "name": "Eye Sling Hook",
+  "rank": 10,
+  "wmax": 20.6,
+  "featured": true,
+  "desc": "Grade 80 forged alloy steel hook with a large throat opening, designed for general lifting and slinging applications. It can be fitted with a safety latch kit.",
+  "catalogImages": [
+    "/products/untitled1_001.png"
+  ],
+  "status": "live",
+  "partNo": "ABLE",
+  "standards": [
+    "ABS consulting"
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Forged alloy steel, quenched & tempered"
+    },
+    {
+      "label": "Grade",
+      "value": "80"
+    },
+    {
+      "label": "Proof Load",
+      "value": "2.5 × WLL"
+    },
+    {
+      "label": "Fatigue Rating",
+      "value": "1.5 × WLL, 20,000 cycles"
+    },
+    {
+      "label": "Ultimate load",
+      "value": "Ultimate load is 4 times of capacity"
+    },
+    {
+      "label": "Spring",
+      "value": "Stainless steel to prevent rust"
+    }
+  ],
+  "categoryId": "lifting-chain",
+  "id": "eye-sling-hook-hes",
+  "image": "/products/untitled1-recovered-1-_001.png",
+  "wmin": 1.2,
+  "subcategory": "Hook"
+}
